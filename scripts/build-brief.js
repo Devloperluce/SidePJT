@@ -122,6 +122,13 @@ function toItem(raw, fallbackSource) {
     (typeof raw.source === "string" ? raw.source : raw.source?._) || fallbackSource || "";
   let title = (raw.title || "").trim();
   if (src && title.endsWith(` - ${src}`)) title = title.slice(0, -(src.length + 3)).trim();
+  // 일부 언론사는 이름 대신 주소로 옴 → 도메인만 표시 (예: https://www.thedailyeconomy.kr/ → thedailyeconomy.kr)
+  let source = src;
+  if (/^https?:\/\//i.test(src)) {
+    try {
+      source = new URL(src).hostname.replace(/^www\./, "");
+    } catch {}
+  }
   let description = stripHtml(raw.contentSnippet || raw.content || raw.description || "");
   // Google 뉴스 설명은 대개 "제목 언론사" 반복 → 그대로면 비워 둔다
   const descKey = titleKey(description.replace(src, ""));
@@ -129,7 +136,7 @@ function toItem(raw, fallbackSource) {
   const published = raw.isoDate ? new Date(raw.isoDate) : null;
   return {
     title,
-    source: src,
+    source,
     description,
     link: raw.link,
     publishedAt: published,

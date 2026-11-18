@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T22:52:15+09:00",
+  "top3": [
+    "510417a0c8016968d40ebbc2886903a581f73c08",
+    "0010f3d2cca88fcddd1456bacdbbd9ed57bf328d",
+    "2a575c15f09bbe12c146f787394d6ba43f7882ff"
+  ],
+  "items": [
+    {
+      "id": "510417a0c8016968d40ebbc2886903a581f73c08",
+      "title": "트리니티항공, 글로벌 간편결제 서비스 '페이팔 제휴 프로모션' 진행",
+      "source": "마일드경제",
+      "publishedAt": "2026-11-18T20:28:40+09:00",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KMDAzWkhaRU9IWnhVOFZLbUtFWVlhMWdZQlZON01rR1FkeElRWGQxZEl5OGxmNmJpZlIzanlKQlE3UHZpTUhTWUhteFZsbzVnOGNPcDRQRjFyTUtDajgtaFAxMUJjUVJLQk40?oc=5",
+      "category": "payment",
+      "summary": [
+        "트리니티항공이 페이팔과 제휴 할인 행사를 연다."
+      ],
+      "insight": "해외 간편결제 제휴 할인의 해외 고객 유입 효과를 확인할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "0010f3d2cca88fcddd1456bacdbbd9ed57bf328d",
+      "title": "현대카드·JP모건, 싱가포으서 AI 외환거래 자동화 공개",
+      "source": "전자신문",
+      "publishedAt": "2026-11-18T19:35:29+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1MZEdHMEktNXNlUVViNDU0SkdKWENVeHBuODRvMG1XZkJ5bzladXdjZDI1MVEzR1lOV2k4bUg5ZGFEYWRSWUp5UnItZTJFZw?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "현대카드와 JP모건이 AI 외환거래 자동화를 공개했다."
+      ],
+      "insight": "AI 에이전트 기반 외환·송금 자동화 수요를 살펴볼 필요.",
+      "importance": 1
+    },
+    {
+      "id": "2a575c15f09bbe12c146f787394d6ba43f7882ff",
+      "title": "Lianlian DigiTech, AI 에이전트 결제 관리 기능을 갖춘 XCard 출시",
+      "source": "Unite.AI",
+      "publishedAt": "2026-11-18T19:27:02+09:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaXlZcG1BYmVUaWJoTlZEOTAxUG93N3hCWTM2dGNwS2RkeU1nSnpaNEVIa19HLVRTdHpmenliRTc0VVlMaVRPeUJ2QkZYd25BQno1V0NteTBUTWwzN19IejlkVVJpeExVc1FIQ3pEdTZKZWU3YVpwNzRWbjJmSmNCNEl4ZUtaX3pkWFVoU2sxUlM5S0hIV212Rg?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "Lianlian이 AI 에이전트 결제 관리 카드를 내놨다."
+      ],
+      "insight": "에이전트 전용 결제수단·한도 관리 기능의 필요성을 검토할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "a30f7110cd5ae427c87d548b567b6adef4acdc05",
+      "title": "카카오뱅크 품은 애플페이…카드업계 '연 1.1조 수수료 폭탄' 공포 현실화하나",
+      "source": "지디넷코리아",
+      "publishedAt": "2026-11-18T18:35:19+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ReUI1VWhiM1UyZFY5anJ4UDJsbkpYLU5tMTVMZ2Vta3p0VkJoZTlkR0FVV0Rsd0syYm5fS0VZaHVYaS1DaHFINTRZVE8wbGZKbkJnVk13?oc=5",
+      "category": "market",
+      "summary": [
+        "애플페이 확산으로 카드사 수수료 부담 우려가 커졌다."
+      ],
+      "insight": "간편결제 수수료 구조 변화가 가맹점 요율에 미칠 영향을 점검할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "e08b945586e33ed9ce5f6bf0b237600d7858b716",
+      "title": "변수 떠오른 해킹·오류… 코인 결제단계 책임 규정이 '핵심' [원화 스테이블코인 '골든타임']",
+      "source": "파이낸셜뉴스",
+      "publishedAt": "2026-11-18T18:16:32+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hUTBIMGtuRGZDelFSTXdxMDU1Qk51MktueFNyci1fc051YXlLR1M3cW92dkVXMnFTUlpsd2hidUFtZlpjMnB6b1J5VWFEOVFhMlZjMThtQ2VQQQ?oc=5",
+      "category": "regulation",
+      "summary": [
+        "코인 결제 해킹·오류 책임 규정이 쟁점으로 떠올랐다."
+      ],
+      "insight": "스테이블코인 결제 사고 시 책임 분담 정책을 미리 설계할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "2a82a15b9081b29aa0a715ee4e7d20636ca3c26d",
+      "title": "현대카드, JP모간 키넥시스와 차세대 AI 결제 기술 검증 마쳐",
+      "source": "FETV",
+      "publishedAt": "2026-11-18T17:55:43+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1UF9ORG1GNnJPc3lyUmdfV1cwcE03Nzk1MFNqd0F0eklMZEFhVHV4akJiYVYxNURoMUhlUDlqYzlDUzRqbzYyeUdPYmIxLUtUeE1fMExBam1XTnRHbEFOOVc5LWRZUXhQ?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "현대카드가 JP모간과 AI 결제 기술 검증을 마쳤다."
+      ],
+      "insight": "카드사 AI 결제 실증 사례를 경쟁 동향으로 추적할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "9e9cf2fc9487aca3f815145e0260e228ea334633",
+      "title": "BC카드, AI가 상품 고르고 결제하는 '에이전틱 페이' 개발 추진",
+      "source": "이코노미사이언스",
+      "publishedAt": "2026-11-18T17:55:28+09:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ySkhzZFJhMTdUVVZkQjRWSC1xdjlmeTFYbjdOdktJNzFMUGhGX3NGMHhOLWF4ME5mMjI0aDcyMkFIMHV1S0NvWUZJbjZ1MkZTZERyS2pfRG8xR0hqLXVmRTUtQ2Y2QWFmT3kyUGRKbw?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "BC카드가 AI가 대신 사고 결제하는 서비스를 개발한다."
+      ],
+      "insight": "에이전트 결제 승인·인증 흐름 대응 계획을 점검할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "17bd05dfa18af7f3c23a082d4e57be9a32a74084",
+      "title": "\"GPU 확보 경쟁은 1막\"…AI 에이전트 시대, 산업·제도 혁신 시급",
+      "source": "지디넷코리아",
+      "publishedAt": "2026-11-18T17:52:51+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQQlhEV1hRWHNia2s4bEtlOGpORlZVbXNlamRVT0RFOUw3NGduNVRWa1FwZGpiS3ZUNlJ6UU1sWmVjMmE1aGg0SmVNcFp5elNpV09PdnFR?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "AI 에이전트 시대 산업·제도 혁신 필요성이 제기됐다."
+      ],
+      "insight": "에이전트 결제 관련 제도 논의 흐름을 지켜볼 필요.",
+      "importance": 1
+    },
+    {
+      "id": "294bbee546606abc6e6eb73603718fff73a76360",
+      "title": "2026년 11월 알리 블랙프라이데이 할인코드｜블프 쿠폰·결제할인",
+      "source": "민심뉴스",
+      "publishedAt": "2026-11-18T17:50:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MUlgwWEtmLUpyUzVSenZnaXZDU1VDOFlUZktuTkdKb3pRLVJsN0ItTzJzdDdLNDlPQV9mTm1sbFBaUkJXMm82WXl2WU9WalpmaUl3Z2RKLUVJSW5uZVBNTzdTekQ4QmZCczdNZC13?oc=5",
+      "category": "market",
+      "summary": [
+        "알리 블랙프라이데이 할인코드·결제할인 소개 글이다."
+      ],
+      "insight": "해외 직구 시즌 결제할인 프로모션 수요를 참고할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "9b8bd5f956a28fd87bb7cc1ffd56b6c6aab17953",
+      "title": "[금융 이모저모] BC카드, AI스타트업 피클과 'AI 결제' 시대 연다",
+      "source": "굿모닝경제",
+      "publishedAt": "2026-11-18T17:49:55+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40NnVxS1NxN2lIMkRua1dRNjFiTFZ1clIzQmdvUURiZVVpRFhia3FIYlV2eERRVEFPQUJYR2FrbDZDV2FoaUU5NWU2dzVhVzFiNUNHT25aekVVZUV6Um9QZFROVThzM2l0ZEVmSw?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "BC카드가 스타트업 피클과 AI 결제 협력에 나섰다."
+      ],
+      "insight": "스타트업 제휴형 에이전트 결제 개발 방식을 참고할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "a014068420b6e96404a7bc6ec5471ca9bf497c8a",
+      "title": "금투협, 27일 토큰화·AI 투자전략 세미나…제도 도입과 활용 사례 다룬다",
+      "source": "thedailyeconomy.kr",
+      "publishedAt": "2026-11-18T17:47:57+09:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UNThDOEdzbVI3SGJNSVhhcmZuc2szc2RjUzc2UXpBS0xYd3VPcWdMWm02enlYZTN1TlpfVEJXV2xpT0VIR1FCc1VuUGZqNTRjZ0pjR0lBQm50MS12M2tqYm4xWDEwd0RNM0U2ZC1BcU0?oc=5",
+      "category": "regulation",
+      "summary": [
+        "금투협이 토큰화·AI 투자전략 세미나를 연다."
+      ],
+      "insight": "토큰증권 제도 도입에 따른 결제·정산 영향을 파악할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "aa49382487944d30958f7b29e104ed1579b6ad5b",
+      "title": "[SFF2026] 비자, AI 결제·스테이블코인 사업 확대…\"韓 시장 진출 준비\"",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-18T17:40:14+09:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52OUdkdFVLN1BOV09fUmMyWG1PWGxaU2dhOUVGV2ZLemtJNEZnX19RYWx3SXpzTDdjdERhc0dPZ2F2cDQ2WDA3X0YyTk9jcUNtVmF1bVBldU1TVTJOUTk0OHdtWXhBSmI5cXVWVVg1RXl5SVk?oc=5",
+      "category": "market",
+      "summary": [
+        "비자가 AI 결제·스테이블코인 사업을 확대하고 있다."
+      ],
+      "insight": "글로벌 카드 네트워크의 국내 진출 영향을 점검할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "877acb5f6eb0b2e11aaeffeb5c2ba45a16290167",
+      "title": "KB국민카드, 앱 켜지 않고도 KB페이 결제",
+      "source": "한국경제",
+      "publishedAt": "2026-11-18T17:30:45+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1meWcwbXIzdWU2ZFNpaWxBYm1jUVFDYUQ3YUtWVkRuNjgxeGowaFdESXhmVlJ5TTBFMDZIOUQ0Tng4cjlxN2pjN2ozNGVJdDJpMm0yQzZTVnJwZw?oc=5",
+      "category": "payment",
+      "summary": [
+        "KB국민카드가 앱 실행 없이 KB페이 결제를 지원한다."
+      ],
+      "insight": "앱 미실행 결제 등 결제 단계 축소 기능의 수요를 확인할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "c0bda6e26cef3429a4a65e7cf6d709a2c1dc5311",
+      "title": "'수수료 0원' 삼성페이와 극명한 대조…애플페이 확산에 연간 1.1조 '수수료 폭탄' 공포",
+      "source": "빅데이터뉴스",
+      "publishedAt": "2026-11-18T17:24:59+09:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkWWtRaFQyUXFXWXhqOUFWWWFMVGxsa1U4ODZBRGNRTDlWa3c0WjFtbmxzdFdEU2VzdzdZQ2FGVG1oWkhzd01PUGk5OXdKRFRuenVUWm9HN1ZrR0llQlZjalljZ09QRXhDSG9LOGs0c0NQQWN3Nnhqc3pYRWQ?oc=5",
+      "category": "market",
+      "summary": [
+        "애플페이 확산에 연 1.1조 수수료 우려가 나온다."
+      ],
+      "insight": "간편결제 수수료 부담 전가 가능성을 가격 정책에 반영할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "7b9d72416113c9d8373ecb271cbc563007e77ed3",
+      "title": "AI가 결제하고 은행 업무까지…글로벌 금융시장 대전환",
+      "source": "전자신문",
+      "publishedAt": "2026-11-18T17:10:37+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MTWFJdEtxcXJQWGxUVTJrdkxicXB0N01QNlV1dGVwYUt4eFAwWVBSYm1vVWxqX2RkTFZCSUdvT3Qwamc4bTlvMzByMGY2Zw?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "AI가 결제·은행 업무까지 맡는 흐름이 확산 중이다."
+      ],
+      "insight": "AI 대행 금융업무에 맞춘 API·권한 체계 정비를 검토할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "54b07819a3c1a9dd5e4e51c4901f8e6bf612c02a",
+      "title": "삼성페이 무료 정책에 쏠린 눈…애플페이 확산에 카드업계 수수료 부담",
+      "source": "이코노미사이언스",
+      "publishedAt": "2026-11-18T17:05:31+09:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01WU0wdEg3TGo5MTZVMjN5UFVMaVBRQ3Z3a19fMnJwWW9BXzZNa1F1RXdhRGhCSmlQTE5PUUxDWi04NGlJQXVMa0VYQlFpWXJoVGhKODhqQmFmYnZPWHBuMC1vT0pGQ3FabmdlbXZ5dw?oc=5",
+      "category": "market",
+      "summary": [
+        "애플페이 확산 속 삼성페이 무료 정책이 주목받는다."
+      ],
+      "insight": "간편결제사별 수수료 정책 차이를 비교해 둘 필요.",
+      "importance": 1
+    },
+    {
+      "id": "9d3c9feb2015581dacfb2c16ffc9b35f458fbf08",
+      "title": "카드매출 정산 위장해 404억원 불법대출…연 132% 고금리 덫에 걸린 소상공인",
+      "source": "seoulilbo.co.kr",
+      "publishedAt": "2026-11-18T16:20:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xWVVvcUZGc2d5VUVRUkVOUGU0ajZTRjVBR2lLYXFOelZrUVpZcmNZcGNiZnpIclNwQTlWYWZPNkJpc0NpRFktZ3JvVUd1OXFMbmc0T1h2TnpaU1RqSjhqektjSmxiVkhNSmxTazlR?oc=5",
+      "category": "settlement",
+      "summary": [
+        "카드매출 정산을 위장한 불법대출이 적발됐다."
+      ],
+      "insight": "선정산 서비스의 불법 대출 오인 방지 장치를 점검할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "7188f985e585604172630b856bee96aeae1958c2",
+      "title": "\"토큰화시장 활성화 막는 요인은 기술 아닌 결제수단과 규제\"",
+      "source": "이데일리",
+      "publishedAt": "2026-11-18T16:12:42+09:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcmt2Rm1teHZTR0NLUnZUb0trZVVTTFM2bE1TdTFBSDhOTzlsdmN1dXlBZklVUHF6RmF3MHRRS05fMWtkd1NrUkJ3dkVNbVpldHctSVpkMzZUMlBlQ0NjcEtKT0VVWVZkNTJybjRUMEJEMjJqRGdIM0I1YWx0YzNlMQ?oc=5",
+      "category": "regulation",
+      "summary": [
+        "토큰화 시장 걸림돌로 결제수단과 규제가 지목됐다."
+      ],
+      "insight": "토큰화 자산 결제수단 지원 가능성을 검토할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "b60cb1c316dcbb9cf9c88bac72cfabfe79b2dfcd",
+      "title": "갤럭시아머니트리, 韓·日 스테이블코인 무역송금 실증",
+      "source": "Chosunbiz",
+      "publishedAt": "2026-11-18T16:08:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbWFUeVN4b1daSWtWU21MUlhnVDEwSjlzNmx2aW5uSjFMOUxDNnJjdDlXemE1TzlBeFlLNnRxYVd1WVgtdjBPd3BZWmRVWEMwcGxJRkZ2MnVSV1lONmREU1pvSDdJNGNIS0Q0enQ3dXhOQnVfd2RhM0tNQ2RRblZyedIBlAFBVV95cUxPbTJXOTBNNlVuRnNnaG5pZkhxTTJTbHpiUnJzVXA5MTJzZTVucVYtMTRvTndQbEpibU4wSlc4RTV3TzFUS2x6MndmdXF4LVlXTXJvTnVqQS1MbjktSlFEWEo4VVFLNkZJcEN2cTJPeHluVmljbmtsUnlGdTJjbHNHS29hRnhnR1lKMDNQOUJoVE5yWk1W?oc=5",
+      "category": "settlement",
+      "summary": [
+        "갤럭시아머니트리가 한일 스테이블코인 송금을 실증했다."
+      ],
+      "insight": "스테이블코인 기반 해외송금 상품화 가능성을 검토할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "5dfedd82d016b96e9da6698f304357ace6a8ee50",
+      "title": "애플페이 확대에 '금융사 수수료' 부담 쟁점",
+      "source": "세이프머니",
+      "publishedAt": "2026-11-18T15:58:49+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmdGNDNXFCNlRMN2M2LUxkVHlqVkxkM3lXQzBXd2xxaWVmZnQ2OG9XVTBVTGhGRUIzLWtZVkZUQUZDTEVMVnRFX2E5SFpOd2xzWkNuWkdFNnAtbHctcVM2cFBYUXJHeTlaR1Yyd1Jn?oc=5",
+      "category": "market",
+      "summary": [
+        "애플페이 확대로 금융사 수수료 부담이 쟁점이 됐다."
+      ],
+      "insight": "간편결제 수수료 협상 동향을 지속 확인할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "380dc7f49c5742b743a5e50821c7d61b602a54c1",
+      "title": "NHN KCP, 구글 AP2에 x402 연동…AI 에이전트 결제·정산 기술검증",
+      "source": "아시아경제",
+      "publishedAt": "2026-11-18T15:58:16+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtX2VTTU1nUGJxa2JneW5vQTlCYmNFQ21Tby1qUmVTRFBPOGNzdTZkTkVJOC1uVEYxME96Y0lucWFzZW5fVDZidW1YclhWeGEyTzdYS0lXSTJ0cU5wVVhFVQ?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "NHN KCP가 AI 에이전트 결제·정산 기술을 검증했다."
+      ],
+      "insight": "PG사의 에이전트 결제 표준 대응 수준을 비교할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "3f8b5a09180710a6e83ae174a8b6e6598bf8330a",
+      "title": "바이낸스, 가상자산 담보 '페이 레이터' 출시…코인 안 팔고 결제",
+      "source": "블록체인투데이",
+      "publishedAt": "2026-11-18T15:09:23+09:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOaEpsb1AxUzZndF94MU8xMzdhY0pBcnBteGRUWDRTd3NMbi1Zc0h3eUZFQTBiVURRaVdFd1p3S2N1ay1zS0thRERXb0NLSkdzQVJ6dVpqQ21ZRU4temhKakhaYWE2NkFfeWMxYjluV2U?oc=5",
+      "category": "payment",
+      "summary": [
+        "바이낸스가 가상자산 담보 후불결제를 출시했다."
+      ],
+      "insight": "자산 담보형 후불결제 수요와 규제 리스크를 살펴볼 필요.",
+      "importance": 1
+    },
+    {
+      "id": "be8dfa89a388bec681114c2971e0a64eecb4f46d",
+      "title": "[단독]법인 가상자산 투자 가이드라인 발표 임박…기본법과 동시 공개",
+      "source": "뉴스1",
+      "publishedAt": "2026-11-18T11:56:58+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1XdHpTY3pDMzllek5LaGRLckxZU3pwMkhTRkxicWRIbzYtSlRhaVU3MnI4clBmcFNnbXBwdG1CZnM5clZaVVdUNFpFaVo4RlZzWlc4dndadWUzVUtydWgtQ2ItLWZEZw?oc=5",
+      "category": "regulation",
+      "summary": [
+        "법인 가상자산 투자 가이드라인 발표가 임박했다."
+      ],
+      "insight": "법인 고객 대상 가상자산 결제 수요 변화를 지켜볼 필요.",
+      "importance": 1
+    },
+    {
+      "id": "f363b9b3f69338d0ad71ca563ed406cbbaef61b2",
+      "title": "금융권 보안관리 전면 강화…IT자산 관리 의무화",
+      "source": "스페셜경제",
+      "publishedAt": "2026-11-18T11:21:32+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5NXVOeVhZNXRfWkw3YzlHbjU3MnBpVG5WYnZjR1MzT0U0QmJ5X0NybUtCQWctUnFuLU1MVUFuOEwtdktiTU5aemVocktfNm5TVktfZTVDbDRjMUw2MFgwZTc5QlhxZWxiSldSUQ?oc=5",
+      "category": "regulation",
+      "summary": [
+        "금융권 보안관리가 강화되고 IT자산 관리가 의무화된다."
+      ],
+      "insight": "IT자산 관리 의무화에 따른 내부 대응 범위를 확인할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "025cff671ce7aadf8ac65000699c962fe2539f93",
+      "title": "금융위, 대형 금융사 보안점검 연 2회로 강화…연결 시스템까지 전수 점검",
+      "source": "뉴스코리아",
+      "publishedAt": "2026-11-18T10:52:09+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WVUYxQVB4bFFEeE8yTUZoNW9QT0FLQUVVcEZyd0dkeFhRYWdwLXZKZmhOU0FzSFpRMFBUU3dYQUFrWjRwcl9hRjhtS1Q0Ql8tM0xZOWlHQnRiM2VlRi16bnZFT1A0bVNWSmVDUEhB?oc=5",
+      "category": "regulation",
+      "summary": [
+        "금융위가 대형 금융사 보안점검을 연 2회로 늘린다."
+      ],
+      "insight": "연계 시스템 점검 확대에 대비한 보안 점검 일정을 세울 필요.",
+      "importance": 1
+    },
+    {
+      "id": "7246579839599cce7fb7778bccabcd3524e0ddef",
+      "title": "AI 에이전트가 스스로 결제하고 스테이블코인으로 정산한다, NHN KCP 차세대 결제 인프라 기술 검증 완료",
+      "source": "2news.co.kr",
+      "publishedAt": "2026-11-18T10:02:37+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TdC1hNzAxYTJZdnlIZk9tVGhwSHdnOC1iUm40ZjlxM1dGa2dxbEhkSnBhRFF0OUhfNnRKWHkxS2g3SWhNbHM3cWJzQWVMRGEwbHZ0bkVaYTZ3cVJjR0I5cVZHaElaRkhu?oc=5",
+      "category": "settlement",
+      "summary": [
+        "NHN KCP가 스테이블코인 정산 결제 인프라를 검증했다."
+      ],
+      "insight": "블록체인 기반 가맹점 정산 도입 가능성을 검토할 필요.",
+      "importance": 1
+    },
+    {
+      "id": "eb1832a3877100956aa38b62e777310d16ec448c",
+      "title": "이나인페이, 증권신고서 제출…연내 코스닥 상장 목표",
+      "source": "뉴스핌",
+      "publishedAt": "2026-11-18T08:50:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLZHl5ZEpORTBZRW1KZjZDMlJ2VWtrR1RIbktIQTlvdVJYWXVXUXE2VTdpT3JDRFdfNEtkdDNBbnZRdUdQbGhrVjhNS3hVbzgwUmJxTEVEeTY4M2M1?oc=5",
+      "category": "market",
+      "summary": [
+        "이나인페이가 코스닥 상장을 추진한다."
+      ],
+      "insight": "결제사 상장 추진 동향을 경쟁사 지표로 추적할 필요.",
+      "importance": 1
+    }
+  ]
+}
