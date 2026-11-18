@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T22:52:15+09:00",
+  "generatedAt": "2026-11-18T23:18:03+09:00",
   "top3": [
     "510417a0c8016968d40ebbc2886903a581f73c08",
     "0010f3d2cca88fcddd1456bacdbbd9ed57bf328d",
@@ -99,32 +99,6 @@
       "importance": 1
     },
     {
-      "id": "17bd05dfa18af7f3c23a082d4e57be9a32a74084",
-      "title": "\"GPU 확보 경쟁은 1막\"…AI 에이전트 시대, 산업·제도 혁신 시급",
-      "source": "지디넷코리아",
-      "publishedAt": "2026-11-18T17:52:51+09:00",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQQlhEV1hRWHNia2s4bEtlOGpORlZVbXNlamRVT0RFOUw3NGduNVRWa1FwZGpiS3ZUNlJ6UU1sWmVjMmE1aGg0SmVNcFp5elNpV09PdnFR?oc=5",
-      "category": "ai_agent",
-      "summary": [
-        "AI 에이전트 시대 산업·제도 혁신 필요성이 제기됐다."
-      ],
-      "insight": "에이전트 결제 관련 제도 논의 흐름을 지켜볼 필요.",
-      "importance": 1
-    },
-    {
-      "id": "294bbee546606abc6e6eb73603718fff73a76360",
-      "title": "2026년 11월 알리 블랙프라이데이 할인코드｜블프 쿠폰·결제할인",
-      "source": "민심뉴스",
-      "publishedAt": "2026-11-18T17:50:00+09:00",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1MUlgwWEtmLUpyUzVSenZnaXZDU1VDOFlUZktuTkdKb3pRLVJsN0ItTzJzdDdLNDlPQV9mTm1sbFBaUkJXMm82WXl2WU9WalpmaUl3Z2RKLUVJSW5uZVBNTzdTekQ4QmZCczdNZC13?oc=5",
-      "category": "market",
-      "summary": [
-        "알리 블랙프라이데이 할인코드·결제할인 소개 글이다."
-      ],
-      "insight": "해외 직구 시즌 결제할인 프로모션 수요를 참고할 필요.",
-      "importance": 1
-    },
-    {
       "id": "9b8bd5f956a28fd87bb7cc1ffd56b6c6aab17953",
       "title": "[금융 이모저모] BC카드, AI스타트업 피클과 'AI 결제' 시대 연다",
       "source": "굿모닝경제",
@@ -135,19 +109,6 @@
         "BC카드가 스타트업 피클과 AI 결제 협력에 나섰다."
       ],
       "insight": "스타트업 제휴형 에이전트 결제 개발 방식을 참고할 필요.",
-      "importance": 1
-    },
-    {
-      "id": "a014068420b6e96404a7bc6ec5471ca9bf497c8a",
-      "title": "금투협, 27일 토큰화·AI 투자전략 세미나…제도 도입과 활용 사례 다룬다",
-      "source": "thedailyeconomy.kr",
-      "publishedAt": "2026-11-18T17:47:57+09:00",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UNThDOEdzbVI3SGJNSVhhcmZuc2szc2RjUzc2UXpBS0xYd3VPcWdMWm02enlYZTN1TlpfVEJXV2xpT0VIR1FCc1VuUGZqNTRjZ0pjR0lBQm50MS12M2tqYm4xWDEwd0RNM0U2ZC1BcU0?oc=5",
-      "category": "regulation",
-      "summary": [
-        "금투협이 토큰화·AI 투자전략 세미나를 연다."
-      ],
-      "insight": "토큰증권 제도 도입에 따른 결제·정산 영향을 파악할 필요.",
       "importance": 1
     },
     {
@@ -190,6 +151,19 @@
       "importance": 1
     },
     {
+      "id": "b20cb9eefbcc618f87cc96859ba205b12cd9caf5",
+      "title": "[카드브리핑] 현대카드, JP모간과 AI 에이전트 금융거래 실증 외",
+      "source": "서울파이낸스",
+      "publishedAt": "2026-11-18T17:12:50+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92cEdHUFFSTWNOQmhoVUZPdUJBMWpvb3hYY016Nmg0M2RfaWRRWG1zM3Nvdl9xWXBKYWhZSEZaeVpSdXdoUHoyUHg1QmFadHBOQzZZd1NIU0g1ZGJ5dlR5R2NKM0NxdEZkZEE?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "현대카드가 JP모간과 AI 에이전트 금융거래를 실증했다."
+      ],
+      "insight": "카드사 AI 금융거래 실증 사례를 경쟁 동향으로 추적할 필요.",
+      "importance": 1
+    },
+    {
       "id": "7b9d72416113c9d8373ecb271cbc563007e77ed3",
       "title": "AI가 결제하고 은행 업무까지…글로벌 금융시장 대전환",
       "source": "전자신문",
@@ -213,6 +187,19 @@
         "애플페이 확산 속 삼성페이 무료 정책이 주목받는다."
       ],
       "insight": "간편결제사별 수수료 정책 차이를 비교해 둘 필요.",
+      "importance": 1
+    },
+    {
+      "id": "2e3ce6b046fafab9c9cbebc69893e9ad3a03547c",
+      "title": "해외 인바운드 여객 결제 장벽 해소···트리니티항공 ‘페이팔’과 프로모션 진행",
+      "source": "이뉴스투데이",
+      "publishedAt": "2026-11-18T16:48:14+09:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04NHM1YlhHTE9NWEx0c0FNVTNfRlJiU21nQ0VWajAtc3ZHMTNtSmVvQmZTZF83TTEtaGgzUzlSay1qMGZNS2dtUDJHbExqaTJZdzdESktjY3hEcFVTd3ZDRGNkbFRDM3hTc2xFZmNwbDHSAXRBVV95cUxONXE5Rk1Ka2Fmd3ZhVUswYmhpS3RxbXNGODNocVhZVEhNZzFuOG92RGcyLTJ1cG1EY2x2bndHSVpEQlZlenFlNk8xdDNvQ2hsVmVpclVRZi1pMjV1OGFneUVRWkxPcHE1RWlUNEtzb2Z2cnJBdg?oc=5",
+      "category": "payment",
+      "summary": [
+        "트리니티항공이 해외 승객 대상 페이팔 행사를 연다."
+      ],
+      "insight": "외국인 결제 장벽 해소용 해외 간편결제 연동 수요를 확인할 필요.",
       "importance": 1
     },
     {
@@ -291,45 +278,6 @@
         "바이낸스가 가상자산 담보 후불결제를 출시했다."
       ],
       "insight": "자산 담보형 후불결제 수요와 규제 리스크를 살펴볼 필요.",
-      "importance": 1
-    },
-    {
-      "id": "be8dfa89a388bec681114c2971e0a64eecb4f46d",
-      "title": "[단독]법인 가상자산 투자 가이드라인 발표 임박…기본법과 동시 공개",
-      "source": "뉴스1",
-      "publishedAt": "2026-11-18T11:56:58+09:00",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1XdHpTY3pDMzllek5LaGRLckxZU3pwMkhTRkxicWRIbzYtSlRhaVU3MnI4clBmcFNnbXBwdG1CZnM5clZaVVdUNFpFaVo4RlZzWlc4dndadWUzVUtydWgtQ2ItLWZEZw?oc=5",
-      "category": "regulation",
-      "summary": [
-        "법인 가상자산 투자 가이드라인 발표가 임박했다."
-      ],
-      "insight": "법인 고객 대상 가상자산 결제 수요 변화를 지켜볼 필요.",
-      "importance": 1
-    },
-    {
-      "id": "f363b9b3f69338d0ad71ca563ed406cbbaef61b2",
-      "title": "금융권 보안관리 전면 강화…IT자산 관리 의무화",
-      "source": "스페셜경제",
-      "publishedAt": "2026-11-18T11:21:32+09:00",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5NXVOeVhZNXRfWkw3YzlHbjU3MnBpVG5WYnZjR1MzT0U0QmJ5X0NybUtCQWctUnFuLU1MVUFuOEwtdktiTU5aemVocktfNm5TVktfZTVDbDRjMUw2MFgwZTc5QlhxZWxiSldSUQ?oc=5",
-      "category": "regulation",
-      "summary": [
-        "금융권 보안관리가 강화되고 IT자산 관리가 의무화된다."
-      ],
-      "insight": "IT자산 관리 의무화에 따른 내부 대응 범위를 확인할 필요.",
-      "importance": 1
-    },
-    {
-      "id": "025cff671ce7aadf8ac65000699c962fe2539f93",
-      "title": "금융위, 대형 금융사 보안점검 연 2회로 강화…연결 시스템까지 전수 점검",
-      "source": "뉴스코리아",
-      "publishedAt": "2026-11-18T10:52:09+09:00",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WVUYxQVB4bFFEeE8yTUZoNW9QT0FLQUVVcEZyd0dkeFhRYWdwLXZKZmhOU0FzSFpRMFBUU3dYQUFrWjRwcl9hRjhtS1Q0Ql8tM0xZOWlHQnRiM2VlRi16bnZFT1A0bVNWSmVDUEhB?oc=5",
-      "category": "regulation",
-      "summary": [
-        "금융위가 대형 금융사 보안점검을 연 2회로 늘린다."
-      ],
-      "insight": "연계 시스템 점검 확대에 대비한 보안 점검 일정을 세울 필요.",
       "importance": 1
     },
     {

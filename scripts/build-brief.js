@@ -35,6 +35,13 @@ const MODEL = "claude-haiku-5-5";
 const CONCURRENCY = 4;
 const CATEGORIES = ["payment", "settlement", "ai_agent", "regulation", "market"];
 
+// 관련성 1차 필터 (제목 기준). Google 뉴스 검색은 키워드 일부만 맞아도 걸려 오므로
+// 결제 핵심어가 하나도 없거나 광고성 단어가 있으면 수집 단계에서 뺀다.
+const CORE_TERMS =
+  /결제|페이|pay|PG|정산|송금|카드|스테이블코인|핀테크|간편|수수료|가맹점|지갑|월렛|wallet|환전|외환|선불|후불|BNPL|전자금융|지급|빌링|이체|계좌|토스|머니/i;
+const SPAM_TERMS = /할인코드|쿠폰|프로모션 ?코드|추천인|이벤트 응모|최저가/;
+const isRelevantTitle = (t) => CORE_TERMS.test(t) && !SPAM_TERMS.test(t);
+
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
 
@@ -165,7 +172,10 @@ async function collect() {
       .map((raw) => toItem(raw, feed.source))
       .filter((it) => it.title && it.link && it.publishedAt)
       .filter((it) => it.publishedAt.getTime() >= cutoff && it.publishedAt.getTime() <= now + 3600e3);
-    console.log(`✓ ${feed.label}: 최근 ${WINDOW_HOURS}h ${items.length}건`);
+    const relevant = items.filter((it) => isRelevantTitle(it.title));
+    console.log(`✓ ${feed.label}: 최근 ${WINDOW_HOURS}h ${items.length}건 (무관 ${items.length - relevant.length}건 제외)`);
+    items.length = 0;
+    items.push(...relevant);
     for (const it of items) candidates.push({ ...it, feed: feed.label });
   });
   candidates.sort((a, b) => b.publishedAt - a.publishedAt);
@@ -211,12 +221,14 @@ function buildPrompt({ title, source, description }) {
   "category": "payment | settlement | ai_agent | regulation | market 중 하나",
   "summary": ["요약 1문장", "요약 2문장", "요약 3문장"],
   "insight": "상품기획팀이 검토할 점 1문장 (예: ~ 기능의 수요를 확인할 필요)",
-  "importance": 1~3 (3이 가장 중요)
+  "importance": 1~3 (3이 가장 중요),
+  "relevant": true 또는 false
 }
 
 규칙:
 - 요약은 기사 문장을 그대로 옮기지 말고 너의 말로 쓴다. 각 문장 40자 이내.
-- 설명이 너무 짧아 판단이 어려우면 summary를 1문장만 쓰고 importance는 1로 둔다.`;
+- 설명이 너무 짧아 판단이 어려우면 summary를 1문장만 쓰고 importance는 1로 둔다.
+- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없는 기사(일반 AI·투자·증권·보안 기사, 쇼핑 할인·쿠폰 홍보 글 등)는 relevant를 false로 둔다.`;
 }
 
 let client, outputFormat;
@@ -231,6 +243,7 @@ async function initClient() {
       summary: z.array(z.string()),
       insight: z.string(),
       importance: z.number().int(),
+      relevant: z.boolean(),
     })
   );
 }
@@ -250,6 +263,7 @@ async function summarize(item) {
     summary: out.summary.map((s) => s.trim()).filter(Boolean).slice(0, 3),
     insight: out.insight.trim(),
     importance: Math.min(3, Math.max(1, out.importance)),
+    relevant: out.relevant,
   };
 }
 
@@ -315,6 +329,10 @@ function assemble(candFile, sumFile) {
     const s = sums[c.id];
     if (!s) {
       console.warn(`  요약 없음, 건너뜀: ${c.title.slice(0, 40)}`);
+      continue;
+    }
+    if (s.relevant === false) {
+      console.log(`  관련 없음, 제외: ${c.title.slice(0, 40)}`);
       continue;
     }
     const problems = [];
@@ -390,7 +408,11 @@ async function main() {
   let failed = 0;
   const done = await mapLimit(targets, CONCURRENCY, async (it, i) => {
     try {
-      const s = await summarize(it);
+      const { relevant, ...s } = await summarize(it);
+      if (!relevant) {
+        console.log(`  ${i + 1}/${targets.length} – 관련 없음, 제외: ${it.title.slice(0, 40)}`);
+        return null;
+      }
       console.log(`  ${i + 1}/${targets.length} ✓ [${s.category}·${s.importance}] ${it.title.slice(0, 40)}`);
       return {
         id: it.id,
