@@ -1,0 +1,20 @@
+{
+  "name": "pay-brief",
+  "version": "1.0.0",
+  "description": "결제·핀테크 뉴스를 매일 아침 모아 상품기획 관점으로 요약·분류하는 데일리 브리프",
+  "scripts": {
+    "brief": "node scripts/build-brief.js",
+    "brief:collect": "node scripts/build-brief.js --collect-only",
+    "brief:try": "node scripts/build-brief.js --limit 3",
+    "serve": "python3 -m http.server 8000"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "rss-parser": "^3.13.0",
+    "zod": "^4.6.7"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
