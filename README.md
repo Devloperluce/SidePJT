@@ -3,8 +3,8 @@
 결제·핀테크 뉴스를 매일 아침 07:00(KST)에 자동으로 모아 **상품기획팀 관점으로 요약·분류**해 보여 주는 한 페이지 웹사이트.
 
 ```
-Google 뉴스 RSS(키워드 6개) → 수집·중복 제거 → Claude(claude-haiku-5-5) 요약·분류 → data/YYYY-MM-DD.json → index.html
-                         (GitHub Actions, 매일 22:00 UTC)                                   (Vercel 자동 배포)
+Google 뉴스 RSS(키워드 6개) → 수집·중복 제거 → Claude 요약·분류 → data/YYYY-MM-DD.json → index.html
+                      (Claude Code 예약 작업, 매일 07시경 KST)                        (Vercel 자동 배포)
 ```
 
 ## 구성
@@ -14,7 +14,6 @@ Google 뉴스 RSS(키워드 6개) → 수집·중복 제거 → Claude(claude-ha
 | `scripts/build-brief.js` | RSS 수집 → 중복 제거 → 기사별 요약·분류 → JSON 저장 |
 | `data/YYYY-MM-DD.json` | 날짜별 브리프. `data/index.json`은 날짜 목록 |
 | `index.html` | 정적 페이지. JSON을 읽어 핵심 3건 / 분야 탭 / 카드 목록을 그림 |
-| `.github/workflows/daily.yml` | 매일 실행 + 수동 실행 버튼, 결과를 커밋·push |
 | `vercel.json` | 빌드 없이 정적 배포, `data/`는 캐시하지 않음 |
 
 ## 로컬 실행
@@ -28,13 +27,23 @@ npm run brief              # 전체 실행 (최대 30건)
 npm run serve              # http://localhost:8000 에서 화면 확인
 ```
 
+## 자동 실행 방식
+
+Anthropic API 키 없이 운영한다. Claude Code 예약 작업이 매일 아침 아래 순서로 실행하고 결과를 push하면 Vercel이 재배포한다.
+
+```bash
+npm ci
+node scripts/build-brief.js --candidates work/candidates.json        # 1) 수집·중복 제거
+# 2) Claude가 후보마다 요약 규칙(buildPrompt)에 따라 work/summaries.json 작성
+node scripts/build-brief.js --assemble work/summaries.json --candidates work/candidates.json   # 3) 검증·저장
+```
+
+API 키가 생기면 `ANTHROPIC_API_KEY`를 설정하고 `node scripts/build-brief.js` 한 번으로 같은 결과를 만들 수 있다(모델 `claude-haiku-5-5`).
+
 ## 배포
 
-1. GitHub에 저장소를 만들고 push
-2. 저장소 **Settings → Secrets and variables → Actions → New repository secret**: `ANTHROPIC_API_KEY`
-3. **Settings → Actions → General → Workflow permissions**: "Read and write permissions" 선택
-4. [Vercel](https://vercel.com/new)에서 저장소 Import → Framework Preset "Other" → Deploy (빌드 설정은 `vercel.json`이 지정)
-5. **Actions → Daily Pay Brief → Run workflow**로 한 번 실행 → 새 JSON이 커밋되면 Vercel이 재배포
+1. 이 저장소를 Vercel에서 Import → Framework Preset "Other" → Deploy (빌드 설정은 `vercel.json`)
+2. 새 브리프가 커밋될 때마다 Vercel이 자동 재배포
 
 ## 수집 규칙
 

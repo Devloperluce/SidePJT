@@ -286,10 +286,82 @@ function save(items, generatedAt) {
 }
 
 // ───────── 실행 ─────────
+/**
+ * API 키 없이 쓰는 2단계 방식 (Claude Code 예약 작업용)
+ *   1) node scripts/build-brief.js --candidates work/candidates.json
+ *      → 수집·중복 제거 결과를 파일로 저장
+ *   2) Claude가 work/summaries.json 작성: { "<id>": { category, summary[], insight, importance }, ... }
+ *      (요약 규칙은 buildPrompt()와 동일)
+ *   3) node scripts/build-brief.js --assemble work/summaries.json --candidates work/candidates.json
+ *      → 검증 후 data/YYYY-MM-DD.json, data/index.json 저장
+ */
+const argVal = (name) => {
+  const i = args.indexOf(name);
+  return i >= 0 ? args[i + 1] : null;
+};
+
+function assemble(candFile, sumFile) {
+  const cands = JSON.parse(fs.readFileSync(candFile, "utf8")).items;
+  const sums = JSON.parse(fs.readFileSync(sumFile, "utf8"));
+  const items = [];
+  for (const c of cands) {
+    const s = sums[c.id];
+    if (!s) {
+      console.warn(`  요약 없음, 건너뜀: ${c.title.slice(0, 40)}`);
+      continue;
+    }
+    const problems = [];
+    if (!CATEGORIES.includes(s.category)) problems.push(`category=${s.category}`);
+    if (!Array.isArray(s.summary) || !s.summary.length || s.summary.length > 3) problems.push("summary 1~3문장 아님");
+    if (typeof s.insight !== "string" || !s.insight.trim()) problems.push("insight 없음");
+    if (![1, 2, 3].includes(s.importance)) problems.push(`importance=${s.importance}`);
+    if (problems.length) {
+      console.warn(`  형식 오류, 건너뜀: ${c.title.slice(0, 40)} — ${problems.join(", ")}`);
+      continue;
+    }
+    items.push({
+      id: c.id,
+      title: c.title,
+      source: c.source,
+      publishedAt: c.publishedAt,
+      link: c.link,
+      category: s.category,
+      summary: s.summary.map((x) => String(x).trim()).filter(Boolean),
+      insight: s.insight.trim(),
+      importance: s.importance,
+    });
+  }
+  if (!items.length) throw new Error("저장할 기사가 없습니다.");
+  const file = save(items, new Date());
+  console.log(`저장: ${path.relative(ROOT, file)} (${items.length}/${cands.length}건)`);
+}
+
 async function main() {
   const startedAt = new Date();
+
+  if (args.includes("--assemble")) {
+    assemble(argVal("--candidates"), argVal("--assemble"));
+    return;
+  }
+
   const collected = await collect();
   console.log(`\n총 ${collected.length}건 (중복 제거 후)\n`);
+
+  const candOut = argVal("--candidates");
+  if (candOut) {
+    fs.mkdirSync(path.dirname(path.resolve(candOut)), { recursive: true });
+    const items = collected.map((it) => ({
+      id: it.id,
+      title: it.title,
+      source: it.source,
+      description: it.description,
+      link: it.link,
+      publishedAt: toKstIso(it.publishedAt),
+    }));
+    fs.writeFileSync(candOut, JSON.stringify({ prompt: buildPrompt({ title: "{title}", source: "{source}", description: "{description}" }), items }, null, 2) + "\n");
+    console.log(`후보 저장: ${candOut} (${items.length}건)`);
+    return;
+  }
 
   if (COLLECT_ONLY) {
     collected.forEach((it, i) =>
