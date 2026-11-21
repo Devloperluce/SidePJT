@@ -6,6 +6,10 @@
  *   node scripts/build-brief.js                 # 전체 실행 (최대 30건 요약 + 저장)
  *   node scripts/build-brief.js --collect-only  # 수집·중복 제거만, 콘솔 출력 (API 키 불필요)
  *   node scripts/build-brief.js --limit 3       # 앞에서 3건만 요약해 저장 (품질 확인용)
+ *   --date YYYY-MM-DD                           # 그 날짜 브리프로 만든다 (기본: 오늘, KST)
+ *
+ * 수집 구간: 브리프 날짜 D의 아침 브리프 = 전날(D-1) 07:00 ~ D 07:00 (KST).
+ * 몇 시에 실행하든 같은 날짜에는 같은 구간을 쓴다. 07:00 전에 실행하면 지금까지만 모인다.
  */
 const fs = require("node:fs");
 const path = require("node:path");
@@ -31,6 +35,7 @@ const EXTRA_FEEDS = [];
 const MAX_TOTAL = 30;
 const PER_KEYWORD = 6;
 const WINDOW_HOURS = 24;
+const CUTOFF_HOUR_KST = 7; // 브리프 마감 시각. 이 시각까지 24시간을 하루치로 본다
 const MODEL = "claude-haiku-5-5";
 const CONCURRENCY = 4;
 const CATEGORIES = ["payment", "settlement", "ai_agent", "regulation", "market"];
@@ -57,6 +62,21 @@ function toKstIso(d) {
   return k.toISOString().replace(/\.\d{3}Z$/, "+09:00");
 }
 const kstDate = (d) => toKstIso(d).slice(0, 10);
+const argVal = (name) => {
+  const i = args.indexOf(name);
+  return i >= 0 ? args[i + 1] : null;
+};
+
+/** 브리프 날짜 D → { from: D-1 07:00, to: D 07:00 } (KST, epoch ms) */
+function briefWindow(date) {
+  const to = Date.parse(`${date}T${String(CUTOFF_HOUR_KST).padStart(2, "0")}:00:00+09:00`);
+  return { from: to - WINDOW_HOURS * 3600 * 1000, to };
+}
+const BRIEF_DATE = argVal("--date") || kstDate(new Date());
+if (!/^\d{4}-\d{2}-\d{2}$/.test(BRIEF_DATE) || isNaN(briefWindow(BRIEF_DATE).to)) {
+  console.error(`--date 형식이 잘못됐습니다: ${BRIEF_DATE} (예: 2026-11-21)`);
+  process.exit(1);
+}
 
 function stripHtml(s = "") {
   return s
@@ -151,14 +171,22 @@ function toItem(raw, fallbackSource) {
 }
 
 async function collect() {
+  const { from, to } = briefWindow(BRIEF_DATE);
   const now = Date.now();
-  const cutoff = now - WINDOW_HOURS * 3600 * 1000;
+  if (now < from) throw new Error(`${BRIEF_DATE} 브리프의 수집 구간이 아직 시작되지 않았습니다.`);
+  const end = Math.min(to, now);
+  console.log(`${BRIEF_DATE} 브리프 · 수집 구간 ${toKstIso(new Date(from)).slice(5, 16)} ~ ${toKstIso(new Date(end)).slice(5, 16)} (KST)`);
+  if (end < to) console.warn(`⚠️  마감(${CUTOFF_HOUR_KST}:00) 전이라 지금까지 나온 기사만 모읍니다.`);
   const feeds = [
     ...KEYWORDS.map((k) => ({ label: `키워드: ${k}`, url: googleNewsUrl(k) })),
     ...EXTRA_FEEDS,
   ];
 
   const results = await Promise.allSettled(feeds.map((f) => fetchFeed(f.url)));
+  if (results.every((r) => r.status === "rejected")) {
+    // 기사가 0건인 것과 네트워크가 막힌 것을 구분한다 (예약 작업이 '성공'으로 끝나지 않게)
+    throw new Error(`모든 피드 수집 실패 — 네트워크에서 news.google.com 접근이 막혔는지 확인하세요. (${results[0].reason?.cause?.message || results[0].reason?.message})`);
+  }
 
   // 모든 피드 후보를 모아 최신순 정렬 → 중복이면 최신 1건만 남김
   const candidates = [];
@@ -171,9 +199,9 @@ async function collect() {
     const items = r.value.items
       .map((raw) => toItem(raw, feed.source))
       .filter((it) => it.title && it.link && it.publishedAt)
-      .filter((it) => it.publishedAt.getTime() >= cutoff && it.publishedAt.getTime() <= now + 3600e3);
+      .filter((it) => it.publishedAt.getTime() >= from && it.publishedAt.getTime() < end);
     const relevant = items.filter((it) => isRelevantTitle(it.title));
-    console.log(`✓ ${feed.label}: 최근 ${WINDOW_HOURS}h ${items.length}건 (무관 ${items.length - relevant.length}건 제외)`);
+    console.log(`✓ ${feed.label}: 구간 내 ${items.length}건 (무관 ${items.length - relevant.length}건 제외)`);
     items.length = 0;
     items.push(...relevant);
     for (const it of items) candidates.push({ ...it, feed: feed.label });
@@ -204,7 +232,10 @@ async function collect() {
   console.log(`유사 제목 중복 ${dupes}건 제거`);
   const picked = kept.map(({ bg, lead, ...rest }) => rest);
 
-  return picked.sort((a, b) => b.publishedAt - a.publishedAt).slice(0, MAX_TOTAL);
+  return {
+    items: picked.sort((a, b) => b.publishedAt - a.publishedAt).slice(0, MAX_TOTAL),
+    window: { from: toKstIso(new Date(from)), to: toKstIso(new Date(end)) },
+  };
 }
 
 // ───────── 2. 요약·분류 ─────────
@@ -282,8 +313,7 @@ async function mapLimit(list, n, fn) {
 }
 
 // ───────── 3. 저장 ─────────
-function save(items, generatedAt) {
-  const date = kstDate(generatedAt);
+function save(items, generatedAt, date, window) {
   const top3 = [...items]
     .sort((a, b) => b.importance - a.importance || b.publishedAt.localeCompare(a.publishedAt))
     .slice(0, 3)
@@ -293,7 +323,7 @@ function save(items, generatedAt) {
   const file = path.join(DATA_DIR, `${date}.json`);
   fs.writeFileSync(
     file,
-    JSON.stringify({ date, generatedAt: toKstIso(generatedAt), top3, items }, null, 2) + "\n"
+    JSON.stringify({ date, window, generatedAt: toKstIso(generatedAt), top3, items }, null, 2) + "\n"
   );
 
   const dates = fs
@@ -316,13 +346,10 @@ function save(items, generatedAt) {
  *   3) node scripts/build-brief.js --assemble work/summaries.json --candidates work/candidates.json
  *      → 검증 후 data/YYYY-MM-DD.json, data/index.json 저장
  */
-const argVal = (name) => {
-  const i = args.indexOf(name);
-  return i >= 0 ? args[i + 1] : null;
-};
-
 function assemble(candFile, sumFile) {
-  const cands = JSON.parse(fs.readFileSync(candFile, "utf8")).items;
+  const candJson = JSON.parse(fs.readFileSync(candFile, "utf8"));
+  const cands = candJson.items;
+  if (!candJson.date || !candJson.window) throw new Error("후보 파일에 date/window가 없습니다. --candidates를 다시 실행하세요.");
   const sums = JSON.parse(fs.readFileSync(sumFile, "utf8"));
   const items = [];
   for (const c of cands) {
@@ -357,7 +384,7 @@ function assemble(candFile, sumFile) {
     });
   }
   if (!items.length) throw new Error("저장할 기사가 없습니다.");
-  const file = save(items, new Date());
+  const file = save(items, new Date(), candJson.date, candJson.window);
   console.log(`저장: ${path.relative(ROOT, file)} (${items.length}/${cands.length}건)`);
 }
 
@@ -369,7 +396,7 @@ async function main() {
     return;
   }
 
-  const collected = await collect();
+  const { items: collected, window } = await collect();
   console.log(`\n총 ${collected.length}건 (중복 제거 후)\n`);
 
   const candOut = argVal("--candidates");
@@ -383,7 +410,7 @@ async function main() {
       link: it.link,
       publishedAt: toKstIso(it.publishedAt),
     }));
-    fs.writeFileSync(candOut, JSON.stringify({ prompt: buildPrompt({ title: "{title}", source: "{source}", description: "{description}" }), items }, null, 2) + "\n");
+    fs.writeFileSync(candOut, JSON.stringify({ date: BRIEF_DATE, window, prompt: buildPrompt({ title: "{title}", source: "{source}", description: "{description}" }), items }, null, 2) + "\n");
     console.log(`후보 저장: ${candOut} (${items.length}건)`);
     return;
   }
@@ -435,7 +462,7 @@ async function main() {
     process.exitCode = 1;
     return;
   }
-  const file = save(items, startedAt);
+  const file = save(items, startedAt, BRIEF_DATE, window);
   console.log(`\n저장: ${path.relative(ROOT, file)} (${items.length}건, 실패 ${failed}건)`);
 }
 

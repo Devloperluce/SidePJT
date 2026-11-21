@@ -226,7 +226,12 @@ function renderList() {
 
 function render() {
   $("today").textContent = fmtDate(brief.date);
-  $("gen").textContent = `${brief.items.length}건 · ${fmtTime(brief.generatedAt)} 생성`;
+  const w = brief.window;
+  $("gen").textContent = [
+    w ? `수집 ${fmtTime(w.from)} ~ ${fmtTime(w.to)}` : "",
+    `${brief.items.length}건`,
+    `${fmtTime(brief.generatedAt)} 생성`,
+  ].filter(Boolean).join(" · ");
   renderTop(); renderTabs(); renderList();
 }
 
@@ -266,7 +271,9 @@ $("date").addEventListener("change", (e) => load(e.target.value));
   }
   $("date").innerHTML = dates.map((d) => `<option value="${d}">${d}</option>`).join("");
   const want = new URLSearchParams(location.search).get("date");
-  const start = dates.includes(want) ? want : dates[0];
+  // 예전 링크(?date=2026-11-18)처럼 없는 날짜면 그보다 뒤의 가장 가까운 브리프, 없으면 최신
+  const start = dates.includes(want) ? want
+    : (want && [...dates].reverse().find((d) => d > want)) || dates[0];
   $("date").value = start;
   load(start);
 })();
