@@ -4,7 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pay Brief — 결제·핀테크 데일리 브리프</title>
-<meta name="description" content="결제·핀테크 뉴스를 매일 아침 모아 상품기획 관점으로 요약·분류합니다.">
+<meta name="description" content="결제·핀테크 뉴스를 매일 아침 07:00 마감으로 모아 상품기획 관점의 요약과 시사점으로 정리합니다.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pay Brief — 결제·핀테크 데일리 브리프">
+<meta property="og:description" content="매일 아침 결제·핀테크 뉴스를 모아 분야별로 나누고, 상품기획팀이 검토할 점까지 한 줄로 정리합니다.">
+<meta property="og:image" content="https://briefpage-tau.vercel.app/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FBE38A'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='800' font-size='16' text-anchor='middle' fill='%231b1b19'%3EPB%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
   :root {
@@ -50,7 +56,11 @@
   }
   select:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid #c9a800; outline-offset: 2px; }
 
-  main { padding: 28px 0 48px; }
+  .wrap.intro { padding-top: 24px; color: var(--muted); font-size: 14px; }
+  .intro p { margin: 0; max-width: 46em; }
+  .intro a { color: var(--text); text-underline-offset: 3px; }
+  .stale { margin: 10px 0 0; font-size: 13px; color: var(--accent-ink); }
+  main.wrap { padding-top: 32px; padding-bottom: 48px; }
   h2 { font-size: 17px; font-weight: 700; margin: 0 0 14px; letter-spacing: -0.01em; }
   .meta-line { color: var(--muted); font-size: 13px; margin: -6px 0 16px; }
 
@@ -114,7 +124,7 @@
   @media (max-width: 480px) {
     .wrap { padding: 0 16px; }
     .head { padding-top: 16px; padding-bottom: 16px; }
-    main { padding-top: 22px; }
+    main.wrap { padding-top: 24px; }
     .top-card, .card { padding: 16px; }
   }
 </style>
@@ -132,9 +142,14 @@
   </div>
 </header>
 
+<div class="wrap intro">
+  <p>결제·핀테크 뉴스를 매일 아침 07:00 마감으로 모아 중복을 걸러내고, 기사마다 요약과 상품기획팀이 검토할 점을 붙입니다. <a href="https://github.com/Devloperluce/SidePJT#readme" target="_blank" rel="noopener noreferrer">만든 방식 보기</a></p>
+  <p class="stale" id="stale" hidden></p>
+</div>
+
 <main class="wrap">
   <section aria-labelledby="top-h">
-    <h2 id="top-h">오늘의 핵심 3건</h2>
+    <h2 id="top-h">핵심 3건</h2>
     <p class="meta-line" id="gen"></p>
     <div class="top3" id="top3"></div>
   </section>
@@ -149,7 +164,7 @@
 <footer>
   <div class="wrap">
     <p>기사 원문의 저작권은 각 언론사에 있습니다. 이 페이지는 제목·링크와 자체 요약만 제공합니다.</p>
-    <p>개인 포트폴리오 프로젝트</p>
+    <p>개인 포트폴리오 프로젝트 · 수집 Google 뉴스 RSS · 요약 Claude · 배포 Vercel · <a href="https://github.com/Devloperluce/SidePJT" target="_blank" rel="noopener noreferrer">GitHub</a></p>
   </div>
 </footer>
 
@@ -227,11 +242,9 @@ function renderList() {
 function render() {
   $("today").textContent = fmtDate(brief.date);
   const w = brief.window;
-  $("gen").textContent = [
-    w ? `수집 ${fmtTime(w.from)} ~ ${fmtTime(w.to)}` : "",
-    `${brief.items.length}건`,
-    `${fmtTime(brief.generatedAt)} 생성`,
-  ].filter(Boolean).join(" · ");
+  $("gen").textContent = w
+    ? `${fmtTime(w.from)}부터 ${fmtTime(w.to)}까지 나온 기사 ${brief.items.length}건`
+    : `기사 ${brief.items.length}건 · ${fmtTime(brief.generatedAt)} 생성`;
   renderTop(); renderTabs(); renderList();
 }
 
@@ -269,7 +282,12 @@ $("date").addEventListener("change", (e) => load(e.target.value));
     $("date").disabled = true;
     return;
   }
-  $("date").innerHTML = dates.map((d) => `<option value="${d}">${d}</option>`).join("");
+  $("date").innerHTML = dates.map((d) => `<option value="${d}">${fmtDate(d)}</option>`).join("");
+  const todayKst = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+  if (dates[0] < todayKst) {
+    $("stale").textContent = `오늘자 브리프는 아직 없습니다. 가장 최근 브리프는 ${fmtDate(dates[0])}자입니다.`;
+    $("stale").hidden = false;
+  }
   const want = new URLSearchParams(location.search).get("date");
   // 예전 링크(?date=2026-11-18)처럼 없는 날짜면 그보다 뒤의 가장 가까운 브리프, 없으면 최신
   const start = dates.includes(want) ? want
