@@ -4,7 +4,8 @@
     "from": "2026-11-22T07:00:00+09:00",
     "to": "2026-11-23T07:00:00+09:00"
   },
-  "prompt": "너는 결제·핀테크 회사 상품기획팀을 돕는 리서치 어시스턴트다.\n아래 기사 제목과 설명만 보고 답하라. 설명에 없는 사실은 지어내지 마라.\n\n[제목] {title}\n[출처] {source}\n[설명] {description}\n\n다음 JSON 형식으로만 답하라.\n{\n  \"category\": \"payment | settlement | ai_agent | regulation | market 중 하나\",\n  \"summary\": [\"요약 1문장\", \"요약 2문장\", \"요약 3문장\"],\n  \"insight\": \"상품기획팀이 검토할 점 1문장 (예: ~ 기능의 수요를 확인할 필요)\",\n  \"importance\": 1~3 (3이 가장 중요),\n  \"relevant\": true 또는 false\n}\n\n규칙:\n- 요약은 기사 문장을 그대로 옮기지 말고 너의 말로 쓴다. 각 문장 40자 이내.\n- 설명이 너무 짧아 판단이 어려우면 summary를 1문장만 쓰고 importance는 1로 둔다.\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없는 기사(일반 AI·투자·증권·보안 기사, 쇼핑 할인·쿠폰 홍보 글 등)는 relevant를 false로 둔다.",
+  "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
+  "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
   "items": [
     {
       "id": "19cc604f1a477e31b0197e1f0a3420d34428e30d",
@@ -23,11 +24,11 @@
       "publishedAt": "2026-11-23T00:30:00+09:00"
     },
     {
-      "id": "a4abb94c91b0303f2e6780d7b47fb307bc65407a",
+      "id": "798fd80afe9d4ad4b359ba4622c97076fe733fd2",
       "title": "외국인 국내 결제·해외자금 조달… 쓰임새 확보가 '최우선'[원화 스테이블코인 '골든타임']",
       "source": "파이낸셜뉴스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kWkVkdVFYcXdWb2F6RkRjanFRNldhVmZVMWxWck5nWVd5dHlLLW9TYy16NFlMSEl5QmtXUG15X1Rhb2RkV1Z0MG9lUHhwakxyUUVaUFFZQTVHdw?oc=5",
+      "description": "디지털자산기본법 제정이 늦어지면서 원화 스테이블코인의 출발도 발목을 잡히고 있다. 이런 가운데 달러화 스테이블코인을 중심으로 해외 시장이 커지는 만큼 원화 스테이블코인이 자리 잡으려면 기존 결제수단과 구별되는 쓰임새를 확보해야 한다는 지적이 나온다. 외국인의 국내 소비와 한국 상품 구매, 기업의 대금 정산과 해외 자금조달 등이 활용 후보로 거론된다. ■외국인 결제부터 기업 정산까지22일 문화체육관광부에 따르면 올해 9월까지 외국인의 관광 분야 소비액은 15조9416억원으로 지난해 같은 기간 10조7940억원보다 47.7% 급증했다. 방한 외국인 수는 2012년 1000만명을 넘어선 데 이어 올해 2000만명을 돌파했다. 금융권이 원화 스테이블코인 활용 가능성 측면에서 주목하는 것도 '방한 외국인'이다.…",
+      "link": "https://www.fnnews.com/news/202611221809007107",
       "publishedAt": "2026-11-22T18:08:11+09:00"
     },
     {
@@ -55,52 +56,31 @@
       "publishedAt": "2026-11-22T14:36:04+09:00"
     },
     {
-      "id": "fc03cccddc79773d60e0fe8879011c36d8b0154f",
-      "title": "디지털자산법 정부안 곧 공개⋯원화 스테이블코인 결제 오픈 기대",
-      "source": "이투데이",
+      "id": "3e5536d1339e5994c37401f8b2cdeef1d52a4157",
+      "title": "카카오페이·토스에서도 23일부터 주민등록증 위조 여부 확인…네이버페이는 다음 달부터 개시",
+      "source": "조선일보",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HY0M2OWZ1X2FrQWhPOU12bGpBMUZiRVhtNnlqd3Y5ajlEeExyWlhwcXl6YjZzemYxMDZjTnV1TGNYLXpMeTRXcW5qaFRyM3ExREpLNw?oc=5",
-      "publishedAt": "2026-11-22T14:25:00+09:00"
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWWxGd3FidTlDbXJNcC1wWFZpVUg3UnBIWEtXQ2FEajFKSUpmamQtWkNuSW95WW9UUnowUFhobGtndm95bkNQRUxYLTg4OVhJSjJVV19DRktZUzFKSzhEVkpUX1pkZDNHRmQyVTJHQWxpZTJmTnlrMzNyRWE3TUlvVmlpQm9qWV9kRENzQy1B?oc=5",
+      "publishedAt": "2026-11-22T12:42:29+09:00",
+      "feed": "키워드: 간편결제"
     },
     {
-      "id": "a0ed38b08ff0013c824217b53966601e19d6bf28",
-      "title": "코덱스, 3000만달러 시리즈A 유치...스테이블코인 외환 사업 확대",
+      "id": "be026d66783ee617c12333debcf6ea1125372183",
+      "title": "테더, 스위스 스테이블코인 기업 '스크립트'에 전략적 투자",
       "source": "디지털투데이",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fOHoxbXEyQmNQNUpPajFBZjhoQkJ6cVlQTmFSeXlTeS0zZ0dxaUxNUHNIUGI1aXBHYlg1aC1sUm1yclBlczRDaDBrcmlxcEpKMy1fMHk5ZGRjak1QcXJlRnBRWjhVY3pEdTc3Rl9BUU9QRmc?oc=5",
-      "publishedAt": "2026-11-22T14:22:29+09:00"
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82d01lV0JBQmVJS0tLbUd4cWVoZWZiZ0FWZFBqYjgyS29DRm5sQW04RDNSZC14aEo2NEZtWTFsVmRzTWpjd3BVNjJScmdWdG5NQTFjMGRuWExOR1Z4UTA3aEhmbWpucmRSTUNvdWdqaHJPdlk?oc=5",
+      "publishedAt": "2026-11-22T11:09:50+09:00",
+      "feed": "키워드: 스테이블코인 결제"
     },
     {
-      "id": "aefbc8d0e6ec104a646078e4a4734b916bee98b2",
-      "title": "[르포]스테이블코인 충전하니 원화 나온다…싱가포르서 만난 K핀테크",
-      "source": "전자신문",
+      "id": "59930cef06d34aae625b102a20d6b09f212c8135",
+      "title": "Circle, DBS와 협력하여 아시아에서 USDC 스테이블코인 시장 확대",
+      "source": "IDNFinancials",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9jRzVRbEFLdnV3Tmpvd0ItUnBPU2lfcnF0bjZWdFpwQWdJVGpHVklLWkRtRkc4cEJpbzRVQ01JNHU2dUt0U1Y1U0xyZ2JaZw?oc=5",
-      "publishedAt": "2026-11-22T14:00:00+09:00"
-    },
-    {
-      "id": "c14c0a341bdf6ef4ee143fae09bb958df7c3eb13",
-      "title": "코인베이스 증거금 15.05%…스테이블코인은 ‘대기’",
-      "source": "코인리더스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90NWh6NFRmX2pUX2cyakNMVExDRjJNWnZzRnFxOXMxaXFPY3czOE54d0VGSnplUlJjYlRlQ0RweWIycHo1MzRGX3F3?oc=5",
-      "publishedAt": "2026-11-22T13:48:53+09:00"
-    },
-    {
-      "id": "848fec875e29b37e82b9eab621d2a05b9e638873",
-      "title": "간편결제도 은행처럼 주민등록증 사진정보 확인 가능 : 사회",
-      "source": "재경일보",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1vQnFDbS1hRDZPNG5EalJiQzZIMDJRUDNlSGNXTEdqSVVOb01CN08xZEREZ0w0dUpRQnN4a3JoZ2IyY0VWRkFXTzMtMA?oc=5",
-      "publishedAt": "2026-11-22T12:23:58+09:00"
-    },
-    {
-      "id": "467611cffa6605e296aa4f659ddaa95006684640",
-      "title": "은행연합회, 핀테크 위크서 은행권 디지털 혁신 사례 공유...농협·국민은행 슈퍼앱 전략 발표",
-      "source": "더퍼블릭",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBETXVBeHVTUUZGMnRwd3RBR2E2ZlVES2V3QVVXdEFNT0FMWjYyano2ZS1udEc5NVQ4aFEtdEFiSndZV01jTmVWLU5jWUozY3plUktaMF9pN1YyZnNVS19OVE43XzJBbVlCQlow0gFvQVVfeXFMT2hpZ1A2dWEzdmJtMG8tbEw4bmFocEVqVmFLMlZ6MURUVzlrUlB3ZG5lZGhHc0RpWUhQVFJCWVAycUM4eGZKUVZFRnFlMF90TC0ySG9IV1dBaVFUSlVjbHdSWEZYV29QQWhub2JsQ0lJ?oc=5",
-      "publishedAt": "2026-11-22T09:36:12+09:00"
+      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQZUM5VDd1NjNucTRXVE1JR3gwWjVCQnZlM1FLQ2xuaWc1UXo0MzhXQWFGaWUxXy1taWp2M3VVMEZvM21zV0Rvd1hzMjRPVTdaOUpvb3BVZ21Rb21VYUNlR3hUSzdaZlpLVU9sTGZoUjZ5WDlkZXNhbnl0RlpOVXc4a285UXJISk9wVXJmMHRGdmlsOFBWbUV0eUotN2w2dV85MzlHN2ppOVdLZk5MNmJYbGJUYW43TjA5ZlRqdWNMSW1FOEJGLUo4VTJJd3ZSTlN1YlhyaHVrYUkwejc3bzhIal9aYWFHaFl5VjB6Sm0wOEdqa0lyWC0tWWR1dko3aHNIRnZaS0RHMXdneHI4eW5QdW5Gel9raEl0VkZkVVRnR2sxdkZKS0ZFMkFQdnUtaGZZM0QxdXpEdjAtZ0FnR0xlMzE3cWw1T0hYV0lvalRzVFdVOEM2RUVnRGwwdDNzTzBHb1lHSUVYa3Nrb3BRMmc?oc=5",
+      "publishedAt": "2026-11-22T09:00:00+09:00",
+      "feed": "키워드: 스테이블코인 결제"
     }
   ]
 }
