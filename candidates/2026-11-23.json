@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-23",
+  "window": {
+    "from": "2026-11-22T07:00:00+09:00",
+    "to": "2026-11-23T07:00:00+09:00"
+  },
+  "prompt": "너는 결제·핀테크 회사 상품기획팀을 돕는 리서치 어시스턴트다.\n아래 기사 제목과 설명만 보고 답하라. 설명에 없는 사실은 지어내지 마라.\n\n[제목] {title}\n[출처] {source}\n[설명] {description}\n\n다음 JSON 형식으로만 답하라.\n{\n  \"category\": \"payment | settlement | ai_agent | regulation | market 중 하나\",\n  \"summary\": [\"요약 1문장\", \"요약 2문장\", \"요약 3문장\"],\n  \"insight\": \"상품기획팀이 검토할 점 1문장 (예: ~ 기능의 수요를 확인할 필요)\",\n  \"importance\": 1~3 (3이 가장 중요),\n  \"relevant\": true 또는 false\n}\n\n규칙:\n- 요약은 기사 문장을 그대로 옮기지 말고 너의 말로 쓴다. 각 문장 40자 이내.\n- 설명이 너무 짧아 판단이 어려우면 summary를 1문장만 쓰고 importance는 1로 둔다.\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없는 기사(일반 AI·투자·증권·보안 기사, 쇼핑 할인·쿠폰 홍보 글 등)는 relevant를 false로 둔다.",
+  "items": [
+    {
+      "id": "19cc604f1a477e31b0197e1f0a3420d34428e30d",
+      "title": "KB금융, 금융위와 싱가포르서 국내 핀테크 '해외 투자·협력' 지원",
+      "source": "AP신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tcV9aZFR6ZW5FRXVIRzBpZTEzMzlqVGZKSlh1cm0yRjBUR2FFRjVDUnJmRDVTNFplLVNFWmpxNGQxNTFDRXNvSGd4b21OSUh4dVRDN2J0a0NJR01PeVpwdHA4RGNiSEpH0gFsQVVfeXFMT2ViR2dhMUVaMWt1Yjk0dWtJZzhISHVScDhTWmlhMlU0Vk8yMGw3RjBxY3NMbnpmeEdfT0wxQ2FlTFIwZFdmUmF3WkdsSFA3R0hQSW80NE5RU1RJcU92MEFNenhUNm1LRmw2VDBo?oc=5",
+      "publishedAt": "2026-11-23T00:39:34+09:00"
+    },
+    {
+      "id": "d0fa0dffc304b7a07d9ad6556431ffb4ff2b0ef4",
+      "title": "[간편결제신분증확인] 카카오페이·토스도 '은행급' 본인확인… 사진정보까지 대조해 가짜 신분증 잡는다",
+      "source": "CBC뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfd0RoZDlId3pzYklSaEpGUFNQX3ZlMTdvN3hUbmJPVG5ESDFETTFLM2NtNVlZSUNoMkdjcS0xZnA1QXVZLWdYRWR5LTBDd0ozeFN6MGRHZFU1SmdYYjNUT0M4bGpvOUph?oc=5",
+      "publishedAt": "2026-11-23T00:30:00+09:00"
+    },
+    {
+      "id": "a4abb94c91b0303f2e6780d7b47fb307bc65407a",
+      "title": "외국인 국내 결제·해외자금 조달… 쓰임새 확보가 '최우선'[원화 스테이블코인 '골든타임']",
+      "source": "파이낸셜뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kWkVkdVFYcXdWb2F6RkRjanFRNldhVmZVMWxWck5nWVd5dHlLLW9TYy16NFlMSEl5QmtXUG15X1Rhb2RkV1Z0MG9lUHhwakxyUUVaUFFZQTVHdw?oc=5",
+      "publishedAt": "2026-11-22T18:08:11+09:00"
+    },
+    {
+      "id": "59cd2a011f9e49942c16c50b8641c5c6b72e0cd8",
+      "title": "KB금융, '싱가포르 핀테크 페스티벌' 현장서 데모데이 열어",
+      "source": "뉴스메카",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HQk1iR08wMy1NcG1pRVFGUmNwSjZmVG1rY1VlZGJYVG1LMUNlUFUxU1VTaTJGajhoR0lETWtZeWZ3RnVLbUdoN3p3YklyYnVSNjdjWldUM3gyaHhwdkF3bGVtV0RrbVk?oc=5",
+      "publishedAt": "2026-11-22T17:01:46+09:00"
+    },
+    {
+      "id": "254d14ffe0da3c2dda79e3d3b5a5c7cd72271242",
+      "title": "예치금 할인에 캐시백까지…제약사 약국몰 결제 혜택 경쟁",
+      "source": "데일리팜",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02Y1JwR1JnSHNySFNyQmhvRHVQWlNHSGVDUmVkNVBEUHIzZm9ZeE9KZnJ2LVRtb1RSQWJSMldfZ1I3TnlXRk9PejZBQUw5YzRRLUNYSzB3?oc=5",
+      "publishedAt": "2026-11-22T16:40:28+09:00"
+    },
+    {
+      "id": "42b37921105c02f2582e106559f56a6f0644a67e",
+      "title": "메타컴프, 테더 등서 1000만달러 투자 유치...아시아·중동·아프리카 결제망 강화",
+      "source": "디지털투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56bFFRdmlmZEptYWVqdy1UUzFHWlkxa3lIc3VDRExZZGk3RlhBZnc1ZXlRRGZzNzVJeW9RZmg2dGItbFN5TUJoZE5Id3FtMElaUFFZcjJUNGJRbG1MVlpwQ2xpMjg4TldBSmVQYU1VdDEtUlU?oc=5",
+      "publishedAt": "2026-11-22T14:36:04+09:00"
+    },
+    {
+      "id": "fc03cccddc79773d60e0fe8879011c36d8b0154f",
+      "title": "디지털자산법 정부안 곧 공개⋯원화 스테이블코인 결제 오픈 기대",
+      "source": "이투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HY0M2OWZ1X2FrQWhPOU12bGpBMUZiRVhtNnlqd3Y5ajlEeExyWlhwcXl6YjZzemYxMDZjTnV1TGNYLXpMeTRXcW5qaFRyM3ExREpLNw?oc=5",
+      "publishedAt": "2026-11-22T14:25:00+09:00"
+    },
+    {
+      "id": "a0ed38b08ff0013c824217b53966601e19d6bf28",
+      "title": "코덱스, 3000만달러 시리즈A 유치...스테이블코인 외환 사업 확대",
+      "source": "디지털투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fOHoxbXEyQmNQNUpPajFBZjhoQkJ6cVlQTmFSeXlTeS0zZ0dxaUxNUHNIUGI1aXBHYlg1aC1sUm1yclBlczRDaDBrcmlxcEpKMy1fMHk5ZGRjak1QcXJlRnBRWjhVY3pEdTc3Rl9BUU9QRmc?oc=5",
+      "publishedAt": "2026-11-22T14:22:29+09:00"
+    },
+    {
+      "id": "aefbc8d0e6ec104a646078e4a4734b916bee98b2",
+      "title": "[르포]스테이블코인 충전하니 원화 나온다…싱가포르서 만난 K핀테크",
+      "source": "전자신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9jRzVRbEFLdnV3Tmpvd0ItUnBPU2lfcnF0bjZWdFpwQWdJVGpHVklLWkRtRkc4cEJpbzRVQ01JNHU2dUt0U1Y1U0xyZ2JaZw?oc=5",
+      "publishedAt": "2026-11-22T14:00:00+09:00"
+    },
+    {
+      "id": "c14c0a341bdf6ef4ee143fae09bb958df7c3eb13",
+      "title": "코인베이스 증거금 15.05%…스테이블코인은 ‘대기’",
+      "source": "코인리더스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90NWh6NFRmX2pUX2cyakNMVExDRjJNWnZzRnFxOXMxaXFPY3czOE54d0VGSnplUlJjYlRlQ0RweWIycHo1MzRGX3F3?oc=5",
+      "publishedAt": "2026-11-22T13:48:53+09:00"
+    },
+    {
+      "id": "848fec875e29b37e82b9eab621d2a05b9e638873",
+      "title": "간편결제도 은행처럼 주민등록증 사진정보 확인 가능 : 사회",
+      "source": "재경일보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1vQnFDbS1hRDZPNG5EalJiQzZIMDJRUDNlSGNXTEdqSVVOb01CN08xZEREZ0w0dUpRQnN4a3JoZ2IyY0VWRkFXTzMtMA?oc=5",
+      "publishedAt": "2026-11-22T12:23:58+09:00"
+    },
+    {
+      "id": "467611cffa6605e296aa4f659ddaa95006684640",
+      "title": "은행연합회, 핀테크 위크서 은행권 디지털 혁신 사례 공유...농협·국민은행 슈퍼앱 전략 발표",
+      "source": "더퍼블릭",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBETXVBeHVTUUZGMnRwd3RBR2E2ZlVES2V3QVVXdEFNT0FMWjYyano2ZS1udEc5NVQ4aFEtdEFiSndZV01jTmVWLU5jWUozY3plUktaMF9pN1YyZnNVS19OVE43XzJBbVlCQlow0gFvQVVfeXFMT2hpZ1A2dWEzdmJtMG8tbEw4bmFocEVqVmFLMlZ6MURUVzlrUlB3ZG5lZGhHc0RpWUhQVFJCWVAycUM4eGZKUVZFRnFlMF90TC0ySG9IV1dBaVFUSlVjbHdSWEZYV29QQWhub2JsQ0lJ?oc=5",
+      "publishedAt": "2026-11-22T09:36:12+09:00"
+    }
+  ]
+}
