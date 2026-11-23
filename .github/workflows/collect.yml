@@ -1,15 +1,16 @@
-# 매일 07:03(KST) 뉴스 수집. GitHub 서버에서 RSS를 받아 candidates/YYYY-MM-DD.json으로 커밋한다.
-# - ANTHROPIC_API_KEY 시크릿이 있으면 요약까지 끝내 data/에 바로 저장한다.
-# - 없으면 후보만 커밋하고, Claude 예약 작업(07:37)이 후보를 읽어 요약·저장한다.
+# 뉴스 수집. 2시간마다 돌며 candidates/YYYY-MM-DD.json 에 후보를 누적한다.
+# GitHub 예약 실행은 몇 시간씩 늦어지기도 하므로, 하루에 여러 번 모아 두면 07:00 마감 시점에는 이미 대부분이 쌓여 있다.
+# - 대상: 오늘자(어제 07:00~오늘 07:00)와 내일자(오늘 07:00~) 중 아직 브리프(data/)가 없는 날짜
+# - ANTHROPIC_API_KEY 시크릿이 있으면 07시 이후 첫 실행에서 오늘자 요약까지 끝낸다
 name: collect
 
 on:
   schedule:
-    - cron: "3 22 * * *" # UTC 22:03 = KST 07:03 (07:00 마감 직후)
+    - cron: "17 */2 * * *" # 2시간마다 (UTC 기준 짝수 시 17분)
   workflow_dispatch:
     inputs:
       date:
-        description: "브리프 날짜 (YYYY-MM-DD, 비우면 오늘 KST)"
+        description: "특정 날짜만 수집 (YYYY-MM-DD, 비우면 자동)"
         required: false
 
 permissions:
@@ -33,18 +34,25 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - name: 날짜 결정
+      - name: 수집 (누적)
         run: |
-          D="${{ inputs.date }}"
-          [ -z "$D" ] && D=$(TZ=Asia/Seoul date +%F)
-          echo "BRIEF_DATE=$D" >> "$GITHUB_ENV"
+          if [ -n "${{ inputs.date }}" ]; then
+            DATES="${{ inputs.date }}"
+          else
+            DATES="$(TZ=Asia/Seoul date +%F) $(TZ=Asia/Seoul date -d tomorrow +%F)"
+          fi
+          for D in $DATES; do
+            if [ -f "data/$D.json" ]; then echo "$D: 브리프 있음, 건너뜀"; continue; fi
+            node scripts/build-brief.js --date "$D" --candidates "candidates/$D.json" --merge || echo "$D: 수집 실패 또는 구간 시작 전"
+          done
 
-      - name: 수집 (후보 저장)
-        run: node scripts/build-brief.js --date "$BRIEF_DATE" --candidates "candidates/$BRIEF_DATE.json"
-
-      - name: 요약·저장 (API 키가 있을 때만)
+      - name: 요약·저장 (API 키가 있고 오늘자 마감이 지났을 때)
         if: env.ANTHROPIC_API_KEY != ''
-        run: node scripts/build-brief.js --date "$BRIEF_DATE"
+        run: |
+          D=$(TZ=Asia/Seoul date +%F)
+          if [ ! -f "data/$D.json" ] && [ "$(TZ=Asia/Seoul date +%H)" -ge 7 ]; then
+            node scripts/build-brief.js --date "$D"
+          fi
 
       - name: 커밋·푸시
         run: |
@@ -52,6 +60,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add candidates/ data/
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
-          git commit -m "collect: $BRIEF_DATE"
+          git commit -m "collect: $(TZ=Asia/Seoul date '+%F %H:%M')"
           for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin main && exit 0; sleep 5; done
           exit 1

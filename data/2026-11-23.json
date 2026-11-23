@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-23",
+  "window": {
+    "from": "2026-11-22T07:00:00+09:00",
+    "to": "2026-11-23T07:00:00+09:00"
+  },
+  "generatedAt": "2026-11-23T17:25:52+09:00",
+  "overview": {
+    "headline": "스테이블코인 논의, 결제 실사용과 아시아 확장으로",
+    "points": [
+      "원화 스테이블코인은 정부 법안 공개를 앞두고 외국인 결제·기업 정산 같은 쓰임새 논의가 본격화됐다.",
+      "테더·서클이 메타컴프·스크립트 투자와 DBS 협력으로 아시아 결제망 확장에 속도를 냈다.",
+      "카카오페이·토스가 23일부터 신분증 진위 확인을 시작해 간편결제 본인확인 수준이 올라갔다."
+    ]
+  },
+  "top3": [
+    "fc03cccddc79773d60e0fe8879011c36d8b0154f",
+    "3e5536d1339e5994c37401f8b2cdeef1d52a4157",
+    "798fd80afe9d4ad4b359ba4622c97076fe733fd2"
+  ],
+  "items": [
+    {
+      "id": "19cc604f1a477e31b0197e1f0a3420d34428e30d",
+      "title": "KB금융, 금융위와 싱가포르서 국내 핀테크 '해외 투자·협력' 지원",
+      "source": "AP신문",
+      "publishedAt": "2026-11-23T00:39:34+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tcV9aZFR6ZW5FRXVIRzBpZTEzMzlqVGZKSlh1cm0yRjBUR2FFRjVDUnJmRDVTNFplLVNFWmpxNGQxNTFDRXNvSGd4b21OSUh4dVRDN2J0a0NJR01PeVpwdHA4RGNiSEpH0gFsQVVfeXFMT2ViR2dhMUVaMWt1Yjk0dWtJZzhISHVScDhTWmlhMlU0Vk8yMGw3RjBxY3NMbnpmeEdfT0wxQ2FlTFIwZFdmUmF3WkdsSFA3R0hQSW80NE5RU1RJcU92MEFNenhUNm1LRmw2VDBo?oc=5",
+      "category": "market",
+      "summary": [
+        "KB금융이 금융위와 싱가포르 핀테크 페스티벌에서 국내 핀테크의 해외 투자·협력을 지원하고 데모데이를 열었다."
+      ],
+      "insight": "금융그룹의 해외 진출 지원 프로그램 대상·조건을 확인해 동남아 결제 제휴 통로로 쓸지 검토.",
+      "importance": 1
+    },
+    {
+      "id": "798fd80afe9d4ad4b359ba4622c97076fe733fd2",
+      "title": "외국인 국내 결제·해외자금 조달… 쓰임새 확보가 '최우선'[원화 스테이블코인 '골든타임']",
+      "source": "파이낸셜뉴스",
+      "publishedAt": "2026-11-22T18:08:11+09:00",
+      "link": "https://www.fnnews.com/news/202611221809007107",
+      "category": "settlement",
+      "summary": [
+        "디지털자산기본법 제정이 늦어지며 원화 스테이블코인 출범도 미뤄지고 있다.",
+        "달러 스테이블코인과 겨루려면 기존 결제수단과 다른 쓰임새가 필요하다는 지적이다.",
+        "외국인 국내 결제, 기업 대금 정산, 해외 자금조달이 활용 후보로 꼽혔다."
+      ],
+      "insight": "외국인 관광객 결제와 B2B 대금 정산 중 우리 가맹점 기반으로 먼저 실험할 쪽을 정리.",
+      "importance": 2
+    },
+    {
+      "id": "254d14ffe0da3c2dda79e3d3b5a5c7cd72271242",
+      "title": "예치금 할인에 캐시백까지…제약사 약국몰 결제 혜택 경쟁",
+      "source": "데일리팜",
+      "publishedAt": "2026-11-22T16:40:28+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE02Y1JwR1JnSHNySFNyQmhvRHVQWlNHSGVDUmVkNVBEUHIzZm9ZeE9KZnJ2LVRtb1RSQWJSMldfZ1I3TnlXRk9PejZBQUw5YzRRLUNYSzB3?oc=5",
+      "category": "market",
+      "summary": [
+        "제약사들이 약국 전용 온라인몰에서 예치금 할인과 캐시백으로 결제 혜택 경쟁을 벌인다."
+      ],
+      "insight": "B2B 몰의 예치금 할인 구조를 참고해 사업자 고객용 선불 충전 상품 가능성 검토.",
+      "importance": 1
+    },
+    {
+      "id": "42b37921105c02f2582e106559f56a6f0644a67e",
+      "title": "메타컴프, 테더 등서 1000만달러 투자 유치...아시아·중동·아프리카 결제망 강화",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-22T14:36:04+09:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56bFFRdmlmZEptYWVqdy1UUzFHWlkxa3lIc3VDRExZZGk3RlhBZnc1ZXlRRGZzNzVJeW9RZmg2dGItbFN5TUJoZE5Id3FtMElaUFFZcjJUNGJRbG1MVlpwQ2xpMjg4TldBSmVQYU1VdDEtUlU?oc=5",
+      "category": "market",
+      "summary": [
+        "메타컴프가 테더 등에서 1000만달러를 투자받아 아시아·중동·아프리카 결제망을 넓힌다."
+      ],
+      "insight": "스테이블코인 기반 해외 결제망의 수수료·정산 주기를 우리 해외송금 상품과 비교.",
+      "importance": 2
+    },
+    {
+      "id": "fc03cccddc79773d60e0fe8879011c36d8b0154f",
+      "title": "디지털자산법 정부안 곧 공개⋯원화 스테이블코인 결제 오픈 기대",
+      "source": "이투데이",
+      "publishedAt": "2026-11-22T14:25:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HY0M2OWZ1X2FrQWhPOU12bGpBMUZiRVhtNnlqd3Y5ajlEeExyWlhwcXl6YjZzemYxMDZjTnV1TGNYLXpMeTRXcW5qaFRyM3ExREpLNw?oc=5",
+      "category": "regulation",
+      "summary": [
+        "정부의 디지털자산법안 공개가 임박해 원화 스테이블코인 결제 허용 기대가 커지고 있다."
+      ],
+      "insight": "정부안이 나오면 발행 주체와 가맹점 정산 조항부터 확인해 우리 결제 흐름 영향을 정리.",
+      "importance": 3
+    },
+    {
+      "id": "a0ed38b08ff0013c824217b53966601e19d6bf28",
+      "title": "코덱스, 3000만달러 시리즈A 유치...스테이블코인 외환 사업 확대",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-22T14:22:29+09:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1fOHoxbXEyQmNQNUpPajFBZjhoQkJ6cVlQTmFSeXlTeS0zZ0dxaUxNUHNIUGI1aXBHYlg1aC1sUm1yclBlczRDaDBrcmlxcEpKMy1fMHk5ZGRjak1QcXJlRnBRWjhVY3pEdTc3Rl9BUU9QRmc?oc=5",
+      "category": "settlement",
+      "summary": [
+        "코덱스가 3000만달러 시리즈A를 유치해 스테이블코인 외환 사업을 키운다."
+      ],
+      "insight": "스테이블코인 외환 결제가 은행 환전보다 얼마나 빠르고 싼지 실제 사례로 비교.",
+      "importance": 2
+    },
+    {
+      "id": "aefbc8d0e6ec104a646078e4a4734b916bee98b2",
+      "title": "[르포]스테이블코인 충전하니 원화 나온다…싱가포르서 만난 K핀테크",
+      "source": "전자신문",
+      "publishedAt": "2026-11-22T14:00:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9jRzVRbEFLdnV3Tmpvd0ItUnBPU2lfcnF0bjZWdFpwQWdJVGpHVklLWkRtRkc4cEJpbzRVQ01JNHU2dUt0U1Y1U0xyZ2JaZw?oc=5",
+      "category": "payment",
+      "summary": [
+        "싱가포르 현장에서 스테이블코인을 충전해 원화로 쓰는 국내 핀테크 서비스가 소개됐다."
+      ],
+      "insight": "스테이블코인 충전→원화 지급 흐름에서 환전·본인확인이 어디서 처리되는지 사용자 여정으로 정리.",
+      "importance": 2
+    },
+    {
+      "id": "3e5536d1339e5994c37401f8b2cdeef1d52a4157",
+      "title": "카카오페이·토스에서도 23일부터 주민등록증 위조 여부 확인…네이버페이는 다음 달부터 개시",
+      "source": "조선일보",
+      "publishedAt": "2026-11-22T12:42:29+09:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWWxGd3FidTlDbXJNcC1wWFZpVUg3UnBIWEtXQ2FEajFKSUpmamQtWkNuSW95WW9UUnowUFhobGtndm95bkNQRUxYLTg4OVhJSjJVV19DRktZUzFKSzhEVkpUX1pkZDNHRmQyVTJHQWxpZTJmTnlrMzNyRWE3TUlvVmlpQm9qWV9kRENzQy1B?oc=5",
+      "category": "payment",
+      "summary": [
+        "카카오페이·토스가 23일부터 사진 정보까지 대조해 주민등록증 위조 여부를 확인한다."
+      ],
+      "insight": "가입·고액 송금 단계에 신분증 진위 확인을 넣을 때 이탈률과 부정가입 감소 효과를 함께 설계.",
+      "importance": 3
+    },
+    {
+      "id": "be026d66783ee617c12333debcf6ea1125372183",
+      "title": "테더, 스위스 스테이블코인 기업 '스크립트'에 전략적 투자",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-22T11:09:50+09:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82d01lV0JBQmVJS0tLbUd4cWVoZWZiZ0FWZFBqYjgyS29DRm5sQW04RDNSZC14aEo2NEZtWTFsVmRzTWpjd3BVNjJScmdWdG5NQTFjMGRuWExOR1Z4UTA3aEhmbWpucmRSTUNvdWdqaHJPdlk?oc=5",
+      "category": "market",
+      "summary": [
+        "테더가 스위스 스테이블코인 기업 '스크립트'에 전략적 투자를 했다."
+      ],
+      "insight": "테더의 연이은 결제 인프라 투자(메타컴프·스크립트)가 어느 지역을 겨냥하는지 추적.",
+      "importance": 1
+    },
+    {
+      "id": "467611cffa6605e296aa4f659ddaa95006684640",
+      "title": "은행연합회, 핀테크 위크서 은행권 디지털 혁신 사례 공유...농협·국민은행 슈퍼앱 전략 발표",
+      "source": "더퍼블릭",
+      "publishedAt": "2026-11-22T09:36:12+09:00",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBETXVBeHVTUUZGMnRwd3RBR2E2ZlVES2V3QVVXdEFNT0FMWjYyano2ZS1udEc5NVQ4aFEtdEFiSndZV01jTmVWLU5jWUozY3plUktaMF9pN1YyZnNVS19OVE43XzJBbVlCQlow0gFvQVVfeXFMT2hpZ1A2dWEzdmJtMG8tbEw4bmFocEVqVmFLMlZ6MURUVzlrUlB3ZG5lZGhHc0RpWUhQVFJCWVAycUM4eGZKUVZFRnFlMF90TC0ySG9IV1dBaVFUSlVjbHdSWEZYV29QQWhub2JsQ0lJ?oc=5",
+      "category": "market",
+      "summary": [
+        "은행연합회가 핀테크 위크에서 농협·국민은행 슈퍼앱 전략 등 은행권 디지털 사례를 공유했다."
+      ],
+      "insight": "은행 슈퍼앱이 결제·송금 메뉴를 어떻게 묶는지 화면 흐름을 우리 앱과 비교.",
+      "importance": 1
+    },
+    {
+      "id": "59930cef06d34aae625b102a20d6b09f212c8135",
+      "title": "Circle, DBS와 협력하여 아시아에서 USDC 스테이블코인 시장 확대",
+      "source": "IDNFinancials",
+      "publishedAt": "2026-11-22T09:00:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQZUM5VDd1NjNucTRXVE1JR3gwWjVCQnZlM1FLQ2xuaWc1UXo0MzhXQWFGaWUxXy1taWp2M3VVMEZvM21zV0Rvd1hzMjRPVTdaOUpvb3BVZ21Rb21VYUNlR3hUSzdaZlpLVU9sTGZoUjZ5WDlkZXNhbnl0RlpOVXc4a285UXJISk9wVXJmMHRGdmlsOFBWbUV0eUotN2w2dV85MzlHN2ppOVdLZk5MNmJYbGJUYW43TjA5ZlRqdWNMSW1FOEJGLUo4VTJJd3ZSTlN1YlhyaHVrYUkwejc3bzhIal9aYWFHaFl5VjB6Sm0wOEdqa0lyWC0tWWR1dko3aHNIRnZaS0RHMXdneHI4eW5QdW5Gel9raEl0VkZkVVRnR2sxdkZKS0ZFMkFQdnUtaGZZM0QxdXpEdjAtZ0FnR0xlMzE3cWw1T0hYV0lvalRzVFdVOEM2RUVnRGwwdDNzTzBHb1lHSUVYa3Nrb3BRMmc?oc=5",
+      "category": "settlement",
+      "summary": [
+        "서클이 DBS와 손잡고 아시아에서 USDC 스테이블코인 시장을 넓힌다."
+      ],
+      "insight": "아시아 은행의 USDC 정산 도입 범위를 확인해 해외 가맹점 정산 통화 옵션 검토 근거로.",
+      "importance": 2
+    }
+  ]
+}
