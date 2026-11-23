@@ -2,18 +2,135 @@
   "date": "2026-11-24",
   "window": {
     "from": "2026-11-23T07:00:00+09:00",
-    "to": "2026-11-23T17:23:49+09:00"
+    "to": "2026-11-24T07:00:00+09:00"
   },
   "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
   "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
   "items": [
     {
-      "id": "bdde0faf9630cf9fffd5ba6950065d8a8d69e024",
-      "title": "쿠콘, 싱가포르 트리플에이와 스테이블코인 결제·정산 협력 MOU",
-      "source": "블루밍비트",
+      "id": "1ceecaf878c33f78eea93cc554a876daf4163215",
+      "title": "[위기의 핀테크 ②] 본업만으론 안돼… 저축은행 사고, GA로 돌파구",
+      "source": "IT조선",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yejFteWZpU2c4clc5LUJhZVVGVFdwQ3dzeTM2bFpNTGwwLVdBSVJveU9kaVo1ajhJNTFHLTh4S3lVbGg1U3FxQUlPYlNDVmxH?oc=5",
-      "publishedAt": "2026-11-23T17:11:08+09:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yNFo4ZkF1X284OUZXOEk2aXFpTDloYWluenY0Rkc0WnJ2eEg2cVk1c0dnMm5DcEFLSTdTcHBnaTFaTmYxTGEzckFoZlZVdktqUzEtVVIzdUtBT21STW1jWjZuNXR2OG5na1RPOUN0ZTTSAXRBVV95cUxNUkZIbUFkWENDZUFXTnFBZUktbkZla3V2aWFQNkZ5NjQxTXcyUmp1alJFYjJJN09GUnJkUEZmNFdxdUVpcm1BMm53aldwU0k2eGo3RnhWSkFiUVJFdkJXcmRSSDc2dEx1TVliNG9jTDZYVHJ5VA?oc=5",
+      "publishedAt": "2026-11-24T06:30:00+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "2af35946f17fe76a531f77e3f338b11987a8e549",
+      "title": "‘유료’ 애플페이 도입 확산… 연 3000억 국부 유출 가능성",
+      "source": "세계일보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RZ2IxVnJjQXFJS3F6UjBKNHdpY1MxTGVEbW9SRm9fTEVBVmlmR3RQR0NjNHhzSW1tLUU1SFRJSk5LeGtTS3NSY2lKUUJ5Qm1vdzFocl9CZkpuVXhVSFp3Y0xIOWEyV2pmRXlN0gFUQVVfeXFMTkgxV1NkVE13c0tDZFBkZ0JoS25RWl9VTTg1WDBPekhad09sWWYxUHYteHhCd2g4bFpFMEZfQXVyV25ncXg4UnBBMHNyeTlxekFrSG9a?oc=5",
+      "publishedAt": "2026-11-24T06:00:00+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "3fc7473abfafae2bf577c95a51044847ed888a73",
+      "title": "\"쓸 곳 없어\" 외면받던 지역화폐…배민 만나 달라질까",
+      "source": "머니투데이",
+      "description": "배민, 지역화폐 구원투수될까(上) 배달의민족이 지역화폐를 인앱결제 수단으로 도입한다. 민간 지역화폐 플랫폼들과 경쟁해야 하는 한국조폐공사, 지역화폐 사용처가 부족한 지자체의 이해관계가 맞아떨어진 덕분이다. 아산페이로 시작하는 배민의 지역화폐 결제 도입이 배달 앱 시장과 지역화폐에 미칠 영향을 다각도로 짚어본다. 배달의민족(이하 배민)을 이용할 때 결제 수단으로 지역화폐(지역사랑상품권)를 이용할 수 있게 된다. 23일 관련 업계에 따르면 충남 아산시에서 발행하는 지역사랑상품권 아산페이 를 내년 1월부터 배민에서 사용가능할 전망이다. 공공 배달앱에서만 사용되던 지역화폐가 민간 배달앱에서 사용되는 건 이번이 처음이다....",
+      "link": "https://www.mt.co.kr/tech/2026/11/24/2026112321312825631",
+      "publishedAt": "2026-11-24T06:00:00+09:00",
+      "feed": "머니투데이"
+    },
+    {
+      "id": "0267de34019394285769c38f5dfe4daac459f17c",
+      "title": "카카오페이 송금봉투·선물하기도 신용평가에 반영된다",
+      "source": "바이라인네트워크",
+      "description": "이민수 카카오페이 크레딧사업부문장은 23일 카카오페이가 개최한 미디어 세미나 ‘페이톡(Paytalk)’에서 대출 시장이 좁아질수록 금융사들이 동일한 고객군을 대상으로 경쟁하는 상황이 심화한다고 설명했다. 이에 금융사들은 기존 심사 모형에서 활용하던 데이터만으로 차별화된 평가 결과를 내기 어려워지면서, 신용평가의 변별력을 높일 새로운 데이터와 평가 요소를 찾고 있다는 것이다.",
+      "link": "https://byline.network/2026/11/1123-8/",
+      "publishedAt": "2026-11-24T01:34:54+09:00",
+      "feed": "바이라인네트워크"
+    },
+    {
+      "id": "b7adfc78330ed3b84973fc1b032e7314fc3a65d4",
+      "title": "간편결제에서도 신분증 진위 확인…카카오페이·토스 23일부터",
+      "source": "뉴스N연합",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rd0R5SlFCR1c3ckdrVkxtR0pjcDA1NTlob0hyWWFBSWk1c0pLLWYtNy05WjIwSDlWN2ZIbjZTVkpGTEFQZmJPbl9ub2w0N1k?oc=5",
+      "publishedAt": "2026-11-23T21:54:45+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "ff2ca316f3efb62457911adab381f16eb535d62a",
+      "title": "[금융 HOT 뉴스] KB금융, 싱가포르서 국내 핀테크사 해외 진출 지원",
+      "source": "비즈월드",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YRXRGd085cXlWRk55dG5ta1J1Und4U3BLVDRtYi1MbzRfY3RHWXc5U1ZxNzFNMHlzcnVDZ19McnpiVHF4UGZVUzcwWmVyX0ptazY0XzRrMThhbnZUWHJXZzBCTXU0aVJ5VXpN?oc=5",
+      "publishedAt": "2026-11-23T20:31:00+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "ec284dfb6b02b4baa144b27ec83af28772bbba06",
+      "title": "토스뱅크, 글로벌 핀테크 무대서 AI 에이전트 검증·권한·책임성 강조",
+      "source": "FETV",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLR2ZpY0kyNmZ6NXcxbUp1R05qWXJESWw0OFotNmVMMFA4SjlBY21hdUNZMnplOHZjdnF6SlRXU3dXLVo2ajFmaU1tZ3p0ay10eFNzSHhQUmVmdmFQbUM2VHdabEVCaktt?oc=5",
+      "publishedAt": "2026-11-23T18:07:29+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "284deac1f425620f0ba94798d3577a26f205741a",
+      "title": "이은미 토스뱅크 대표 \"AI 에이전트 시대, 기술 아닌 신뢰\"",
+      "source": "증권일보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13Wmd4bThOY3JmTVV5enNGODM3M1lMMFBjeUcxNjR3VlcyOWJFQVdJRzN1Q2NUdXZqSl9ZU0NCNWE1OGhyUnpLeW1feWtDLUJ4ZU5UN1hKU2ZuOVBuTWM2dw?oc=5",
+      "publishedAt": "2026-11-23T18:05:00+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "70549cdcd884cde2e706928a8607ff8c87dad98d",
+      "title": "\"호텔까지 갈 차 잡아줘\"…예약부터 결제까지 AI가 척척",
+      "source": "한국경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yUFZjMXFfWlc1ZUxfMnZ1OGd5RmV4MUk5bVhTWkNydmFJeHYyd2gyM1I5dGdpb08xYmhEZVB3UWk2cVRGNnBrNGV2V0kzaDU0b2Y2dTZyUFc0dw?oc=5",
+      "publishedAt": "2026-11-23T17:45:51+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "88dd45764e954be41ca28888ccfc3e159e609349",
+      "title": "토스뱅크 대표 이은미 싱가포르 핀테크행사 2년 연속 참석, \"AI 금융거래 핵심은 신뢰\"",
+      "source": "비즈니스포스트",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CSjVtUWxaWURJbW1sYnltcG1jZkw3aHNHa1NkSkwzQi1VSGRwekRZeG5LcVUtcUp6ZFZialppaUdRLTcxQzJBX1R5ZGE4NUU2ejlnMnkySldkMXhUV0NwLTM3TWNQV3p3UzNvWWJlb1U1c3M?oc=5",
+      "publishedAt": "2026-11-23T17:35:38+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "95b5ceb0cb513dc21fdb38dca4ee0cd83e418ac1",
+      "title": "쿠콘·트리플에이, 스테이블코인 글로벌 결제·정산 협력",
+      "source": "국제뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yYkhsTm5vZkdhZHkxUVFzRXd2R2NGX21Ka0hybWtoaFlGRDBWd1VLR3FMamhqaTd5d05hdENUTkRZVC12RmNOcUFJNS1iTTZUQU9OZXRpUzdnUXV0S3REV20xWC1BTEdTTFFYdEpR?oc=5",
+      "publishedAt": "2026-11-23T17:35:32+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "ca94f155b5dfeaea2738cbe7bd746a90d7b974e9",
+      "title": "법인카드부터 애플페이까지…카카오·토스·케이뱅크 결제시장 총공세",
+      "source": "CEO스코어데일리",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15bm1jUHpKR3piQ0lVdmRQZ1NlUmZDWVJacVVGajJzU2Q1VDRvRnBEeFAyVktHRmJ5MXQ5MlZEZDhid3VOSy1SbDFsXzN1XzdFbGpkd2NtYzdyUDhFSVM2QWtMcEtqRnRf?oc=5",
+      "publishedAt": "2026-11-23T17:29:58+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "be1f72a9b218483fdbfe8e3a7d414a139474b95d",
+      "title": "이은미 토스뱅크 대표, ‘SFF 2026’ 참석해 AI 금융 시대 ‘신뢰의 조건’ 제시",
+      "source": "아시아투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TNU1ld3hxT05qdWZuT3RRQ0NsdF9lak5vSjd6NjBhUmR1eU9FX29FVTZydThVWHNyVmE5alAxanZXeDZHcmdzUTNDLUlRYzAzOXR5V2xZYzJLY2I4SWowbFFEYW5LS3hKX1d5NldR?oc=5",
+      "publishedAt": "2026-11-23T17:23:42+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "7ea51bff86dd5e667ca979f50132e378b036d72f",
+      "title": "헥토파이낸셜·튠즈, 국경 간 결제·송금 사업 협력 강화",
+      "source": "데이터넷",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0bklXaGRyT0xqUWJtYlREdElNYUp6cnotUlFyN2dPdmJWNTQ5dVZfYmotM1d3Q1VNZHA1eG5xRHl3SDNRUXczOUtIUTllS3JyajIwdDBNdE8ybm5MUGxMOUR1dTNMV05aVzhwVA?oc=5",
+      "publishedAt": "2026-11-23T17:22:45+09:00",
       "feed": "키워드: 정산 결제"
     },
     {
@@ -53,6 +170,15 @@
       "feed": "키워드: 스테이블코인 결제"
     },
     {
+      "id": "801731d585af684b6c4a27a5ccf60fb183bf56c7",
+      "title": "[더밸류 브리핑] 오늘의 금융계 소식...KB금융그룹· 토스뱅크",
+      "source": "더밸류뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByM2ZhRHpqWXBsb25ZcGRsQ180LWctOEtmeXBTWnVSV2M2R3lNdFlLVXZBNUZXSEZDS1lyTXdpWjNEZXBuSjJYLTM4ZU9qTGl3SUl2Rw?oc=5",
+      "publishedAt": "2026-11-23T16:31:40+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
       "id": "5a9f84cdd56abad2fc8ba5fc1fdfc71baba81aea",
       "title": "[금융권 이모저모]토스뱅크, AI 결제 3대 조건 제시 外",
       "source": "비즈니스플러스",
@@ -69,33 +195,6 @@
       "link": "https://zdnet.co.kr/view/?no=20261123155012",
       "publishedAt": "2026-11-23T16:15:53+09:00",
       "feed": "지디넷코리아"
-    },
-    {
-      "id": "c05e9ce1f314b6c94a9d075161ea28ad4f44c572",
-      "title": "이은미 토스뱅크 대표 “AI 에이전트, 사람 위해 일해야”",
-      "source": "인더뉴스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwV2t2anZWaE9EeHdndkhrZUdIZ01Sa0pOTTBuZG1MakdXZ3NWM2tLdlE1bjVPWTZfTGhqcnp3cW04elFOc1V3NkVIMjZyQ2FKNF8xbld0MVUtdFk0YXd3QVVmY3I?oc=5",
-      "publishedAt": "2026-11-23T16:12:39+09:00",
-      "feed": "키워드: AI 에이전트 결제"
-    },
-    {
-      "id": "1729ecac9a964ee34af06dcf1c639c07dcb1fcfd",
-      "title": "토스뱅크 이은미 대표, SFF서 AI 금융 신뢰 조건 제시",
-      "source": "파이낸셜투데이",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iOGhpRTA1MUJIRE13NUtlU3M2WFc1SHdoRHVCVHp2V25FMzdZSWFuZjRrX2ZyWXhvY1ExbFl6MHpLcEd0aGdTMFJHWFZlcS03QV9WeG45ZzdmSzRSRm45eHNXV0JOcjRGTnfSAW5BVV95cUxOSTlkVldtdWFza05wbFRHc2VITTZGREV6Ul9RZzNLaGd0d0I3dDZJN2JkazBPQU04WHE5cmdnQ19WLTl3NlBpWEJzaUNDWlM1N01zOEd4MUplNlBWU29aX19BNXFwS3ZqemNRN0dVdw?oc=5",
-      "publishedAt": "2026-11-23T15:59:33+09:00",
-      "feed": "키워드: AI 에이전트 결제"
-    },
-    {
-      "id": "c8298dbff3c9df1d79c3c8a5658691cb5015f2c0",
-      "title": "헥토파이낸셜, 튠즈와 협력 확대…국내외 정산망 연계 추진",
-      "source": "한스경제",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xcERENW5lcVVCbHlBb28ydjNoWVhKb2lSUzFyTk9UbkRCQzFvcjFucHpwMHc3Tkk1Y3BBU2ZNQl9YVUdYWGxrcUlRLUxRYW5nU092MW4zNXlSWTZUS1lNMDdhOVU5LTBQS1hF?oc=5",
-      "publishedAt": "2026-11-23T15:38:53+09:00",
-      "feed": "키워드: 정산 결제"
     },
     {
       "id": "a0b6f0e7561bf0de1bd586682f259b9a040f3142",
@@ -116,6 +215,15 @@
       "feed": "키워드: AI 에이전트 결제"
     },
     {
+      "id": "0e004911b75d897becad78b8e65ef5bc6df7da71",
+      "title": "'선물하기'도 신용평가에…카카오페이 스코어 확대나선다",
+      "source": "전자신문",
+      "description": "카카오페이가 내년 자사 대출 비교 서비스에 입점한 주요 금융사로 대안신용평가모형 '카카오페이 스코어'의 적용을 확대한다. 금융사가 기존 대출 심사에 결제·송금 등 일상 거래 데이터를 추가해 고객의 상환 가능성을 판단하는 방식이다. 지난해 하반기 출시한 이 모형은 공공기관과 인터넷은행, 저축은행, 카드사 등 13곳에 도입됐다. 카카오페이는 23일 미디어 세미나 '페이톡'에서 스코어 적용 성과와 사업 계획을 밝혔다. 카카오페이 스코어는 코리아크레딧",
+      "link": "https://www.etnews.com/20261123000381",
+      "publishedAt": "2026-11-23T14:50:24+09:00",
+      "feed": "전자신문"
+    },
+    {
       "id": "388e157e595eac23616fae6144232ef92389259b",
       "title": "카카오페이, 데이터 발상의 전환…더 많이 모으기보다 '오래' 붙잡기",
       "source": "블로터",
@@ -132,15 +240,6 @@
       "link": "https://www.bloter.net/news/articleView.html?idxno=679388",
       "publishedAt": "2026-11-23T14:30:35+09:00",
       "feed": "블로터"
-    },
-    {
-      "id": "709e40c51e96438692808ec367f4d7b2a52b3a30",
-      "title": "KB금융, 싱가포르서 국내 핀테크 스타트업 10개사 글로벌 진출 지원",
-      "source": "퍼블릭타임스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZOFJ6MDZLODE0NWR2OXB2TlJGRFBsWHZ1VC1JbDNIbHY5dURLWWtIcXdGMjNjSjkwV3lFa0F5SGdpUks0eDlSMGN0QkttVDZWYlJGRmtQWXl4c21BNGxZcGxPaGtEYXk1RUHSAW5BVV95cUxNeTh4dmdpZFNKMndDQXVRdHZWUkNKZFgyeEV5cVNrdWRUQ25WaG9zLTFSQ2VJYlk5WXp1WWl0NEdGMlJEckFQUW44aWQydWNuMm5kUXRiS2RhSzloeUtsUEpGMTY1SEVrUVVPaC1zdw?oc=5",
-      "publishedAt": "2026-11-23T14:30:00+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
     },
     {
       "id": "f9d40512c40d0def99eab9bd370d673e691c77e3",
