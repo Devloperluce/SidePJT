@@ -107,6 +107,25 @@
 
   .empty { padding: 32px 0; color: var(--muted); }
 
+  /* 인사 */
+  .hello { margin: 28px 0 0; font-size: 17px; color: var(--body); }
+  .hello b { color: var(--text); }
+
+  /* 왜 중요한가 */
+  .why { margin: 12px 0 0; }
+  .why b { display: block; font-size: 13px; color: var(--muted); font-weight: 700; margin-bottom: 2px; }
+  .why p { margin: 0; color: var(--body); }
+
+  /* 짧게 보기 */
+  .brief { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .brief:last-child { border-bottom: 0; }
+  .brief h4 { margin: 2px 0 2px; font-size: 16px; line-height: 1.5; font-weight: 700; letter-spacing: -0.01em; }
+  .brief h4 a { text-decoration: none; }
+  .brief h4 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .brief p { margin: 2px 0 0; color: var(--body); font-size: 15px; }
+  .brief .to { color: var(--accent-ink); font-size: 14px; }
+  .next { margin: 36px 0 0; padding: 16px 18px; background: var(--soft); border-radius: 10px; font-size: 14px; color: var(--muted); }
+
   footer { border-top: 1px solid var(--line); padding: 24px 0 48px; color: var(--muted); font-size: 13px; }
   footer p { margin: 4px 0; }
 
@@ -185,7 +204,19 @@ function story(it, { withBadge = true } = {}) {
       <div class="meta">${withBadge ? badge(it.category) : ""}<span>${esc(it.source)} · ${fmtTime(it.publishedAt)}</span>${it.importance === 3 ? `<span class="imp">중요</span>` : ""}</div>
       <h3><a href="${esc(safeUrl(it.link))}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a></h3>
       ${(it.summary || []).length ? `<p class="sum">${it.summary.map(esc).join(" ")}</p>` : ""}
+      ${(it.why || []).length ? `<div class="why"><b>왜 중요한가</b><p>${it.why.map(esc).join(" ")}</p></div>` : ""}
       ${take(it.insight)}
+    </article>`;
+}
+
+function shortItem(it) {
+  const first = (it.summary || [])[0] || "";
+  return `
+    <article class="brief">
+      <div class="meta"><span>${esc(it.source)} · ${fmtTime(it.publishedAt)}</span></div>
+      <h4><a href="${esc(safeUrl(it.link))}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a></h4>
+      ${first ? `<p>${esc(first)}</p>` : ""}
+      ${it.insight ? `<p class="to">챙길 점 · ${esc(it.insight)}</p>` : ""}
     </article>`;
 }
 
@@ -200,36 +231,39 @@ function render(brief) {
   const w = brief.window;
   const windowLine = w ? `${fmtTime(w.from)}부터 ${fmtTime(w.to)}까지 나온 기사 중 ${brief.items.length}건을 골랐습니다.` : `기사 ${brief.items.length}건`;
 
-  let html = "";
+  const chars = [brief.overview?.headline, ...(brief.overview?.points || []),
+    ...brief.items.flatMap((i) => [i.title, ...(i.summary || []), ...(i.why || []), i.insight])].join("").length;
+  const minutes = Math.max(1, Math.round(chars / 500));
+  const [, m, d] = brief.date.split("-").map(Number);
+  let html = `<p class="hello"><b>${m}월 ${d}일</b> 결제·핀테크 아침 브리프입니다. 어제 아침부터 오늘 아침까지 나온 기사 중 <b>${brief.items.length}건</b>을 골랐어요. 약 ${minutes}분이면 다 읽어요.</p>`;
   if (brief.overview) {
     html += `
       <section class="lead" aria-labelledby="lead-h">
         <h2 id="lead-h">오늘의 흐름</h2>
         <h3>${esc(brief.overview.headline)}</h3>
         <ul>${brief.overview.points.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>
-        <p class="window">${esc(windowLine)}</p>
       </section>`;
   }
   html += `
     <section class="top" aria-labelledby="top-h">
       <h2 id="top-h">먼저 읽을 기사</h2>
       ${top.map((it) => story(it)).join("")}
-      ${brief.overview ? "" : `<p class="window">${esc(windowLine)}</p>`}
     </section>`;
 
   const groups = CATS.map((c) => ({ ...c, items: rest.filter((i) => i.category === c.code) })).filter((g) => g.items.length);
   if (groups.length) {
     html += `
       <section aria-labelledby="all-h">
-        <h2 id="all-h">분야별 기사<span class="n">${rest.length}건</span></h2>
+        <h2 id="all-h">짧게 보기<span class="n">${rest.length}건</span></h2>
         <ul class="jump">${groups.map((g) => `<li><a href="#cat-${g.code}">${g.name}<span class="n">${g.items.length}</span></a></li>`).join("")}</ul>
         ${groups.map((g) => `
           <div class="cat" id="cat-${g.code}">
             <h3 class="cat-h"><span class="dot" style="background:var(--c-${g.code}-ink)"></span>${g.name}</h3>
-            ${g.items.map((it) => story(it, { withBadge: false })).join("")}
+            ${g.items.map((it) => shortItem(it)).join("")}
           </div>`).join("")}
       </section>`;
   }
+  html += `<p class="next">${esc(windowLine)} 다음 호는 매일 아침 7시 40분쯤 올라옵니다.</p>`;
   $("content").innerHTML = html;
 }
 

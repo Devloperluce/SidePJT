@@ -312,6 +312,11 @@ const EDITORIAL_RULES = `독자: 결제·PG·정산 서비스를 만드는 회�
 - 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적
 - 1: 행사·시상·인사·단신·홍보성 기사
 
+[why] 그날 가장 중요한 3건에만 (importance 3, 3건이 안 되면 importance 2 중 가장 중요한 기사로 채움). "왜 중요한가" 2문장 (각 60자 이내)
+- 1문장: 이 일이 왜 생겼는지 배경. 기사에 없는 배경은 널리 알려진 사실만 쓴다.
+- 2문장: 결제·핀테크 업계에 어떤 의미인지. 전망은 "~수 있다"로.
+- 나머지 기사는 why를 쓰지 않는다.
+
 [relevant] true/false
 - 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false
   (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)`;
@@ -329,7 +334,7 @@ ${EDITORIAL_RULES}
 [출처] ${source}
 [리드] ${description || "(없음)"}
 
-JSON으로만 답하라: {"category", "summary": [...], "insight", "importance", "relevant"}`;
+JSON으로만 답하라: {"category", "summary": [...], "insight", "importance", "relevant", "why": [... 중요도 3일 때만]}`;
 }
 
 function buildOverviewPrompt(items) {
@@ -352,6 +357,7 @@ async function initClient() {
       insight: z.string(),
       importance: z.number().int(),
       relevant: z.boolean(),
+      why: z.array(z.string()).optional(),
     })
   );
   overviewFormat = zodOutputFormat(z.object({ headline: z.string(), points: z.array(z.string()) }));
@@ -390,6 +396,7 @@ function checkSummary(s) {
   if (!Array.isArray(s.summary) || !s.summary.length || s.summary.length > 3) problems.push("summary 1~3문장 아님");
   if (typeof s.insight !== "string" || !s.insight.trim()) problems.push("insight 없음");
   if (![1, 2, 3].includes(s.importance)) problems.push(`importance=${s.importance}`);
+  if (s.why !== undefined && (!Array.isArray(s.why) || s.why.length > 3)) problems.push("why는 1~3문장 배열");
   return problems;
 }
 function checkOverview(o) {
@@ -430,6 +437,7 @@ const publicItem = (c, s) => ({
   summary: s.summary.map((x) => String(x).trim()).filter(Boolean),
   insight: s.insight.trim(),
   importance: s.importance,
+  ...(Array.isArray(s.why) && s.why.length ? { why: s.why.map((x) => String(x).trim()).filter(Boolean) } : {}),
 });
 
 /**
