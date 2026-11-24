@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-25",
+  "window": {
+    "from": "2026-11-24T07:00:00+09:00",
+    "to": "2026-11-25T02:40:10+09:00"
+  },
+  "generatedAt": "2026-11-25T07:38:40+09:00",
+  "overview": {
+    "headline": "스테이블코인 정부안 공개, PG 보안엔 경고등",
+    "points": [
+      "디지털자산법 정부안이 은행 과반 구조를 정하자 우리금융·쿠팡 등 결제·정산 합종연횡이 시작됐다.",
+      "여신금융포럼과 카드사 설문 모두 AI 에이전트 결제는 가깝지만 책임·제도는 미흡하다고 봤다.",
+      "PG 3곳 유출로 당국이 긴급 점검에 나서 가맹점 관리자·빌링키 보안이 과제로 떠올랐다."
+    ]
+  },
+  "top3": [
+    "4a06a3751d18608a60c1ae756373bbb753aa116e",
+    "177459fb30c1df8fd7eac90c0be7cc006e42b6d7",
+    "519df77b892439e93606459137cf0a4e461425d5"
+  ],
+  "items": [
+    {
+      "id": "c951de860911ab2e757a9d226e04e2465a6d7ec1",
+      "title": "[취재수첩] AI 결제 시장에서 소외된 한국",
+      "source": "한국경제",
+      "publishedAt": "2026-11-25T00:51:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lbW9XVjdpTWd5SDF2Um93WnM1Wll6WUE0OVpGaHpTNDRUQjRrTW1TeVlBakFTNkRNaGp2LUlUM2NZQnZnZk94Z25jZ2NmNFBBZXRFcmk0bG1Udw?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "한국이 AI 결제 시장 흐름에서 소외돼 있다는 취재수첩이 나왔다."
+      ],
+      "insight": "해외 에이전트 결제 표준(카드 네트워크·빅테크)에 국내 PG가 붙을 연동 경로를 목록화.",
+      "importance": 1
+    },
+    {
+      "id": "0fe9d421260f36ce9c2de69b8ed9fb7dd69f828d",
+      "title": "토스, 온투업 진출 철회?…등록 신청에 쏠린 눈",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-24T21:58:37+09:00",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717783",
+      "category": "market",
+      "summary": [
+        "토스의 온투업 등록 신청이 당분간 미뤄질 전망이다.",
+        "당국의 신중론과 국회·기존 업계 반발이 겹친 탓이다.",
+        "토스는 지난달 자회사 '토스포용준비법인'을 세우고 준비를 이어왔다."
+      ],
+      "insight": "토스 신사업이 당국 벽에 막힌 사례로, 우리 신규 라이선스 일정의 규제 리스크 항목 점검.",
+      "importance": 2
+    },
+    {
+      "id": "4a06a3751d18608a60c1ae756373bbb753aa116e",
+      "title": "NHN KCP·웰컴페이먼츠 등 PG사 3곳 정보 유출…금융당국 긴급 점검",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-24T21:55:32+09:00",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717809",
+      "category": "regulation",
+      "summary": [
+        "NHN KCP·웰컴페이먼츠·KIS정보통신 등 PG사 3곳에서 정보 유출이 잇따랐다.",
+        "웰컴페이먼츠에선 빌링키·결제 취소 사유 등 1326건이 새어 나갔다.",
+        "금융위는 주요 PG사를 긴급 소집해 보안 실태를 점검했다."
+      ],
+      "insight": "가맹점 관리자·고객 조회 페이지의 접근 통제와 빌링키 노출 범위를 오늘 자체 점검.",
+      "importance": 3,
+      "why": [
+        "가맹점 관리자 계정과 조회 페이지를 통한 외부 접근으로 사고가 이어졌다.",
+        "당국 점검 이후 PG사 전반에 보안 요건 강화나 추가 규제가 뒤따를 수 있다."
+      ]
+    },
+    {
+      "id": "5c834d620460bd5f03feb2d976c69686e6e2a0d3",
+      "title": "KB캐피탈, KB차차차에 전자계약·안심결제 서비스 도입",
+      "source": "파이낸셜뉴스",
+      "publishedAt": "2026-11-24T18:17:36+09:00",
+      "link": "https://www.fnnews.com/news/202611241809511551",
+      "category": "payment",
+      "summary": [
+        "KB캐피탈이 중고차 플랫폼 KB차차차를 전면 개편했다.",
+        "전자매매계약과 에스크로 방식 안심결제, 온라인 명의이전을 넣었다.",
+        "혁신금융서비스 지정을 받아 거래 절차를 비대면으로 묶었다."
+      ],
+      "insight": "고가 개인 간 거래(중고차)용 에스크로 결제를 우리 상품에 붙일 때 정산 지연 기간·수수료 비교.",
+      "importance": 2
+    },
+    {
+      "id": "263dda9bf8dd01b18ac83b0002f85169c06c9bf6",
+      "title": "롯데카드, 금융위 과징금 '엎친 데 덮친 격'",
+      "source": "세이프머니",
+      "publishedAt": "2026-11-24T17:57:29+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rbExMcGhOdWh5UzB2NmhUNTBvVVdZY3dFSl9SMzU1a2pJQXhBMC1xV2Z3SlRremUyRWFKQ3NQMnh5YWVpU0RWSnluUERzOXF4YmQyME1QWnpra0gxTFdUNWdGNmU1U3JaZGdhQXpB?oc=5",
+      "category": "regulation",
+      "summary": [
+        "롯데카드가 금융위 과징금까지 받으며 부담이 커졌다."
+      ],
+      "insight": "과징금 사유를 확인해 우리 카드사 제휴 서비스의 보안·내부통제 요건과 대조.",
+      "importance": 1
+    },
+    {
+      "id": "40196ef13533f63013174f41881dcba2c8ad13e8",
+      "title": "코스닥 입성 앞둔 이나인페이, 입국부터 귀국 후 역직구까지…생활금융 승부수",
+      "source": "머니투데이",
+      "publishedAt": "2026-11-24T17:55:35+09:00",
+      "link": "https://www.mt.co.kr/stock/2026/11/24/2026112417484676418",
+      "category": "settlement",
+      "summary": [
+        "코스닥 상장을 앞둔 이나인페이가 외국인 생활금융 플랫폼으로 확장한다.",
+        "입국부터 체류, 귀국 후 역직구까지 한 앱·계정으로 잇는 구상이다.",
+        "소액해외송금 1호 라이선스 뒤 PG·외국환·선불업으로 넓혀왔다."
+      ],
+      "insight": "외국인 고객 대상 송금·결제·선불을 한 계정으로 묶는 구조를 우리 해외송금 로드맵과 비교.",
+      "importance": 2
+    },
+    {
+      "id": "001cf9a81d594858300db05ec9581068d3e8ef87",
+      "title": "블랙록, 홍콩 첫 토큰 MMF 출시…홍콩달러 스테이블코인 결제",
+      "source": "이데일리",
+      "publishedAt": "2026-11-24T17:53:22+09:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjFXckN0U0dsakI4anZrSVkxT0xzb2ljcUFQRC0tQnZhR1FmbkdZZl9LVmZXVkhVS0lPWUZ0UVg1N1FRdFpKbk52ZDM5TGpCZ3dGN0h0d1ltSFFQZkl4Sm94cFFlRHltdmtGU1hFb0ZES3J2dm84RVVXQXduTVVYVQ?oc=5",
+      "category": "settlement",
+      "summary": [
+        "블랙록이 홍콩에서 첫 토큰화 MMF를 내고 홍콩달러 스테이블코인 결제를 붙였다."
+      ],
+      "insight": "토큰화 MMF·스테이블코인 결제 결합이 기업 유휴자금 정산 상품으로 올 수 있는지 사례 메모.",
+      "importance": 1
+    },
+    {
+      "id": "24441a7fb618b0e012cd9c790beff671ce4fcd9e",
+      "title": "두 차례 사업 실패가 이끈 소상공인 결제앱",
+      "source": "한국경제",
+      "publishedAt": "2026-11-24T17:53:07+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EczAyaERTdEx4YkhzeG1MXzZzQ3BhMFZSS0EwMmhEM0IxcHU2Z0lET1RsQmhSVmNWcFcyT2dZNXlBLW85elFxYThmc0loZEt0YW1RR1BEbW4tZw?oc=5",
+      "category": "payment",
+      "summary": [
+        "두 차례 사업 실패를 딛고 나온 소상공인 결제앱이 소개됐다."
+      ],
+      "insight": "소상공인용 결제앱의 가입·정산 주기 등 핵심 기능을 우리 가맹점 앱과 비교.",
+      "importance": 1
+    },
+    {
+      "id": "ab2fd7c6edeb82f612a6b2f8ded52a32ee856c40",
+      "title": "전화·결제 대신하는 AI 에이전트 확산에…KISA, 보안수칙 권고",
+      "source": "매일경제 마켓",
+      "publishedAt": "2026-11-24T16:56:41+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVOURNOE0xbEptRFRUWUxrb3N5RXZLaTlETmZTU014RUlfQnlyVjdJNHNnM1pqT1liNU9sRTY4TkxhY2k4akxJV0pkT1hBVzhWLUE?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "KISA가 전화·결제를 대신하는 AI 에이전트 확산에 맞춰 보안수칙을 권고했다."
+      ],
+      "insight": "KISA 권고 항목을 확인해 에이전트 결제 승인 단계에 필요한 인증·권한 제한을 정리.",
+      "importance": 1
+    },
+    {
+      "id": "442ecf5f69b06044c54f5fa1ddc6bd56708f1ec8",
+      "title": "카드사 임직원 10명 중 8명 \"5년 안에 AI 에이전트 결제 상용화\"",
+      "source": "뉴스1",
+      "publishedAt": "2026-11-24T16:38:30+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LUUtNeFRjUllXRXkyZUF5bnZReXR6bkZ0eFNLdGhJTEZleG1fck92TEo3VEEtWVM3T2pYTG9YM0lUWlJWTlgtNERLRzg2UGI5ekRWall1UFgybUdxNkJPUA?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "카드사 임직원 10명 중 8명이 5년 안에 AI 에이전트 결제가 상용화된다고 봤다.",
+        "다만 카드사 76%는 아직 시범 단계에 머물러 있다."
+      ],
+      "insight": "카드사들이 시범 단계인 지금, 에이전트 결제용 PG 연동 API 제휴 제안서를 준비.",
+      "importance": 2
+    },
+    {
+      "id": "177459fb30c1df8fd7eac90c0be7cc006e42b6d7",
+      "title": "'여신금융 2.0' 시대 온다···\"AI 상용화 곧인데, 제도는 미흡\"",
+      "source": "파이낸셜뉴스",
+      "publishedAt": "2026-11-24T15:19:20+09:00",
+      "link": "https://www.fnnews.com/news/202611241040047751",
+      "category": "ai_agent",
+      "summary": [
+        "24일 여신금융포럼에서 AI 에이전트 결제 제도 정비가 더디다는 지적이 나왔다.",
+        "여신금융연구소는 법제·FDS·AI 활용 준비가 미흡하다고 진단했다.",
+        "카드사가 위임 검증·환불 책임을 맡아야 한다는 주장도 나왔다."
+      ],
+      "insight": "에이전트 결제에서 위임 검증·환불 책임을 PG·카드사·가맹점 중 누가 질지 책임 분담표 초안 작성.",
+      "importance": 3,
+      "why": [
+        "AI가 결제를 대신하는 서비스는 빠르게 느는데 위임·환불 규정은 아직 없다.",
+        "카드사가 검증·환불 역할을 맡으면 PG의 책임 범위와 연동 방식도 달라질 수 있다."
+      ]
+    },
+    {
+      "id": "519df77b892439e93606459137cf0a4e461425d5",
+      "title": "가상자산거래소 대주주 지분 20% 제한···디지털자산법 정부안",
+      "source": "서울파이낸스",
+      "publishedAt": "2026-11-24T15:00:00+09:00",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=643751",
+      "category": "regulation",
+      "summary": [
+        "금융위가 24일 디지털자산법 제정안을 공개했다.",
+        "원화 스테이블코인은 은행 과반 컨소시엄부터 발행하되 핀테크도 최대주주가 될 수 있다.",
+        "거래소 대주주 지분은 20%로 제한되고 야당은 반대 입장이다."
+      ],
+      "insight": "은행 컨소시엄에 핀테크로 참여할 때 우리가 맡을 결제·정산 역할과 지분 시나리오 정리.",
+      "importance": 3,
+      "why": [
+        "스테이블코인 시장에서 주요국에 뒤처진다는 위기감에 정부안이 1년 10개월 만에 나왔다.",
+        "은행 중심 발행 구조가 확정되면 핀테크는 컨소시엄 합류나 유통·결제 쪽에서 기회를 찾을 수 있다."
+      ]
+    },
+    {
+      "id": "5285a2b6cb34e1ea19d974cda0fdc51e49bd8dd9",
+      "title": "[스테이블코인 승부수①] 우리금융, 쿠팡과 손잡고 결제ㆍ정산시장 공략",
+      "source": "PRESS9",
+      "publishedAt": "2026-11-24T14:33:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UQzR2ald3Z2lKMFYtNjA2S2M3ZXpfZ3hsOEhOYU5LM0pTd1dGWlRzTkJ1UVNQczRvQnV5M2Q5WVpPRDNXckxBT3JCenFjNEJxRi1TblZSVGFtTGprR2NZMEUxV1I?oc=5",
+      "category": "settlement",
+      "summary": [
+        "우리금융이 쿠팡과 손잡고 스테이블코인 결제·정산 시장을 공략한다."
+      ],
+      "insight": "대형 커머스-은행 스테이블코인 정산이 현실화될 때 PG 정산 수수료 영향 시나리오 정리.",
+      "importance": 2
+    },
+    {
+      "id": "322a4948f7579aabe3e8555ddfe7847b047ba649",
+      "title": "쿠콘, 3분기 영업익 51억원…내년 AI·결제 신사업 본격화",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-24T14:12:18+09:00",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717739",
+      "category": "market",
+      "summary": [
+        "쿠콘이 3분기 영업이익 51억원으로 분기 최대 실적을 냈다.",
+        "매출 202억7000만원으로 16.9% 늘었고 페이먼트 사업이 성장을 이끌었다.",
+        "내년부터 AI 데이터·글로벌 결제·스테이블코인 수익화에 나선다."
+      ],
+      "insight": "쿠콘 페이먼트 매출 성장 요인을 확인해 우리 정산·펌뱅킹 상품 가격과 비교.",
+      "importance": 2
+    },
+    {
+      "id": "706d4ad532ad307b1d4c3af2a23f8e1798b123b6",
+      "title": "[더벨]더즌, 인도네시아 DNNA와 파트너십 체결",
+      "source": "머니투데이",
+      "publishedAt": "2026-11-24T14:08:14+09:00",
+      "link": "https://www.mt.co.kr/stock/2026/11/24/2026112414059695998",
+      "category": "settlement",
+      "summary": [
+        "더즌이 인도네시아 1위 간편결제 DANA와 전략적 파트너십을 맺었다.",
+        "DANA는 가입자 2억명 이상의 결제·송금 플랫폼이다.",
+        "양사는 현지 사업·기술 협력을 중장기로 넓힌다."
+      ],
+      "insight": "인도네시아 송금·결제 진출 시 DANA 같은 현지 지갑 연동 방식과 비용을 조사.",
+      "importance": 2
+    },
+    {
+      "id": "5ea2bd7e9bed6fee784e281fbb86a3da6e3ccb97",
+      "title": "美 CFTC, 비트코인·이더리움·스테이블코인 운영 준비금 인정",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-24T13:38:22+09:00",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717720",
+      "category": "regulation",
+      "summary": [
+        "미국 CFTC가 거래소·청산기관 운영 준비금에 비트코인·이더리움·결제용 스테이블코인을 포함하도록 허용했다.",
+        "23일 발표된 직원 지침이다."
+      ],
+      "insight": "미국 규제기관의 스테이블코인 인정 범위를 국내 정부안의 준비자산 요건과 비교.",
+      "importance": 1
+    }
+  ]
+}
