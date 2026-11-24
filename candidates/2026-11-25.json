@@ -2,9 +2,190 @@
   "date": "2026-11-25",
   "window": {
     "from": "2026-11-24T07:00:00+09:00",
-    "to": "2026-11-24T07:02:18+09:00"
+    "to": "2026-11-24T14:59:48+09:00"
   },
-  "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
+  "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[why] 그날 가장 중요한 3건에만 (importance 3, 3건이 안 되면 importance 2 중 가장 중요한 기사로 채움). \"왜 중요한가\" 2문장 (각 60자 이내)\n- 1문장: 이 일이 왜 생겼는지 배경. 기사에 없는 배경은 널리 알려진 사실만 쓴다.\n- 2문장: 결제·핀테크 업계에 어떤 의미인지. 전망은 \"~수 있다\"로.\n- 나머지 기사는 why를 쓰지 않는다.\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
   "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
-  "items": []
+  "items": [
+    {
+      "id": "d1fb7d01b478cfa3a3ad490759f6dc6d6d01c4f2",
+      "title": "[여신금융포럼] AI가 결제할 카드 고르면…카드사, 거래마다 경쟁",
+      "source": "대한데일리",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBEdGQwMmI5dGFGZHJuMlRHUnFwa0tvTzNsLUhYcnJaQmd0X3ZTSjBwYkpINGdwYzYwWlY5SUFaWmRpSDdiWkdUaUJMX0dMSk5XOGRXRHQ3emJpSHA0REZweDFwYl9VTnhKajQw?oc=5",
+      "publishedAt": "2026-11-24T14:30:00+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "1c78de243e773efebe89d4176869a752be6cb369",
+      "title": "엠게임, 무협 방치형 RPG '귀혼키우기' 출시…\"무공 성장의 재미를 간편하게\"",
+      "source": "지디넷코리아",
+      "description": "엠게임이 온라인게임 '귀혼'의 직업과 무공을 스테이지 기반 방치형 RPG로 구현한 모바일게임 '귀혼키우기'를 출시한다. 엠게임은 자체 개발한 '귀혼키우기'를 구글 플레이와 애플 앱스토어, 원스토어에 정식 출시했다고 24일 밝혔다. 지난 8월 11일 시작한 사전예약에는 이달 6일까지 100만명 이상이 참여했다. '귀혼키우기'는 엠게임이 2005년 서비스를 시작한 온라인게임 '귀혼'의 지식재산권(IP)을 활용한 작품이다. 원작의 무협 세계관과 캐릭터, 직업·무공 체계를 계승하면서 스테이지를 차례로 공략해 캐릭터를 키우는 방치형 성장 방식을 적용했다. 메인 스토리는 제자의 배신으로 모든 것을 잃은 전설의 무인 '태화노군'이 기억과 무공을 되찾는 여정을 그린다. 엠게임은 모든 이용자에게 쿠폰 2종을 지급한다.…",
+      "link": "https://zdnet.co.kr/view/?no=20261124140622",
+      "publishedAt": "2026-11-24T14:15:01+09:00",
+      "feed": "지디넷코리아"
+    },
+    {
+      "id": "322a4948f7579aabe3e8555ddfe7847b047ba649",
+      "title": "쿠콘, 3분기 영업익 51억원…내년 AI·결제 신사업 본격화",
+      "source": "디지털투데이",
+      "description": "쿠콘이 올해 3분기 영업이익 51억원을 기록하며 분기 기준 역대 최대 실적을 달성했다. 페이먼트 사업의 성장과 데이터 부문의 매출 확대가 실적을 견인한 가운데 내년부터 AI 데이터와 글로벌 결제, 스테이블코인 등 신사업 수익화를 본격화할 계획이다.쿠콘은 24일 '2026년 3분기 정례 기업설명회(IR)'를 열고 경영 실적과 향후 사업 전략을 발표했다.올해 3분기 개별 기준 매출은 202억7000만원, 영업이익은 51억1000만원으로 전년 동기 대비 각각 16.9%, 6.6% 증가했다. 영업이익은 분기 기",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717739",
+      "publishedAt": "2026-11-24T14:12:18+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "706d4ad532ad307b1d4c3af2a23f8e1798b123b6",
+      "title": "[더벨]더즌, 인도네시아 DNNA와 파트너십 체결",
+      "source": "머니투데이",
+      "description": "더벨|이 기사는 11월24일(14:03) 자본시장 미디어 머니투데이 thebell 에 출고된 기사입니다. 디지털 금융 서비스 기업 더즌이 다나(DANA)와의 전략적 파트너십을 바탕으로 현지 디지털 금융 협력을 확대한다고 24일 밝혔다. 다나는 인도네시아 1위 간편결제 플랫폼이다. 더즌은 지난 18일부터 20일까지 싱가포르 엑스포에서 열린 싱가포르 핀테크 페스티벌 2026(SFF 2026) 에서 DANA와 전략적 파트너십을 맺었다다. 양사는 이번 파트너십을 통해 인도네시아에서 사업·기술 협력을 중장기적으로 확대해 나간다는 방침이다. DANA는 온·오프라인 결제와 송금 등 다양한 디지털 금융 서비스를 제공하는 인도네시아 대표 간편결제 플랫폼이다. 2억명 이상의 가입자를 기반으로 인도네시아의 디지털 결제 및…",
+      "link": "https://www.mt.co.kr/stock/2026/11/24/2026112414059695998",
+      "publishedAt": "2026-11-24T14:08:14+09:00",
+      "feed": "머니투데이"
+    },
+    {
+      "id": "acc3c3989a7e292bc07dbb21f9cc193eeb2ce569",
+      "title": "\"1000원부터 쉽게 투자\"...토스뱅크 펀드서비스, 열흘 만에 5만좌",
+      "source": "파이낸셜뉴스",
+      "description": "토스뱅크의 펀드 서비스가 출시 열흘 만에 가입 계좌 수 5만좌를 넘어섰다. 어려운 상품명을 쉽게 풀어 안내하고, 1000원이나 통장에서 받은 이자로 투자를 시작할 수 있도록 해 서비스의 진입장벽을 낮췄다. 24일 금융권에 따르면 토스뱅크가 지난 12일 출시한 펀드 서비스의 누적 가입 계좌 수는 지난 22일 기준 5만좌를 돌파했다. 하루 평균 약 5000좌가 개설된 셈이다. 전날 기준으로는 5만1157좌를 기록하며 고객들의 관심을 끌고 있다. 토스뱅크는 국내외 주식·채권·혼합형·금·머니마켓펀드(MMF) 등 총 17종을 판매하고 있다. 정식 상품명과 함께 '코스피 200 따라가기', '나스닥 100 따라가기', '소액으로 금 모으기' 등 투자 대상을 파악하기 쉬운 이름을 제공한다. 투자 대상과 전략, 위험등급…",
+      "link": "https://www.fnnews.com/news/202611241045046769",
+      "publishedAt": "2026-11-24T13:42:59+09:00",
+      "feed": "파이낸셜뉴스"
+    },
+    {
+      "id": "5ea2bd7e9bed6fee784e281fbb86a3da6e3ccb97",
+      "title": "美 CFTC, 비트코인·이더리움·스테이블코인 운영 준비금 인정",
+      "source": "디지털투데이",
+      "description": "미국 상품선물거래위원회(CFTC)가 규제 대상 파생상품 거래소와 청산기관의 운영 준비금 일부에 비트코인과 이더리움, 결제용 스테이블코인을 포함할 수 있도록 허용했다. 암호화폐를 금융 인프라의 재무자원으로 인정하는 범위가 확대되면서 미국 규제 체계 내 디지털 자산 수용에도 변화가 나타나고 있다.23일(현지시간) 블록체인 매체 코인텔레그래프에 따르면, CFTC 직원들은 이날 관련 지침을 발표하고 특정 디지털 자산을 규제 대상 사업자의 재무자원 요건 일부로 인정할 수 있다고 밝혔다.이번 지침은 파생상품 거래소",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717720",
+      "publishedAt": "2026-11-24T13:38:22+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "ea5dbda523349ff0771186cfef0d164984d69475",
+      "title": "[단독]토스, 온투업 등록 보류",
+      "source": "전자신문",
+      "description": "토스가 온라인투자연계금융업(온투업) 등록 신청을 보류한다. 토스는 이미 등록 요건을 갖췄지만, 금융위원회가 대형 금융플랫폼의 온투업 진출에 신중한 입장을 보이면서 신청 시점을 늦추기로 했다. 24일 금융권에 따르면, 토스는 당분간 온투업 등록 신청서를 제출하지 않을 방침이다. 금융위의 신중론에 국회와 온투업계 반발까지 겹치면서 진출을 둘러싼 여론이 우호적이지 않다. 금융당국은 토스의 진출이 다른 대형 핀테크사와 금융회사의 연쇄 진입으로 이어질",
+      "link": "https://www.etnews.com/20261124000315",
+      "publishedAt": "2026-11-24T13:36:27+09:00",
+      "feed": "전자신문"
+    },
+    {
+      "id": "2e3ae3aba6711fa4ac20e1b8120d4c183c31125e",
+      "title": "3개 PG업체 해킹에 '결제 취소사유'까지 털렸다",
+      "source": "지디넷코리아",
+      "description": "온라인 쇼핑몰서 결제할 때 온라인 쇼핑몰과 소비자, 결제사를 이어주는 전자지급결제대행(PG) 업체 세 곳서 해킹이 발생함에 따라 결제 내역은 물론이고 왜 결제를 취소했는지와 같은 세세한 정보까지 유출된 것으로 확인됐다. 24일 웰컴페이먼츠는 지난 17일 오후 가맹점 관리자를 통해 개인 및 신용 정보가 유출됐으며 당시 1388건 정보가 유출됐다고 봤으나 다시 파악한 결과 1326건으로 줄었다고 밝혔다. 웰컴페이먼츠 해킹으로 인해 개인정보(휴대전화·이메일)이 털렸으며 상세한 결제 내역이 유출됐다. 결제 내역에는 가맹점명·주문번호·트랜젝션 ID·자동 결제를 위한 빌링키가 포함됐으며 결제금액과 상품명, 거래일시 거래상태, 결제방법과 취소 사유 등도 유출됐다. 웰컴페이먼츠 측은 \"카드번호, 비밀번호, 카드 유효…",
+      "link": "https://zdnet.co.kr/view/?no=20261124110519",
+      "publishedAt": "2026-11-24T13:26:29+09:00",
+      "feed": "지디넷코리아"
+    },
+    {
+      "id": "7459f01f113d9c64b1ea27f508a425119fc991da",
+      "title": "[더벨]한패스, 코리아 핀테크 위크 2026 참가",
+      "source": "머니투데이",
+      "description": "더벨|이 기사는 11월24일(13:20) 자본시장 미디어 머니투데이 thebell 에 출고된 기사입니다. 글로벌 생활금융 플랫폼 기업 한패스가 오는 25일부터 27일까지 서울 양재 aT센터에서 열리는 코리아 핀테크 위크 2026 에 참가한다고 24일 밝혔다. 이번 행사에서는 해외송금을 기반으로 확장해 온 생활금융 서비스와 향후 사업 방향을 소개할 예정이다. 한패스는 외국인 고객이 겪는 복잡한 금융 환경과 언어·제도적 장벽을 해소하기 위해 해외송금 서비스를 중심으로 사업을 확대해 왔다. 디지털 월렛, 카드, 모바일 결제 등 금융 서비스를 비롯해 구인구직, 행정 상담, 통신, 쇼핑 등 생활 편의 영역까지 사업범위를 넓혔다. 이번 전시에서는 이러한 금융·생활 서비스를 함께 소개할 계획이다....",
+      "link": "https://www.mt.co.kr/stock/2026/11/24/2026112413209652784",
+      "publishedAt": "2026-11-24T13:23:21+09:00",
+      "feed": "머니투데이"
+    },
+    {
+      "id": "66ae8c4075ed954697f704f529af01db19d6b72c",
+      "title": "간편결제 개인정보 유출 2배 쑥…디지털금융 이용률 하락",
+      "source": "매일경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBRGN4NlRMdjZlbVljT1I1a0Jzb0pCaGotNFU1Q3ZQeHpCUU0zY2RNV2ZNVGcwYUhFaWJqV08tcFJqOHYweGV2TEVoRUhxMHl5T214Zg?oc=5",
+      "publishedAt": "2026-11-24T12:01:00+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "972c889e4b5c98a181a775e12644315b7937c1bf",
+      "title": "국내 PG사 잇단 해킹 사고…웰컴페이먼츠와 NHN KCP·KIS정보통신 등 개인정보 유출",
+      "source": "데일리시큐",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIQW53NnE5QngtQkdTdlhfZ29tSThiMnFLN3NUVUVLMjc5Z1ZwV3NyNzBsZDM0ZlVyLWJLa2NYWHFGQmNEdkJsNFc2Vk9oLTJnR2UwVlZaRWpwUDMxTTVNUjJ0ZVJ5UkxucG5sNQ?oc=5",
+      "publishedAt": "2026-11-24T11:28:38+09:00",
+      "feed": "키워드: PG사"
+    },
+    {
+      "id": "a6b0b9ae9e3599a5e7f5dc64688f5bf4f2d4fed9",
+      "title": "역대 최대 ‘코리아 핀테크 위크’ 개막…이억원 금융위원장 “금융권 AX 서두를 것”",
+      "source": "헤럴드경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoZVdSbHdwRmUtR3I4SFg5NXdqblExNEFmQVJnZ0pQWVFFZEtvdlV3Q1JLa3Z4VHc2SGlXNmlWc2NOMDNLTzJVakUwVktKYmVqWTgzaWVB?oc=5",
+      "publishedAt": "2026-11-24T10:16:05+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "5246d49a02b2d85c81eaf4ccca5007a0a61f021d",
+      "title": "케이에스넷, 국회 원화 스테이블코인 컨퍼런스 참여… 결제·유통체계 논의",
+      "source": "국민기자뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhVFIxVzVOVkZRT2lmYXVCTWdjWVBMR0x3T3owSEVDUm1UTUVPSVJ4N0VkNzR3OEV2QndTUnU0TWJBcjZmS0JKT08wUEk3ZmE0M1N2MlExUFNBSkY4M0stQTNYc9IBZ0FVX3lxTE9pQ0ktaEk3TGFJMUlsbkEtZV8wamU2ZXNGN09EUTJ1VFl6djJoaEFZdnlnN0U1RDNHOVRwbFZFS1h3cVBHNUZGN3RMM0hXM2p2LXVhNFdJLTA3WjVIcWpfY25YUGJNNms?oc=5",
+      "publishedAt": "2026-11-24T10:05:00+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "79e6814b84e3785f37d1841c7bfec30e98a5fe13",
+      "title": "[MK시그널] 페이저듀티 매도신호 포착, 수익률 49.9% 달성",
+      "source": "매일경제",
+      "description": "안녕하세요. 미국 주식 핫 이슈 종목을 분석해드리는 AI 기자 ‘MK시그널’입니다. 23일, 페이저듀티(PD)가 MK시그널에서 매도 신호가 포착돼 수익률 49.90% 달성했습니다...",
+      "link": "https://www.mk.co.kr/news/stock/12216876",
+      "publishedAt": "2026-11-24T10:02:28+09:00",
+      "feed": "매일경제"
+    },
+    {
+      "id": "781701e585b4eb221168e1e6bc18c794092485be",
+      "title": "1달러 스테이블코인이 7800원…SKY 창업자 1000억 대출 사태에 USDS ‘이상 폭등’",
+      "source": "블록미디어",
+      "description": "미국 달러화에 가치가 연동된 스테이블코인 유에스디에스(USDS)가 국내 가상자산 거래소 업비트에서 7800원까지 치솟았다. 스카이프로토콜(SKY·구 메이커다오) 공동 창업자의 대규모 담보대출로 예치상품 출금이 막힌 가운데, 국내 거래소의 입금 중단 조치까지 겹치면서 가격이 비정상적으로 급등하고 있다. 24일 오전 9시 40분께 업비트 원화마켓에서 USDS는 전일 대비 79.68% 오른 7800원에 거래됐다. 전날 4800원 선까지 상승한 데 이어 추가 [...]",
+      "link": "https://www.blockmedia.co.kr/archives/1169727?utm_source=general&utm_medium=rss",
+      "publishedAt": "2026-11-24T09:55:01+09:00",
+      "feed": "블록미디어"
+    },
+    {
+      "id": "7b8abfcc84951481e82dcddf4b53c0d771f1d9ad",
+      "title": "국내 핀테크 10개사, 싱가포르서 해외 투자기관 만나…투자 유치는 협의 단계",
+      "source": "데일리팝",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GbE5oc1hnYnEwOEQ1WDhCYVNFQ3AycnpwT3A5WVdjR1FadFFIZ1g3WTdoNW5Sd1VrT3hFeW9MREpaR1pHT1BHT19Yd1BnX1RGTHlEYVhNNThrTjZLQTZMbDlTM25objlM?oc=5",
+      "publishedAt": "2026-11-24T09:49:00+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "86ce2d99c36d228e48fac4948067f86471cd8247",
+      "title": "[단독]NHN KCP·KIS정보통신·웰컴페이먼츠도 뚫렸다…금융위, PG사 긴급 소집",
+      "source": "전자신문",
+      "description": "NHN KCP와 KIS정보통신, 웰컴페이먼츠에서 개인정보 유출 사고가 발생했다. 금융위원회는 전자금융업권에서 침해 사고가 잇따르자 주요 전자지급결제대행(PG) 업체를 불러 가맹점 접속 계정과 노후 시스템의 보안을 점검하고 재발 방지책을 마련하라고 주문했다. 금융위는 지난 23일 KG이니시스, 토스페이먼츠, 나이스정보통신, 한국정보통신, KG파이낸셜, 다날 등 전문 PG사를 소집했다. 금융위는 PG사가 가맹점과 카드사 사이에서 개인정보와 결제정보",
+      "link": "https://www.etnews.com/20261124000100",
+      "publishedAt": "2026-11-24T09:46:50+09:00",
+      "feed": "키워드: PG사"
+    },
+    {
+      "id": "920109a2f5cd1ce58d003f88e7d174ff6274e2e3",
+      "title": "[BLOCKCHAIN DAILY] 원화 스테이블코인 입법 초읽기…글로벌 디지털자산 결제망 확대",
+      "source": "climatepol.com",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDTFo5NVB1YVg2NDhpM2loYWttVUZwV0hBN19IS3ZLVFU0bjVLT1ZmdWNxNzZKRWhYVkNVYlFScmpTSEpfSWZSRzBLWTA4Y2kzd2VNekNqODJBUkU2REIyNjJ3d3lCSUN4UDkycQ?oc=5",
+      "publishedAt": "2026-11-24T09:10:01+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "91191ecbd546383d20669c7b7e33f5af6feb340b",
+      "title": "이은미 토스뱅크 대표 “AI 결제 확산, 신뢰·책임 체계 구축이 선결 과제”",
+      "source": "서울경제TV",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KbW9YMGJ6WmFGS1lDRGpfalhXTUVremxnT0lJa2JrelJ5UnE0dEh1V2ZBbWpjUVllU2REbGZYOUZ6RFA1WlpJMWZiSm5KR2J1b0kwdlB2NzBPa1E3bm9aVHNZbHQ?oc=5",
+      "publishedAt": "2026-11-24T08:36:44+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "99d4833b914bc5ccc556086f588e7b70196a8eca",
+      "title": "한국금융연구원, 스테이블코인 프리미엄과 원·달러 환율 동학 규명",
+      "source": "블록체인투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BMDBsNDUxaVE2WTR1M3NPMklOT0Vfb1gxSWU1QVE0NHByRmYtMjVMN3otdFl6ODFWLUl4Vi1kdWk1dDFneUVWWE54VWpWR09RVmFiSWp6VUdHWlU2TExnM09KNnpiVXVNUlVGdExtdXo?oc=5",
+      "publishedAt": "2026-11-24T08:15:00+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    }
+  ]
 }
