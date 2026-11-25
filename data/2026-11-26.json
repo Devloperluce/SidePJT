@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-26",
+  "window": {
+    "from": "2026-11-25T07:00:00+09:00",
+    "to": "2026-11-25T23:18:56+09:00"
+  },
+  "generatedAt": "2026-11-26T07:39:57+09:00",
+  "overview": {
+    "headline": "스테이블코인 연합 결성, 결제는 국경 넘는다",
+    "points": [
+      "네이버·은행·카드 연합과 헥토·신한·iM뱅크까지 스테이블코인 결제·정산 실험이 쏟아졌다.",
+      "카카오페이 현지화와 금결원 QR망 논의로 카드망 밖 해외결제 경쟁이 본격화된다.",
+      "핀테크 위크에서 카드사·비자는 AI 대리결제의 인증·안전을 다음 승부처로 꼽았다."
+    ]
+  },
+  "top3": [
+    "8c8496132f4365b2be971c71dcb6884ca6609cbe",
+    "1ca13af5e5281db69beb21954d6929723a56ea6c",
+    "6858422ec0c24ca9803ceea4b6e451a4491eeb09"
+  ],
+  "items": [
+    {
+      "id": "69d5d9e31da6488757cc71df978954e23a4b2bb6",
+      "title": "헥토이노베이션, 카이아와 스테이블코인 결제·정산 인프라 협력",
+      "source": "로이슈",
+      "publishedAt": "2026-11-25T21:52:33+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMc0VhWUZNQ2lLd1Q3OHNkUEJFX1daSF9HTXBEZnNkbEowcDYtejZmd21YWGhzVlExc0lKU1JOVWJnSmNsSzZGOW9nRnNDaTEyQ0RmcWVrVTR0cGd3VUZIU1FtOVpXSXJKUGxQYUNMSEE4REd5cF82V2xn?oc=5",
+      "category": "settlement",
+      "summary": [
+        "헥토이노베이션이 카이아와 스테이블코인 결제·정산 인프라 협력에 나섰다."
+      ],
+      "insight": "헥토의 스테이블코인 정산 구조가 기존 PG 정산 주기와 어떻게 다른지 확인.",
+      "importance": 2
+    },
+    {
+      "id": "18d7bd182ddaa27ca1b9bcc02b22d657f7f54151",
+      "title": "AI도 신분증 검사? AI 대리결제 시대, 금융권 새 인증체계 과제",
+      "source": "헤럴드경제",
+      "publishedAt": "2026-11-25T21:40:24+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sNDVSQXNUc04xcy1JRzBXanNJcFJka2NwZ1A1bGdjVFQ4T2FjQ1hJUk5STDlxX2lWbE14aWpRSGJsM2t4dHlDb3RfWnA0UkxrQ3cyaURn?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "AI 대리결제가 늘면서 AI의 결제 권한을 확인할 새 인증체계가 금융권 과제로 떠올랐다."
+      ],
+      "insight": "AI 에이전트 결제 시 사용자 위임 범위·한도를 어떤 인증 단계로 확인할지 플로우 초안 작성.",
+      "importance": 2
+    },
+    {
+      "id": "32edc4240b8fbba361123271c9c516781a0221f4",
+      "title": "[오늘의 게임·IT 소식] 빗썸, NHN페이코와 ‘더블적립 카드’ 선보여 外",
+      "source": "Naver Blog",
+      "publishedAt": "2026-11-25T20:26:51+09:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHZkY1NBR1k5X0MxQnR6SlQwTjZkUWtsLUZBVzFNNFNxYWt1STJLTS1FYjhOM2VlOE1lbkg2R2lHLVJRb3lORU5TMUN4U2xoUTJaeFBfT0dlRjdNajNYTjRDcWdQcVdIcXdIdXVoX2kyTjBwZWYxYXU3Mi1zLWRBckloNUlkNW51dGhnZ0dwNA?oc=5",
+      "category": "payment",
+      "summary": [
+        "빗썸이 NHN페이코와 더블적립 카드를 선보였다."
+      ],
+      "insight": "거래소·간편결제 제휴 카드의 적립 구조를 확인해 우리 제휴 프로모션 설계에 참고.",
+      "importance": 1
+    },
+    {
+      "id": "25d965955bd8a00b7a97290607c8c5b3ff2da640",
+      "title": "STO·스테이블코인 시장 키우려면…“발행 넘어 유통·결제까지”",
+      "source": "딜사이트",
+      "publishedAt": "2026-11-25T20:03:49+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qNEZqUkJnb2I2d1pWMkJUUTRxSkhlNWNMS2VaNmQtZFVlYmpRQV9acFloeHhhU2hNbzV2TEtvcWUwTW40YldhYkhXVmpYOGs?oc=5",
+      "category": "market",
+      "summary": [
+        "STO·스테이블코인 시장을 키우려면 발행을 넘어 유통·결제까지 이어져야 한다는 지적이 나왔다."
+      ],
+      "insight": "스테이블코인 결제를 받으려는 가맹점 수요가 있는 업종(해외직구·게임 등)을 우선순위로 정리.",
+      "importance": 1
+    },
+    {
+      "id": "8c8496132f4365b2be971c71dcb6884ca6609cbe",
+      "title": "디지털융합산업협회 \"기업 해외송금에 스테이블코인 허용해야\"",
+      "source": "폴리뉴스 Polinews",
+      "publishedAt": "2026-11-25T19:34:15+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BZDduLUFCWEFSLVNWd1F4aEpZNlQtYjg0UHhodnNiaVFBWjZWMXFwUmIyNVR3bDdaNjdMR1VDQUcxMG5hWS1PYWQxYjVWTGh1V2UyaVdhZkJ4Z1pzZk9nTG9seXJQTGFsRXQySmNB?oc=5",
+      "category": "regulation",
+      "summary": [
+        "디지털융합산업협회가 기업 해외송금에 스테이블코인을 허용해야 한다고 주장했다."
+      ],
+      "insight": "현재 기업 해외송금 수수료·소요일과 스테이블코인 송금 시 비용을 비교해 B2B 정산 상품 가능성 점검.",
+      "importance": 3,
+      "why": [
+        "원화 스테이블코인 법제화 논의가 개인 결제를 넘어 기업 송금·외환 영역으로 넓어지고 있다.",
+        "기업 송금이 허용되면 은행 중심의 해외송금·외환 정산 시장에 핀테크가 끼어들 여지가 생길 수 있다."
+      ]
+    },
+    {
+      "id": "c8f7158e0f98edabce555299e58526e04d8875b8",
+      "title": "DSRV, AI끼리 'USDC 결제'하는 지갑 출시 준비",
+      "source": "디지털애셋",
+      "publishedAt": "2026-11-25T19:00:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE92cG5HUVBhNnZ4dDZfV1BNSnRDMkdwZC1OaFkyRjBHM3g5eDcyM2hwODZhUHRSOFhpSW5TUHNybFN1UGxKMXJ0bTM5TFV2NG5Ybm1mc01FMzF3dWFkLUVhZ29fSWdWaUdfakhxSzA0VHk0Zw?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "DSRV가 AI끼리 USDC로 결제하는 지갑 출시를 준비 중이다."
+      ],
+      "insight": "AI 간 USDC 결제가 생기면 가맹점 정산·환전 처리를 어떻게 지원할지 요구사항 초안 작성.",
+      "importance": 2
+    },
+    {
+      "id": "f833f4ebf07704837ecb3f9a71c4738c577cbec6",
+      "title": "빗썸 \"스테이블코인 결제 활성화, 소비자 보호 선행돼야\"",
+      "source": "디지털애셋",
+      "publishedAt": "2026-11-25T18:40:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qQUhkSjg4RXJfNUJNNzJjVzM2Y01tUWF1MmU5azYzb2JMY1k4SXlmampfTVlzbUJDLUpXbm5HTDZ1N2FGNE95WTQtX1l1d1hzQXdjcmtWZHlmNjgwQ09YeDJiZDE2a1FYWkZUVUZyZW0xdw?oc=5",
+      "category": "regulation",
+      "summary": [
+        "빗썸이 스테이블코인 결제 활성화에 앞서 소비자 보호가 먼저라고 밝혔다."
+      ],
+      "insight": "스테이블코인 결제 시 환불·분쟁 처리 절차를 카드 결제 기준과 비교해 공백 항목 정리.",
+      "importance": 1
+    },
+    {
+      "id": "16f95505da5403cf76e944b7707b9fd384f5f897",
+      "title": "[금융新세계] AI, 결제 시장 침투…카드업권 ‘결제 주도권’ 확보 방안 모색",
+      "source": "주간한국",
+      "publishedAt": "2026-11-25T18:31:07+09:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52TUg4dVFoblNoRVB5OU05VmRKejlBT0lFbkQ1eGpuNmdodXhzMUt5ZjUyMzJDUGJnRzVDQ0VldFFFLU96cFlCMTR0VWk4clkwVmFFYUU5N054czBhYVpUS0Z3bEhLelhyaXhjNFZidHrSAXRBVV95cUxNal9GZFJ2S1ppaU5lbndQclNQZElZSTE3UmpOcVkxZHNnYW9rOUtLNElCcEQ2M3BQTUhtbFVYUDVLT2xvcjFST05SYUh0SWpJV19fSDlyc3BIOXFoN3h0STJjWDBreVNpa0hNYUdZalcxenJZUA?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "AI가 결제 시장에 들어오면서 카드업권이 결제 주도권 확보 방안을 찾고 있다."
+      ],
+      "insight": "카드사가 에이전트 결제 표준을 쥘 경우 PG 결제창 단계가 어떻게 줄어들지 시나리오 정리.",
+      "importance": 1
+    },
+    {
+      "id": "ea141585dbc592caccd993df5ad48f73317bacaf",
+      "title": "코리아 핀테크 위크 개막… AI·블록체인 기반 미래 금융 총집결",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-25T18:20:58+09:00",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718102",
+      "category": "regulation",
+      "summary": [
+        "금융위원회 주최 코리아 핀테크 위크 2026이 25일 양재 aT센터에서 역대 최대 규모로 개막했다.",
+        "140개 기업·기관이 참가했고 AI·블록체인 기반 서비스가 전시됐다.",
+        "당국은 금융권 AI 전환과 디지털자산 활성화 제도 개선에 속도를 내겠다고 밝혔다."
+      ],
+      "insight": "27일까지 열리는 행사에서 경쟁사 결제 시연 목록을 뽑아 우리 로드맵과 겹치는 항목 표시.",
+      "importance": 2
+    },
+    {
+      "id": "928bca6b31779834272f72f7e86bce5e0d319bb9",
+      "title": "뱅크샐러드, AI 에이전트로 취업·결혼·출산 지원…미래 금융서비스 시연",
+      "source": "디지털투데이",
+      "publishedAt": "2026-11-25T18:17:14+09:00",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718129",
+      "category": "ai_agent",
+      "summary": [
+        "뱅크샐러드가 마이데이터와 AI를 결합한 멀티 에이전트 금융서비스를 시연했다.",
+        "취업·결혼·출산 등 생애주기별로 필요한 금융서비스를 찾아 실행까지 해준다는 구상이다."
+      ],
+      "insight": "에이전트가 금융상품을 실행할 때 결제·이체를 어떤 API로 호출할지 우리 연동 규격과 대조.",
+      "importance": 1
+    },
+    {
+      "id": "651f07afcd8ab5041b1d96e9969275fc46af4323",
+      "title": "AI가 쇼핑하고 카드까지 고르는 시대…비자·삼성·신한카드가 본 미래 결제",
+      "source": "소비자가 만드는 신문",
+      "publishedAt": "2026-11-25T17:56:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85aDRTQlZaTWpZZzEtX3JpMl9XZWN5Q0xyMmtXNzkybUlwdVNXVDhaaWQ2TExfLVlBdWVpeEZLU19ydG9tN3kyUU5uU1hLUk1NdUhrUzZQdWZ1LVVidl9sWnl4bUoxdURrTTlYX0lxWWgyUUU?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "비자·삼성카드·신한카드가 핀테크 위크에서 AI가 쇼핑·카드 선택까지 하는 미래 결제를 논의했다.",
+        "비자는 신뢰와 협력을, 신한카드는 안전한 결제를 승부처로 꼽았다."
+      ],
+      "insight": "비자 등 카드 브랜드의 에이전트 결제 토큰 규격 지원 계획을 확인해 우리 결제창 대응 범위 결정.",
+      "importance": 2
+    },
+    {
+      "id": "dbf27ae645481556e321f0863bdb5e7db5c9c9d0",
+      "title": "금융 국경 허무는 QR···\"앱 하나로 전 세계서 결제\"",
+      "source": "파이낸셜뉴스",
+      "publishedAt": "2026-11-25T17:44:40+09:00",
+      "link": "https://www.fnnews.com/news/202611251509537016",
+      "category": "payment",
+      "summary": [
+        "아시아 중심으로 국가 간 QR 결제망 구축이 활발해져 국내 금융·핀테크사도 해외 결제에 속도를 낸다.",
+        "금융결제원은 글로벌 카드망 수수료를 줄일 수 있다며 QR망 연결 필요성을 강조했다.",
+        "다만 거래 안정성 한계로 민관 협력이 과제로 꼽혔다."
+      ],
+      "insight": "국가 간 QR 결제 연동 시 가맹점 수수료와 카드망 경유 수수료 차이를 국가별로 산출.",
+      "importance": 2
+    },
+    {
+      "id": "1ca13af5e5281db69beb21954d6929723a56ea6c",
+      "title": "카카오페이, 해외결제 현지화…동남아 QR·유럽 NFC 앞세운다",
+      "source": "전자신문",
+      "publishedAt": "2026-11-25T17:41:29+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EUkQzckFYbUdrZVo2STBabl9CQnAtVXRfaVlUYUV4dE45NmxjN3cwRDh1OElIMXpyMGxVRnNhY2ZUOGJzQkZrWGhMWkE5UQ?oc=5",
+      "category": "payment",
+      "summary": [
+        "카카오페이가 동남아는 QR, 유럽은 NFC를 앞세워 해외결제를 현지화한다.",
+        "각국 주요 결제사와 제휴해 여행지 결제망을 넓힌다는 계획을 핀테크 위크에서 밝혔다."
+      ],
+      "insight": "카카오페이·네이버페이·토스의 해외결제 가능 국가와 결제 방식(QR/NFC)을 표로 비교.",
+      "importance": 3,
+      "why": [
+        "해외여행 결제는 카드사·글로벌 브랜드 결제망이 주도해 왔고 간편결제사는 제휴로 영역을 넓혀 왔다.",
+        "지역별로 QR·NFC를 나눠 쓰는 전략이 자리 잡으면 해외 오프라인 결제에서 카드 의존이 줄 수 있다."
+      ]
+    },
+    {
+      "id": "b9f84b5055dc75b9a5b2bc577b006d653af6bf20",
+      "title": "앤트로픽, 韓 AI 유료 시장서 두각…카드 결제액 오픈AI 1.5배",
+      "source": "지디넷코리아",
+      "publishedAt": "2026-11-25T16:58:10+09:00",
+      "link": "https://zdnet.co.kr/view/?no=20261125165637",
+      "category": "market",
+      "summary": [
+        "지난달 앤트로픽의 국내 카드 결제액은 1086억원으로 오픈AI 709억원의 약 1.5배였다.",
+        "앤트로픽은 3월 처음 오픈AI를 추월했고 격차는 377억원까지 벌어졌다.",
+        "결제자 수는 오픈AI가 더 많지만 1인당 결제액은 클로드가 높다."
+      ],
+      "insight": "해외 AI 구독 결제가 늘어난 만큼 해외 가맹점 카드 승인율과 원화 결제 수수료를 점검.",
+      "importance": 1
+    },
+    {
+      "id": "e18331ad66913870fc6b0088dd955baeed3f11a8",
+      "title": "호반프라퍼티, 네이버페이와 손잡고 간편결제 도입",
+      "source": "CNB뉴스",
+      "publishedAt": "2026-11-25T16:32:56+09:00",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zaTBqWkFtN1lLbUtzYjdSQU90THVmbWdteFFiU01zOE16Y21sOHRJLWE5dnVnSlA3WF94YV9xbUJNVjM4MVFpMl9NRFlfZmxHSzB6NmJLODJpaGROQlJXOWtjaWNtcEdVMFQ4?oc=5",
+      "category": "payment",
+      "summary": [
+        "호반프라퍼티가 네이버페이와 손잡고 간편결제를 도입했다."
+      ],
+      "insight": "부동산·시설 운영사의 간편결제 도입 용도(임대료·관리비 등)를 확인해 영업 대상 업종에 추가 검토.",
+      "importance": 1
+    },
+    {
+      "id": "6858422ec0c24ca9803ceea4b6e451a4491eeb09",
+      "title": "[단독] 네이버·신한·우리·NH농협·삼성카드, 원화 스테이블코인 맞손",
+      "source": "바이라인네트워크",
+      "publishedAt": "2026-11-25T16:31:09+09:00",
+      "link": "https://byline.network/2026/11/1125-5/",
+      "category": "settlement",
+      "summary": [
+        "네이버파이낸셜이 신한·우리·NH농협은행, 삼성카드와 원화 스테이블코인 협력체를 꾸렸다.",
+        "이들은 서울 강남에 별도 사무실을 두고 발행·사업 모델을 연구 중이다."
+      ],
+      "insight": "네이버페이 가맹점에 원화 스테이블코인 결제가 붙을 경우 PG 정산 흐름이 어떻게 바뀔지 시나리오 정리.",
+      "importance": 3,
+      "why": [
+        "디지털자산법 정부안이 원화 스테이블코인을 은행 중심으로 설계하면서 빅테크와 은행의 합종연횡이 시작됐다.",
+        "가맹점망을 가진 간편결제사가 발행 연합에 들어가면 스테이블코인이 실결제로 빠르게 넘어갈 수 있다."
+      ]
+    },
+    {
+      "id": "1a8434c529c46e6f3882fd1cd4a4fc172eb506ba",
+      "title": "iM뱅크, 블록체인 진흥주간 참가…예금토큰 QR 결제 선보여",
+      "source": "뉴스웍스",
+      "publishedAt": "2026-11-25T16:20:30+09:00",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zOG1Ec2pyNmM2NHlJMWM0c09taUVfWU90WmZCcm9NRUN6T3NKZjM3Tk94NG9HUkFEZlhzN0NhNm1VTWs1cFlidDEtM2JvdllCdUFZOFJaN1JpQS1mWXgzTDg0V0hOUXVQLTU3SWh3Y9IBc0FVX3lxTE9aRDA3aVpHYnJDZG1aTkRxWHJLMF8zWkUxOXBrejZuYWtaaFZLMnQ3VHEySlRzMnJBSXpsSlhCMWlkQ0xRRU1FNjcycGE3UkpGWmJJQVlzWXUxa3lLRjcyU28zWkxOU0JWQklBc3Jvb0xnQlU?oc=5",
+      "category": "payment",
+      "summary": [
+        "iM뱅크가 블록체인 진흥주간에서 예금토큰 기반 QR 결제를 선보였다."
+      ],
+      "insight": "예금토큰 QR 결제의 가맹점 정산 시점과 수수료를 기존 QR 간편결제와 비교.",
+      "importance": 2
+    },
+    {
+      "id": "e26b861c4b1b532ec1921f4d0120149d50c349a6",
+      "title": "[스테이블코인 승부수②] 신한금융, 글로벌 결제망 구축 나서",
+      "source": "PRESS9",
+      "publishedAt": "2026-11-25T15:41:03+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CU1BYc3V5OXoteDl0eTRoNFl0SzVhRnNUb28zb3dsMlMyWl96c2VxVEhlVGtOelFsNVJGVi0xME9fcV9nX2FNT3pQc1QyU3FaQ2drVjVwMFVyWjRRbFVESFpNYTA?oc=5",
+      "category": "settlement",
+      "summary": [
+        "신한금융이 스테이블코인 기반 글로벌 결제망 구축에 나섰다."
+      ],
+      "insight": "신한·우리금융 등 금융지주별 스테이블코인 제휴처(커머스·PG)를 정리해 우리 협업 후보 선별.",
+      "importance": 2
+    },
+    {
+      "id": "cbe41dbaa1a90b87aed07bc1797ae791c97a4a7a",
+      "title": "[르포]손바닥으로 병원비 내고, AI에 적금 가입 맡겼다",
+      "source": "전자신문",
+      "publishedAt": "2026-11-25T15:00:00+09:00",
+      "link": "https://www.etnews.com/20261125000348",
+      "category": "payment",
+      "summary": [
+        "네이버페이가 손바닥 정맥 인증 핸드사인으로 진료비를 결제하는 과정을 시연했다.",
+        "결제 직후 실손24와 연동해 보험금 청구까지 자동으로 이어진다.",
+        "토스도 같은 행사에서 실손 청구·금리인하 자동 신청을 시연했다."
+      ],
+      "insight": "병원 결제 후 실손 청구 연결처럼 결제 직후 붙일 수 있는 후속 서비스를 우리 가맹점 업종별로 나열.",
+      "importance": 2
+    },
+    {
+      "id": "aeb2411e6dc092c889bc085eeaea1a27faf6652f",
+      "title": "쿠콘, 싱가포르 핀테크 행사서 MOU 4건…스테이블코인·해외 결제 공략",
+      "source": "문화일보",
+      "publishedAt": "2026-11-25T14:58:31+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RakM5SFdXM21oSnhsOTRjVlNYOW9mWUg2cGdyNHFKUkdsWmZWZEVJVHBsUkFOVDdzZnFTdVVfSnlKVWZ5UHFES244U0MtNk4y?oc=5",
+      "category": "market",
+      "summary": [
+        "쿠콘이 싱가포르 핀테크 페스티벌(SFF)에서 글로벌 결제·디지털자산 기업과 MOU 4건을 맺었다.",
+        "스테이블코인과 해외 결제 시장을 겨냥한 협력이다."
+      ],
+      "insight": "쿠콘 MOU 상대사의 지원 국가·통화를 확인해 해외 정산 API 연동 후보로 검토.",
+      "importance": 2
+    },
+    {
+      "id": "84591b59432dcab6ba673746cdbecc84bc724ff4",
+      "title": "[기획]지도·결제·OTT까지…美 빅테크 공세에 토종 기업 '비상'",
+      "source": "매일일보",
+      "publishedAt": "2026-11-25T14:50:18+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kdnoxQ0JSTkxoMF9fSU5uZVpKRE9qcWcyU2d3U2xBcWdCZVVpVjVQUlZ2UHotckFhR2ktNTRjS01hSFQ0OTVkOUZHZGh5U2dCWmNGTW4zc2ZQeGtBdkNtMjBLb0s?oc=5",
+      "category": "market",
+      "summary": [
+        "지도·결제·OTT 등에서 미국 빅테크 공세가 커지며 국내 기업들이 위기감을 느끼고 있다."
+      ],
+      "insight": "애플페이·구글페이 국내 확장 시 우리 결제창에서 빠질 수 있는 거래 비중을 추정.",
+      "importance": 1
+    }
+  ]
+}
