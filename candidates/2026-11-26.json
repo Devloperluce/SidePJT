@@ -2,271 +2,370 @@
   "date": "2026-11-26",
   "window": {
     "from": "2026-11-25T07:00:00+09:00",
-    "to": "2026-11-25T11:25:17+09:00"
+    "to": "2026-11-25T23:18:56+09:00"
   },
   "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[why] 그날 가장 중요한 3건에만 (importance 3, 3건이 안 되면 importance 2 중 가장 중요한 기사로 채움). \"왜 중요한가\" 2문장 (각 60자 이내)\n- 1문장: 이 일이 왜 생겼는지 배경. 기사에 없는 배경은 널리 알려진 사실만 쓴다.\n- 2문장: 결제·핀테크 업계에 어떤 의미인지. 전망은 \"~수 있다\"로.\n- 나머지 기사는 why를 쓰지 않는다.\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
   "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
   "items": [
     {
-      "id": "4e6ab9e138270ef35fe132d44a942892468ca8da",
-      "title": "[포토] 코리아 핀테크 2026 이억원 금융위원장과 이재근 KB금융 회장",
-      "source": "스마트투데이",
+      "id": "69d5d9e31da6488757cc71df978954e23a4b2bb6",
+      "title": "헥토이노베이션, 카이아와 스테이블코인 결제·정산 인프라 협력",
+      "source": "로이슈",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxM1luTG52WGJ2QWtURkdHeDMzaE1GQXFGQk9QbjJXakxSQTZjLW1qblNHM18zamNhbWVkNGVfTkxUN0IzemlqZ2E2dW9FNHltTUFhMW5ET001VFJJMkpV?oc=5",
-      "publishedAt": "2026-11-25T11:16:00+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "60fad624f3f474601a1be6fb3cbb5cc4aff8c695",
-      "title": "헥토이노베이션-카이아, 지갑 인프라·스테이블코인 협업…기업 결제 시장 공략",
-      "source": "오늘경제",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9INFlCV2RubXR4Z2w0NkxqSG44b3VSbHpSc1JtU3RzbzZoZ0FYNnZEdi1tOXJKLVQzMC1tdnhYT2ZJTEdFRmdDTlgtN1N2MEdJQzN2S3JXaURLNk5heUV5dk02WDNmMlByNWVHczZ6XzVNZW8?oc=5",
-      "publishedAt": "2026-11-25T11:14:01+09:00",
-      "feed": "키워드: 스테이블코인 결제"
-    },
-    {
-      "id": "b70fb6f8f1e357deb2cf6bac07b04325ed3881e4",
-      "title": "AI코치부터 스테이블코인까지…카카오페이, 코리아 핀테크 위크 2026 참가",
-      "source": "매일일보",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4clRad2hodU9LTnNPZHA5dmhRNzFIWjJ1eVdBRWVxYnQtMDRQWVVzTWhaWTZvSnZXVTVJSXZRNG9zNDFJOEZVdENnOTlEYUhiZmxkRFh4WFZxQnFNYXpIdG40TlY?oc=5",
-      "publishedAt": "2026-11-25T11:10:04+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "84005c82850bb5dd7a259bdc4171ff74c84279fe",
-      "title": "애큐온저축은행, 원화 스테이블코인 상표 3종 출원…디지털자산 시장 대비",
-      "source": "디지털투데이",
-      "description": "애큐온저축은행이 원화 기반 스테이블코인 관련 상표 3종을 출원했다. 향후 스테이블코인을 활용한 금융서비스가 확대될 가능성을 고려해 관련 명칭에 대한 권리를 선제적으로 확보하기 위한 조치라는 설명이다.25일 애큐온저축은행에 따르면 특허청에 금융서비스 상품 분류인 제36류로 원화 스테이블코인 관련 상표 3종을 출원했다.출원한 상표는 'ASBKRW', 'AcuWON', 'Acuon coin'이다. 애큐온저축은행의 영문 사명인 'Acuon Savings Bank'의 약칭과 영문 표기에 원화를 의미하는 'KRW'",
-      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717959",
-      "publishedAt": "2026-11-25T11:06:41+09:00",
-      "feed": "디지털투데이"
-    },
-    {
-      "id": "8bb3bb38c7ec70069a982c13da9e00ccd36e850b",
-      "title": "네이버페이, 얼굴 이어 손바닥 정맥…오프라인 사업 영토 넓힌다",
-      "source": "블로터",
-      "description": "네이버페이(Npay)가 얼굴 인식에 이어 손바닥 정맥을 활용한 생체인증 기술을 개발하며 오프라인 사업 영역을 넓히고 있다. 결제 단말기를 중심으로 생체인증과 보험금 청구, 소상공인 경영 지원 서비스를 연결하는 전략이다. 2027년 상반기 오프라인 통합 단말기 시장 1위를 목표로 단말기 보급과 서비스 차별화에 속도를 내고 있다.25일 네이버페이는 서울 서초구 양재 aT센터에서 열리는 '코리아 핀테크 위크 2026'에서 장정맥 인증기술 'Npay 핸드사인(Handsign)'의 시제품을 공개했다. 기존 안면 인식 기술인 '페이스사인(Fa",
-      "link": "https://www.bloter.net/news/articleView.html?idxno=679637",
-      "publishedAt": "2026-11-25T11:06:20+09:00",
-      "feed": "블로터"
-    },
-    {
-      "id": "52671a02f90f9d620aa87a4e643f49e50bbf5438",
-      "title": "쿠콘, 싱가포르 핀테크 행사서 MOU 4건 체결… 글로벌 결제·정산 협력 확대",
-      "source": "Chosunbiz",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSWttd1pFbDRseFNMVWR1WmtxejUxTHZnbm9jNW5nM1dIX1RfbFUycUo2S2VEZTVfWUk4UGU5M3pxVUVmZG1HZkRKaGlyWEI3TjJid29LbUE2N180QXFES3FVUWpDWXhNdXpNVTdOUDVlbEVQaGR4VmlIUFlMU0NIRdIBlAFBVV95cUxQRFA3ZU0zTEtTejl1MmhCck9vLTlDVC1XTVc4T1NCYmtEeU4yNUhhbTVKazR1bUpGM2lrZzJwcWN6TkJvcFZ2dHN0RS0yUmJIdUo0dEZzNkNmTWlSZ1d3UDZHNlBMQWl5VmJGNnlJcDUyQkVMbVR5WE10Um10Zy1OVFQwMS0wdmRJRFFweGxtNUhManpm?oc=5",
-      "publishedAt": "2026-11-25T11:06:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMc0VhWUZNQ2lLd1Q3OHNkUEJFX1daSF9HTXBEZnNkbEowcDYtejZmd21YWGhzVlExc0lKU1JOVWJnSmNsSzZGOW9nRnNDaTEyQ0RmcWVrVTR0cGd3VUZIU1FtOVpXSXJKUGxQYUNMSEE4REd5cF82V2xn?oc=5",
+      "publishedAt": "2026-11-25T21:52:33+09:00",
       "feed": "키워드: 정산 결제"
     },
     {
-      "id": "33aa24d599c2706a62840b43a5a8f0ab1a45d749",
-      "title": "내 돈 '알아서 챙겨준다'…토스, 코리아 핀테크 위크 2026 참가",
-      "source": "매일일보",
+      "id": "18d7bd182ddaa27ca1b9bcc02b22d657f7f54151",
+      "title": "AI도 신분증 검사? AI 대리결제 시대, 금융권 새 인증체계 과제",
+      "source": "헤럴드경제",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9tTm5FSTJFRlRiV09JMFhyWW1TMzFRSU9iT3d6YWI5UUMxNVp6cFRoZnYtZ0NwTXlCb1B2bXlUWnM4cFJBam5VZ1Yzb21oMzMtRllNS2I1LXB6N0JxNFhONUIxYnc?oc=5",
-      "publishedAt": "2026-11-25T11:05:43+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "e79d6c1300da24cb2265d91f08eca7e3b7591bd5",
-      "title": "[포토뉴스] '코리아 핀테크 위크 2026' 개막… 개막식에서 금융당국과 유관기관, 국내외 금융·핀테크 업계 주요 인사 총출동",
-      "source": "블록체인투데이",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CSEQ2Yl9ZZHRtTV80cjFtRV96RWl2eGc0V3MxdW9PZGJaRnlIdDg5VTMxclFFUGV0X0JvWDVYUi0zRWxSc212UXhuQ0ZMY2hzWDAtMi1VRHZDZm1PQll4T1Y3ZFVuYldqMmQ3M3ZUTzM?oc=5",
-      "publishedAt": "2026-11-25T11:02:40+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "f080b43dd7f9f5661b920d15d5298fc05ef4e159",
-      "title": "카카오페이, 핀테크 위크서 AI코치·스테이블코인 앞세워 다음 금융 주도권 노린다",
-      "source": "ER 이코노믹리뷰",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2UzR2MlBEX2NXUTI5alVxWEs1Y3JiWXlOMnZoTDM2c1dNUUpPc0F2b0pycmRrdkxoY3F4dHNLWGNGMG1wVmpUeUYxeU0yaGdBNVBwS2lqWHFmVEU2Yk5VcFZVd0NrVGRKZWt4RQ?oc=5",
-      "publishedAt": "2026-11-25T10:55:52+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "abc8968b6d14b97c233506b044d40e25e6d1eb41",
-      "title": "면세점 내국인 결제액 신세계 1위···롯데·현대 결제액 급증",
-      "source": "서울파이낸스",
-      "description": "국내 면세점을 이용하는 내국인 수요가 좀처럼 살아나지 않는 가운데 업체별 고객 결제액에서는 신세계면세점이 가장 높은 실적을 기록했다. 인천국제공항 내 매장을 확대한 롯데·현대면세점도 결제추정액이 크게 늘었지만, 전체 내국인 이용객과 매출은 여전히 감소세를 이어가고 있다.25일 와이즈앱·리테일에 따르면 10월 국내 주요 면세점을 이용한 한국인의 1인당 평균 결제액은 33만5000원으로 집계됐다. 이는 동일한 고객 1명이 한 달 동안 여러 면세점에서 결제한 금액을 합산한 수치다.개별 면세점 기준으로는 신세계",
-      "link": "https://www.seoulfn.com/news/articleView.html?idxno=643863",
-      "publishedAt": "2026-11-25T10:55:27+09:00",
-      "feed": "서울파이낸스"
-    },
-    {
-      "id": "460fe5112573fa8603416e73c1073de347d076ab",
-      "title": "토스증권, 'AI 시그널' 고도화...주가 흐름·변동 원인 분석 추가",
-      "source": "디지털투데이",
-      "description": "토스증권이 인공지능(AI) 기반 시장 분석 서비스 'AI 시그널'을 고도화하고 종목별 주가 흐름과 주요 가격 변동 원인을 분석하는 기능을 추가했다.토스증권은 최근 한 달간 발생한 주요 주가 변동과 원인을 시간순으로 보여주는 '최근 주가 흐름' 기능을 새롭게 선보였다고 25일 밝혔다.토스증권은 기사량과 주제의 신규성, 주가 등락과의 연관성 등을 기준으로 자체 평가 점수를 산정해 주요 시그널을 선별한다. 이후 AI가 해당 기간의 주요 변동 요인을 종합해 투자자가 종목별 주가 흐름과 관련 이슈를 확인할 수 있",
-      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=717962",
-      "publishedAt": "2026-11-25T10:42:57+09:00",
-      "feed": "디지털투데이"
-    },
-    {
-      "id": "b3dac562bd07c0505636887387e442a835fc6d5b",
-      "title": "[한패스vs이나인페이]① 내실이냐 점유율이냐…광고비 7배 차이",
-      "source": "블로터",
-      "description": "한패스에 이어 이나인페이도 연내 코스닥 진출을 추진하면서 국내 해외송금업체들의 사업 경쟁력에 관심이 커졌다. 두 회사는 지난해 나란히 600억원대 매출을 기록했지만 수익성에서 큰 차이를 보인다. 송금 마진 정책부터 마케팅 투자까지 서로 다른 성장 전략이 실적에도 반영됐다. 환율 부담은 공통…엇갈린 영업손익24일 금융감독원 전자공시시스템에 따르면 지난해 별도 기준 이나인페이 영업이익은 237억원으로 한패스(85억원)의 세 배에 가까웠다. 매출은 이나인페이가 647억원, 한패스가 662억원으로 비슷했지만 영업이익률은 각각 36.7%,",
-      "link": "https://www.bloter.net/news/articleView.html?idxno=679601",
-      "publishedAt": "2026-11-25T10:41:52+09:00",
-      "feed": "블로터"
-    },
-    {
-      "id": "da25817c8b9aaddfb4adbe17af85c1b3090028aa",
-      "title": "아이 하교 일정 빼먹고 중복 결제 권유… 최고 성능 AI 비서도 10번 중 4번 ‘실패’",
-      "source": "조선일보",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc0FZdWRxcFhRTFFZSTF5X0JBWnhYbDNncVd4bE1LZjNybFBpUHFhM2lMUnk3Q0dqU2RlU2wtQXFtSFdlZ1V5SGNhNjRiLVJkcjFwdzB6T1plX2pMZDh0Y01KNnVSVGRlQVRCcElUYnNvMTVCUlQ5VlZhTVNPRG9yaGlvaw?oc=5",
-      "publishedAt": "2026-11-25T10:41:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sNDVSQXNUc04xcy1JRzBXanNJcFJka2NwZ1A1bGdjVFQ4T2FjQ1hJUk5STDlxX2lWbE14aWpRSGJsM2t4dHlDb3RfWnA0UkxrQ3cyaURn?oc=5",
+      "publishedAt": "2026-11-25T21:40:24+09:00",
       "feed": "키워드: AI 에이전트 결제"
     },
     {
-      "id": "b456f459639227ef63acf42993147bb810a54e4e",
-      "title": "카이아-헥토이노베이션, 블록체인 지갑 및 결제 인프라 협력",
-      "source": "경향게임스",
+      "id": "56fb098481eb9d60b645bd79f045b8e7fc7b792a",
+      "title": "원화 스테이블코인은 은행 중심, 거래소 대주주 지분은 20%로…디지털자산 시장 대개편",
+      "source": "climatepol.com",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Wc1J5LTdvZEZaeTgtZXVoMzRFV25UV0lhN2U2RmM5M1JZNlZYYkstdi02UHdTTEk5VWFOXzB6Z2l3TllwVDBfdGdqdEFhR3k4VGJoVFVuQTg0QlhBQmZ1dFFkQWFWRUQ0SVpreg?oc=5",
-      "publishedAt": "2026-11-25T10:29:57+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wWHYtNUZidF9UR3lfWk42YS14T3lIazNvbW5tZ0g3dWloM01SZ3FTd1pPMWFQX0gxNHZLZ2toWlgyV0ZqdlRtN2ZBdWpRbTdjcThVSmFIUEVyVFhld1IwYXlCSll5ZlV3Nm5OMQ?oc=5",
+      "publishedAt": "2026-11-25T21:25:10+09:00",
       "feed": "키워드: 스테이블코인 결제"
     },
     {
-      "id": "4be36f926af348cdcd6d9ea2647253f09825bc3d",
-      "title": "헥토이노베이션·카이아, 월렛 인프라 및 스테이블코인 결제 협력 MOU 체결",
-      "source": "와이드경제",
+      "id": "0a9f14741958479188281c2da5cbd644fa4c9fca",
+      "title": "카카오페이 “각국 주요 결제사와 손잡고 해외 결제망 확대…여행지에서도 간편하게 결제” [코리아 핀테크 위크 2026]",
+      "source": "한국금융신문",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5QUXJ0SHZnT2ZmLWo4a0U4YUNwbndXXzJ5RG9hYzR6WW5QNnp1NVdXTXU2VVpsNERKUmNvdjZoT2hKN1c2Smd6UWlXU29JaDFmTFZkcWVodFdZVFdkYnIwbUVqZEVnUjU2Vk5UZQ?oc=5",
-      "publishedAt": "2026-11-25T10:28:46+09:00",
-      "feed": "키워드: 정산 결제"
-    },
-    {
-      "id": "57043c987656d823891af1d90715e16643291511",
-      "title": "호반프라퍼티, 네이버페이와 협약…아브뉴프랑 3곳에 간편결제 도입",
-      "source": "한국경제",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4dVExeGhCazh1a2locEhVMXk4Y2VmZ2JqUVVzdjJpQjBFNkcyM0ZvUnI1NGk2bnFaZndfWkVrNGoydjZBc1JTdTJQWUtXeHZRLXlQbmR2YWtoQQ?oc=5",
-      "publishedAt": "2026-11-25T10:22:33+09:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE85LXN6c0JQZFVLZWctM3l2dUxfS3RSMXB4alFhd3RQN2kyQlZjeEcwNHlzcmJzdlBEOTNuSUNsOXNZeXFEcC0yemtrZHY3MmFnWHpsWVBVUDA5ME01UGtQUkhzTmtxLUpOa2gwNm1kSG9NQmxINVJWMlFBRXU?oc=5",
+      "publishedAt": "2026-11-25T21:08:27+09:00",
       "feed": "키워드: 간편결제"
     },
     {
-      "id": "e37212e20663cdac2f8fb6a40a80e09bf2a6e6d7",
-      "title": "호반건설, 네이버 페이와 맞손…간편결제 도입 등 다양한 분야서 협력",
-      "source": "매일일보",
+      "id": "cec2d0759545ea4cd8c9d1a0c80063fa7faa0713",
+      "title": "백석대 핀테크전공, ‘코리아 핀테크 위크 2026’ 4년 연속 참가",
+      "source": "뉴스밴드",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96SkVUcHl4eVVKdElma1N4UDZYeWxOcFVfbThmN0JNMGsxMkZRU2liczhNMU12XzhDVmFHa3hCcmhPWEVzTEJkZkxucC1ka2xDN0dVcGVWM090azNyZzViNUQ2UHk?oc=5",
-      "publishedAt": "2026-11-25T10:15:59+09:00",
-      "feed": "키워드: 간편결제"
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFcDllTFRHSGNaLWp0N20xMkpwVnVRcFp0WV96THJfNndqakc2RWJFcFZsbjh2eW9JcDdBRFNEMEJSR2p0MWtULVhiYjNzT0prdWxYQWVoYXhfRVJuc0hkVEgzajJjT2Ns?oc=5",
+      "publishedAt": "2026-11-25T20:41:31+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
     },
     {
-      "id": "cd70de48a0950c5b98f38d02c5e05e28ee95bf83",
-      "title": "빗썸, 페이코 결제에 비트코인 얹는다…최대 3% 적립",
-      "source": "데일리안",
+      "id": "32edc4240b8fbba361123271c9c516781a0221f4",
+      "title": "[오늘의 게임·IT 소식] 빗썸, NHN페이코와 ‘더블적립 카드’ 선보여 外",
+      "source": "Naver Blog",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQY0hua1ZzeHpTQW9FcmlPUnA2VUN5ZGNtZlVtSE9ObURqNER5MmxDRENNNDMtNmUwVUppUGhaNUhYckpTR0VyV0dQZkJwVjBoTGdjQWlIMkhpLTYxRnE0T0pzT2lHbVFjdWpYNmxFWDBDcVBjMThQeWVRNE5IY2p1a2VwMDlzSjg3V0VUTWhJSUZtN2tOLUhoWG1BU2JfdzAzUFc2QzVsMkM2NWM2MDY3MlRCeEdGa094a2VVQkYzWWZOM1JFMGVsSHg3NlhvNjJRNUpwTXp4UmFzZHR4SjB3ZkNDS2lxNjVENnRjU3FYMng3Z3IxMXFsUl9VLTE4V09md2dfTHczUk9pY0N2QTZ2WWpCb3hWclluUjk4NUtFYWVrZFU?oc=5",
-      "publishedAt": "2026-11-25T10:05:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHZkY1NBR1k5X0MxQnR6SlQwTjZkUWtsLUZBVzFNNFNxYWt1STJLTS1FYjhOM2VlOE1lbkg2R2lHLVJRb3lORU5TMUN4U2xoUTJaeFBfT0dlRjdNajNYTjRDcWdQcVdIcXdIdXVoX2kyTjBwZWYxYXU3Mi1zLWRBckloNUlkNW51dGhnZ0dwNA?oc=5",
+      "publishedAt": "2026-11-25T20:26:51+09:00",
       "feed": "키워드: 스테이블코인 결제"
     },
     {
-      "id": "d07cac42e1c303887a6c041944bf24546361440e",
-      "title": "이억원 \"제도적 변화 과감히 속도 내야\"…역대 최대 핀테크 위크 개막",
+      "id": "44d206a2367075d15bf66546540f617b0634538f",
+      "title": "토스, 코리아 핀테크 위크에 협력기관으로 첫 참여…실손 청구·금리인하 자동 신청 시연",
+      "source": "투어코리아",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lTjJmTWNVeGZFWS1oRUVEd2dENUs2Y09ENExZTEdVeGk3bmR5a1JOTjBsTFBLQXRfb1ZYUk9Zb3lHVlNkYnpNQVFTLU5XeERva0RZWV9wXzBfUVZ4NGp3cWFuREZEM2NLc2g1enpn?oc=5",
+      "publishedAt": "2026-11-25T20:13:46+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "25d965955bd8a00b7a97290607c8c5b3ff2da640",
+      "title": "STO·스테이블코인 시장 키우려면…“발행 넘어 유통·결제까지”",
+      "source": "딜사이트",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qNEZqUkJnb2I2d1pWMkJUUTRxSkhlNWNMS2VaNmQtZFVlYmpRQV9acFloeHhhU2hNbzV2TEtvcWUwTW40YldhYkhXVmpYOGs?oc=5",
+      "publishedAt": "2026-11-25T20:03:49+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "f7de1c5ebdf1522e42e73daffddd98a0915253f6",
+      "title": "“손바닥 결제부터 맞춤형 AI 에이전트까지”… 금융 신기술 집결한 핀테크 위크",
+      "source": "www.dt.co.kr",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XWmV4dERfRTc3dlUtY0txOEdWb3ZlZ0ZLSXhWdWdiXzZzeHZVcVZSQ3k4VkF0RlZadkZsUkk1UzlhZGJiZW1Bc3ZBVXc5QQ?oc=5",
+      "publishedAt": "2026-11-25T19:46:35+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "758bb145ebda81c64e7ee1403c2e9b82201a267b",
+      "title": "[금융新세계] “보험금 청구를 손바닥으로?”…네이버페이·카카오페이·토스, 신기술 ‘각축전’",
+      "source": "주간한국",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aeXhzSHFFdEg0ZkdFU1NYQlR5cEpBTnh5Vzc1dVQ3MzNpNXhacFFKTHJOUlcwMU5IU1pCb0syamk5eHUtaVV4Vy1YX0l3SXc2V0s1WXowX05NblN4S0pVVGFlb2FzZGVZVEFHT0oyY2zSAXRBVV95cUxPcFF2U1lURERjTER6S0VNMXZFdkFuOWNBWDZCVVliNUlfQlFTUU02WDRHSUZMWDNYdkNqMllhMUdGZ1dVREFRa25jZ0QzcmhEMDlReUJ6WlVwRFVyTHQtbHRrZU9sdUIwV3RFdnZoOUliYTRUMA?oc=5",
+      "publishedAt": "2026-11-25T19:38:28+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "8c8496132f4365b2be971c71dcb6884ca6609cbe",
+      "title": "디지털융합산업협회 \"기업 해외송금에 스테이블코인 허용해야\"",
+      "source": "폴리뉴스 Polinews",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BZDduLUFCWEFSLVNWd1F4aEpZNlQtYjg0UHhodnNiaVFBWjZWMXFwUmIyNVR3bDdaNjdMR1VDQUcxMG5hWS1PYWQxYjVWTGh1V2UyaVdhZkJ4Z1pzZk9nTG9seXJQTGFsRXQySmNB?oc=5",
+      "publishedAt": "2026-11-25T19:34:15+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "1a39f23ba9a4348fdc20d8a5b2ea751b72da0902",
+      "title": "AI와 디지털 자산이 여는 미래… ‘코리아 핀테크 위크 2026’ 개막",
+      "source": "시사뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sZFpZOUNJNDM3bHBUeWY0NVcxX0dQVzJGQmo2SmZPYWJhdUdoZFV3MXlhTmVYNTBtV1NPZ2N3eEEySVQxcXNUN2tRZGdsWlI3N0Y0aDlhRGp5akRNRGZxOTZRWQ?oc=5",
+      "publishedAt": "2026-11-25T19:22:52+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "c8f7158e0f98edabce555299e58526e04d8875b8",
+      "title": "DSRV, AI끼리 'USDC 결제'하는 지갑 출시 준비",
+      "source": "디지털애셋",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE92cG5HUVBhNnZ4dDZfV1BNSnRDMkdwZC1OaFkyRjBHM3g5eDcyM2hwODZhUHRSOFhpSW5TUHNybFN1UGxKMXJ0bTM5TFV2NG5Ybm1mc01FMzF3dWFkLUVhZ29fSWdWaUdfakhxSzA0VHk0Zw?oc=5",
+      "publishedAt": "2026-11-25T19:00:00+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "68eef9831ed04ecb44edc2680a95480bc810666f",
+      "title": "미카도스시, 영남권 3개 매장 연속 출점…가맹점 120개 돌파",
       "source": "머니투데이",
-      "description": "이억원 금융위원장이 인공지능(AI)과 블록체인 등 신기술이 주도하는 금융 혁신을 뒷받침하기 위해 제도 개선에 속도를 내겠다고 밝혔다. 금융의 AI 전환과 디지털자산법 등 제도적 기반을 마련하는 동시에 금융 안전도 강화한다는 방침이다. 금융위원회는 25일 서울 양재 aT센터에서 국내 최대 핀테크 박람회인 코리아 핀테크 위크 2026 을 개최했다. 올해로 8회째를 맞은 이번 행사는 다음 금융은 이미 시작됐다 를 주제로 역대 최대 규모로 3일간 열린다. 이 위원장은 이날 개막식 환영사를 통해 \"AI, 블록체인 등 새로운 기술이 만들어가는 새로운 금융인 다음 금융 은 이미 우리 앞에 와 있다\"며 \"새로운 시대에 걸맞은 안전한 금융을 위해서도 이를 뒷받침할 제도적 변화에 과감히 속도를 내야할 때\"라고 밝혔다....",
-      "link": "https://www.mt.co.kr/finance/2026/11/25/2026112509150843944",
-      "publishedAt": "2026-11-25T10:02:37+09:00",
+      "description": "진주초전점·대구두류점·경산점 잇따라 오픈…다점포 점주 비율 69.03% 국내 회전초밥 브랜드 미카도스시가 이달 영남권에 신규 매장 3곳을 잇따라 오픈하며 가맹사업 확장에 속도를 내고 있다. 기존 가맹점주들의 추가 출점도 이어지면서 전체 가맹점 수는 120개를 넘어섰다. 미카도스시는 지난 17일 경남 진주초전점, 18일 대구두류점을 오픈한 데 이어 25일 경북 경산점의 문을 열었다. 이번 출점으로 영남권 주요 상권 내 브랜드 입지를 확대했다. 특히 전체 가맹점 중 다점포 점주 비율은 69.03%에 달한다. 진주초전점은 진주혁신도시점에 이은 기존 점주의 2호점이며, 경산점 역시 대구다사점과 대구칠성점을 운영하는 점주가 추가로 출점한 세 번째 매장이다....",
+      "link": "https://www.mt.co.kr/industry/2026/11/25/2026112513233058042",
+      "publishedAt": "2026-11-25T18:59:00+09:00",
       "feed": "머니투데이"
     },
     {
-      "id": "a752d3596cf7aab8f23efee5aa77ee90064a162c",
-      "title": "코리아 핀테크 위크 2026 개막…이억원 \"다음 금융은 이미 우리 앞에 와\"",
-      "source": "파이낸셜뉴스",
-      "description": "제8회 코리아 핀테크 위크가 140개 기업·기관이 참여한 가운데 25일 서울 양재 aT센터에서 열렸다. 오는 27일까지 3일간 이어지는 이번 박람회는 '다음 금융은 이미 시작됐다'를 주제로 AI·블록체인 기술과 미래 금융을 다룬다. 올해는 협력기관으로 국내·외 25개 기업·기관이 이름을 올렸다. 금융위는 지난해보다 프로그램과 연사, 전시부스를 모두 늘려 역대 최대 규모의 행사를 마련했다. 국내·외 연사 120여명이 나서는 36개 프로그램은 디지털 전환(DX)·인공지능 전환(AX), 금융정책 공유, 재테크, 취업, 핀테크 투자·지원, 기술 트렌드 등 7개 주제를 다룬다. 전시 공간은 핀테크관·금융관·글로벌관·협력관으로 나뉘며 부스는 총 115개다. 핀테크관은 국내 기업의 8개 분야 기술·서비스를 소",
-      "link": "https://www.fnnews.com/news/202611250909445332",
-      "publishedAt": "2026-11-25T10:00:00+09:00",
+      "id": "2dc43534f808fd91fa1575fbb39afe5501a61b3b",
+      "title": "국내 클로드 결제액, 3월부터 챗GPT 추월…\"업무도구에 지출↑\"",
+      "source": "머니투데이",
+      "description": "[이 기사에 나온 스타트업에 대한 보다 다양한 기업정보는 유니콘팩토리 빅데이터 플랫폼 ‘데이터랩’에서 볼 수 있습니다.] 국내에서 클로드 의 결제액이 챗GPT 를 추월한 것으로 나타났다. 챗GPT가 사용자 수와 결제자 수는 더 많았지만, 클로드는 1인당 결제액이 높아서다. 사용자들이 챗GPT를 일상용, 클로드를 업무용으로 활용하면서 클로드에 더 많은 금액을 지출한 것으로 풀이된다. 25일 아이지에이웍스 모바일인덱스에 따르면, 지난 10월 기준 국내 소비자들의 클로드 결제액은 1086억원으로 챗GPT 709억원의 1.5배에 달하는 것으로 나타났다. 1년 전만해도 클로드 107억원, 챗GPT 553억원으로 챗GPT 결제가 5배 넘게 많았지만, 올해 3월을 기점으로 순위가 바뀌었다....",
+      "link": "https://www.mt.co.kr/future/2026/11/25/2026112517133169226",
+      "publishedAt": "2026-11-25T18:45:00+09:00",
+      "feed": "머니투데이"
+    },
+    {
+      "id": "f833f4ebf07704837ecb3f9a71c4738c577cbec6",
+      "title": "빗썸 \"스테이블코인 결제 활성화, 소비자 보호 선행돼야\"",
+      "source": "디지털애셋",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qQUhkSjg4RXJfNUJNNzJjVzM2Y01tUWF1MmU5azYzb2JMY1k4SXlmampfTVlzbUJDLUpXbm5HTDZ1N2FGNE95WTQtX1l1d1hzQXdjcmtWZHlmNjgwQ09YeDJiZDE2a1FYWkZUVUZyZW0xdw?oc=5",
+      "publishedAt": "2026-11-25T18:40:00+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "94ac163b10c1b8191fbf6956f3c7a115a4461e94",
+      "title": "AI가 결제까지…비자 “신뢰와 협력이 핵심”",
+      "source": "전자신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE10bjRWY0JfV0pjdTVGOXp1U2RwRTF3T1ZRSm0wY2dUT1dMVG5Od1VFemhYUlg2RkRvNGpXa1JfSUN6b3pCT0dmaFpCcnRldw?oc=5",
+      "publishedAt": "2026-11-25T18:34:10+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "2c2c5944e392fefbeed09b0244e38563bd5d7181",
+      "title": "[코리아 핀테크위크 2026] 신한카드 \"AI 결제 시대, 승부처는 안전한 결제\"",
+      "source": "DealSite경제TV",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wSEctSWF1UTJpdlluOHRBQzUwbHg0NlFLb0tZSHJrb2hWWVllamg3R0N1bnhZVTJmNjJ1dFRVU3VPY1VObDZsQjM1MmVwMk1XZW1kWFVn?oc=5",
+      "publishedAt": "2026-11-25T18:34:05+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "817bb37d46a05e9a36359197b21e7fa36999c1af",
+      "title": "KG이니시스 곽정현 CSO, 소유 주식 수량 6000주 보고…소유 지분율 0.02%",
+      "source": "디지털투데이",
+      "description": "온라인 전자결제(PG) 서비스 기업 KG이니시스(035600)의 곽정현 CSO가 KG이니시스 주식 소유상황을 25일 공시했다.소유상황에 따르면 이번 기준일인 2026년 11월 25일 주식 수는 6000주, 지분율은 0.02%다.세부변동내역을 보면 2026년 11월 24일 보통주가 6000주 증가했고, 최종 수량은 6000주가 됐다. 사유는 장내매수였다. 취득단가는 8859원으로 기재됐다.이번 보고서에 주석으로 \"취득단가는 거래일 기준 주식매수에 따른 총 매매대금을 취득한 주식수로 나눈 평균 단가임\"이라",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718213",
+      "publishedAt": "2026-11-25T18:32:06+09:00",
+      "feed": "디지털투데이"
+    },
+    {
+      "id": "5838363fc20fb9eb4f24b8f7eddd987242b8be02",
+      "title": "KG이니시스 곽재선 사내이사, 소유 주식 수량 5만주 증가…소유 지분율 0.18%p 상승",
+      "source": "디지털투데이",
+      "description": "온라인 전자결제(PG) 서비스 기업 KG이니시스(035600)의 곽재선 사내이사가 소유한 KG이니시스 주식 수량이 5만주 증가했다고 25일 공시했다.소유상황에 따르면 직전 기준일인 2026년 10월 21일 주식 수는 49만7576주, 지분율은 1.81%였다. 이번 기준일인 2026년 11월 25일 주식 수는 54만7576주, 지분율은 1.99%다. 이번에 보고된 주식 수는 직전 대비 5만주 증가했고, 지분율은 0.18%포인트 상승했다.세부변동내역을 보면 2026년 11월 23일 보통주가 5만주 증가했고",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718211",
+      "publishedAt": "2026-11-25T18:32:04+09:00",
+      "feed": "디지털투데이"
+    },
+    {
+      "id": "16f95505da5403cf76e944b7707b9fd384f5f897",
+      "title": "[금융新세계] AI, 결제 시장 침투…카드업권 ‘결제 주도권’ 확보 방안 모색",
+      "source": "주간한국",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52TUg4dVFoblNoRVB5OU05VmRKejlBT0lFbkQ1eGpuNmdodXhzMUt5ZjUyMzJDUGJnRzVDQ0VldFFFLU96cFlCMTR0VWk4clkwVmFFYUU5N054czBhYVpUS0Z3bEhLelhyaXhjNFZidHrSAXRBVV95cUxNal9GZFJ2S1ppaU5lbndQclNQZElZSTE3UmpOcVkxZHNnYW9rOUtLNElCcEQ2M3BQTUhtbFVYUDVLT2xvcjFST05SYUh0SWpJV19fSDlyc3BIOXFoN3h0STJjWDBreVNpa0hNYUdZalcxenJZUA?oc=5",
+      "publishedAt": "2026-11-25T18:31:07+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "ea141585dbc592caccd993df5ad48f73317bacaf",
+      "title": "코리아 핀테크 위크 개막… AI·블록체인 기반 미래 금융 총집결",
+      "source": "디지털투데이",
+      "description": "국내 최대 핀테크 박람회인 '코리아 핀테크 위크 2026'이 역대 최대 규모로 막을 올렸다. 이번 행사는 AI와 블록체인 등 신기술이 만들어갈 금융산업의 미래 조명에 초점을 맞췄다. 금융당국은 금융권 AI 전환(AX)과 디지털자산 시장 활성화를 위한 제도 개선에 속도를 내겠다는 방침이다. 주요 금융그룹과 핀테크 기업들도 미래 금융시장을 겨냥한 다양한 기술과 서비스를 선보였다. 25일 금융위원회는 서울 양재 aT센터에서 '다음 금융은 이미 시작됐다(Beyond Finance, Into the Future)",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718102",
+      "publishedAt": "2026-11-25T18:20:58+09:00",
       "feed": "키워드: 금융위원회 핀테크"
     },
     {
-      "id": "468fed90b478d0a94ef6ee3ee213e053c5161150",
-      "title": "은행권, 스테이블코인 시장 선점 경쟁 본격화…발행·결제·준비자산 관리 주목",
-      "source": "폴리뉴스 Polinews",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96d2dhYjcyX2hEdE5TMmcxeG1ENExRVk1YQ0tZdkVLV2N4QTg3eHRwWmItRkt1NTMxQldFTktoWTBiekc5RGR2dnRjT2hEU1JlcGozak1hUk1kRE1HTGVSemFKTU9QNVlzWGhITG93?oc=5",
-      "publishedAt": "2026-11-25T09:55:13+09:00",
-      "feed": "키워드: 스테이블코인 결제"
+      "id": "928bca6b31779834272f72f7e86bce5e0d319bb9",
+      "title": "뱅크샐러드, AI 에이전트로 취업·결혼·출산 지원…미래 금융서비스 시연",
+      "source": "디지털투데이",
+      "description": "뱅크샐러드가 금융·건강 마이데이터와 AI를 결합해 이용자의 상황을 분석하고 필요한 금융서비스를 찾아 실행하는 차세대 AI 에이전트 구상을 공개했다. 여러 전문 AI 에이전트가 협업해 취업과 결혼, 출산, 내 집 마련 등 생애주기별 금융 문제를 해결하는 것이 핵심이다.뱅크샐러드는 25일부터 27일까지 서울 양재 aT센터에서 열리는 '코리아 핀테크 위크 2026'에 참가해 멀티 에이전트 기반 미래 금융서비스를 시연하고 있다.이번에 선보이는 서비스는 AI가 이용자의 금융·건강·생활 데이터를 분석해 필요한 서비",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718129",
+      "publishedAt": "2026-11-25T18:17:14+09:00",
+      "feed": "디지털투데이"
     },
     {
-      "id": "eddeb25184313e2cb4945e171ff86b8b66d1cf51",
-      "title": "[게시판] 카이아·헥토, 지갑 인프라·스테이블코인 협력 업무협약",
-      "source": "연합뉴스",
+      "id": "651f07afcd8ab5041b1d96e9969275fc46af4323",
+      "title": "AI가 쇼핑하고 카드까지 고르는 시대…비자·삼성·신한카드가 본 미래 결제",
+      "source": "소비자가 만드는 신문",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRUGZaTi1WYzV0Z0lvOTdQQURreFNOWmlZQzBON1VrcnJQb0xTUUtYNEtPS0ZVaXlwNE9aa2RsRnhNeHE3MFU4MS1KYjFtZDY3a0xzb0xCOW51dnfSAWBBVV95cUxOV3U4T3VqWjA5Z2dHczZZWm44N0VkY3VYY2JweGVIaDNNYjNpRU9EakhPVmZ6dVEwQjdEQTl4Z05aSi1UYnBxemRIemdqdExTbVoyc0hLQ0M1ZFl6a3J1MjY?oc=5",
-      "publishedAt": "2026-11-25T09:54:14+09:00",
-      "feed": "키워드: 스테이블코인 결제"
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85aDRTQlZaTWpZZzEtX3JpMl9XZWN5Q0xyMmtXNzkybUlwdVNXVDhaaWQ2TExfLVlBdWVpeEZLU19ydG9tN3kyUU5uU1hLUk1NdUhrUzZQdWZ1LVVidl9sWnl4bUoxdURrTTlYX0lxWWgyUUU?oc=5",
+      "publishedAt": "2026-11-25T17:56:00+09:00",
+      "feed": "키워드: AI 에이전트 결제"
     },
     {
-      "id": "6e8481c6320181a546fb02e81017546d4832f82e",
-      "title": "AI 에이전트끼리 거래하는 시대…초소액 결제시장 열릴까",
-      "source": "한겨레",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MSm9BR0ttdktyZjNvdWFGUGJkREY1M1ZLdTU2NFVEYjJreWFrS1FrSUloMkVZbUNBdzZHVWU1d1RMYXNJUFhUWUw5TERSM1AxR2pCb2p6TzRjWXo4Y0ZQRQ?oc=5",
-      "publishedAt": "2026-11-25T09:14:00+09:00",
-      "feed": "키워드: 스테이블코인 결제"
+      "id": "6082dc7d5c604f3379751d185199a993cc937db4",
+      "title": "KG이니시스, 최대주주 KG케미칼 측 주식등 보유 비율 0.19%p 증가",
+      "source": "디지털투데이",
+      "description": "온라인 전자결제(PG) 서비스 기업 KG이니시스(035600)의 최대주주 KG케미칼 측은 주식등 보유 비율이 42.75%로 증가했다고 25일 공시했다. 변동 방법은 연명보고자의 장내 주식 취득으로 기재됐다.KG케미칼과 특별관계자 9인의 2026년 11월 25일 기준 보유 주식등의 수는 1178만280주다. 직전 보고일인 2026년 10월 21일 대비 5만6000주 증가했다. 보유비율은 42.75%로, 0.19%포인트 증가했다. 주권 주식수는 1178만280주다. 직전 보고일인 2026년 10월 21일",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718196",
+      "publishedAt": "2026-11-25T17:53:05+09:00",
+      "feed": "디지털투데이"
     },
     {
-      "id": "c8bc1ff65313e7286b3cfa52021ca1d42dcebbbf",
-      "title": "NH투자증권 \"원화 스테이블코인 발행 요건 윤곽…결제사 유통·해외정산 기회\"",
-      "source": "팝콘뉴스",
+      "id": "dbf27ae645481556e321f0863bdb5e7db5c9c9d0",
+      "title": "금융 국경 허무는 QR···\"앱 하나로 전 세계서 결제\"",
+      "source": "파이낸셜뉴스",
+      "description": "아시아를 중심으로 국가 간 QR 결제망 구축이 활발해지면서 국내 금융사, 핀테크사들도 해외 결제 시장 공략에 속도를 내고 있다. 글로벌 카드 결제망에 대한 의존도를 낮추고 소비자와 가맹점의 수수료 부담을 덜 수 있다는 이점이 있다. 다만 거래 안정성 측면에선 여전히 한계가 있는 만큼 공공과 민간이 협력해 이 문턱을 넘어 독자적인 네트워크를 설계하는 게 과제로 꼽힌다. 국가 간 결제망 연결, 수수료 절감김영진 금융결제원 글로벌사업부장은 25일 서울 서초구 aT센터에서 열린 '코리아 핀테크 위크 2026' 강연에서 국가 간 QR 결제망 구축의 필요성을 강조했다. 기존 해외 결제는 글로벌 결제 네트워크를 거치는 과정에서 통행료 즉, 수수료가 발생하고 결제 가능 국가나 가맹점 역시 해외 사업자의 제휴 여부에…",
+      "link": "https://www.fnnews.com/news/202611251509537016",
+      "publishedAt": "2026-11-25T17:44:40+09:00",
+      "feed": "파이낸셜뉴스"
+    },
+    {
+      "id": "1ca13af5e5281db69beb21954d6929723a56ea6c",
+      "title": "카카오페이, 해외결제 현지화…동남아 QR·유럽 NFC 앞세운다",
+      "source": "전자신문",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YQ0tCc2UwdTRtRHEwWGM0ckV5N2p3OVluZGsyeURoZlpfLVRLOW05ZnVXYXpaTHI0cl9YZno3bnJCRllPSWpKUGQxWE82bU0zRFE2UlpiTVJqUnlWUjdLVG1XTjFjLUpEeFRQR0psSQ?oc=5",
-      "publishedAt": "2026-11-25T08:12:12+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EUkQzckFYbUdrZVo2STBabl9CQnAtVXRfaVlUYUV4dE45NmxjN3cwRDh1OElIMXpyMGxVRnNhY2ZUOGJzQkZrWGhMWkE5UQ?oc=5",
+      "publishedAt": "2026-11-25T17:41:29+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "21ebda40afcc79f9ff3a68b7002bdf00229288a2",
+      "title": "쿠콘, SFF서 글로벌 결제·디지털자산 기업과 MOU 4건 체결",
+      "source": "국제뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04YWhHRml5YkRxU3QxQUdvLS1QeGNoY25ELUJZaFk2WjFKNEl6aUowSEtuV0dXNF9YYXBGbU1KUk04UXNyR2tmc3ZzSXBqWGFfTWI5c3U0a1ZPREgzR0JEN05pS0VVZDgtMjY0dVBB?oc=5",
+      "publishedAt": "2026-11-25T17:35:37+09:00",
       "feed": "키워드: 정산 결제"
     },
     {
-      "id": "7f7b717cb5d0f63597f6e49f5dfc4c2a5e61577b",
-      "title": "일상 결제 영역으로 확장된 가상자산 생태계…빗썸·NHN페이코, ‘더블적립 카드’ 출시",
-      "source": "더페어",
+      "id": "3eb1e77f31b1cce67229c178643bb6188ab30776",
+      "title": "손바닥으로 결제하고 AI에 재테크 맡겨…핀테크위크서 만난 미래 금융",
+      "source": "지디넷코리아",
+      "description": "스마트폰을 꺼내지 않고 얼굴이나 손바닥만으로 결제한다. 인공지능(AI)이 소비 내역을 분석해 줄여야 할 지출을 알려주고, 금융상품 가입부터 자산관리까지 대신해준다. 약 10년 전 모바일 금융 서비스가 일상에 자리 잡았다면 이제는 AI 에이전트와 디지털자산, 생체인증 기술이 다음 금융 시대를 열고 있다. 미래 금융을 한자리에서 경험할 수 있는 대규모 행사가 열렸다. 올해로 8회째를 맞은 금융위원회 주최 ‘코리아 핀테크 위크 2026’은 “다음 금융은 이미 시작됐다”를 주제로 25일부터 사흘간 서울 양재 aT센터에서 열린다. 올해는 140개 기업과 기관이 참여한 가운데 115개 부스, 36개 프로그램이 마련되는 등 역대 최대 규모로 개최됐다. 행사장에 마련된 핀테크관, 금융관, 글로벌관, 협력관에서는 기업과…",
+      "link": "https://zdnet.co.kr/view/?no=20261125171609",
+      "publishedAt": "2026-11-25T17:32:15+09:00",
+      "feed": "지디넷코리아"
+    },
+    {
+      "id": "b9f84b5055dc75b9a5b2bc577b006d653af6bf20",
+      "title": "앤트로픽, 韓 AI 유료 시장서 두각…카드 결제액 오픈AI 1.5배",
+      "source": "지디넷코리아",
+      "description": "국내 인공지능(AI) 서비스 시장에서 앤트로픽이 카드 결제액 기준으로 오픈AI를 앞선 것으로 나타났다. 모바일 앱 이용 규모에서는 오픈AI '챗GPT'가 압도적 우위를 유지하고 있지만 앤트로픽 '클로드'는 상대적으로 적은 결제자로 더 많은 결제액을 기록했다. 25일 아이지에이웍스 모바일인덱스의 소비 트렌드 결산 리포트 '트렌드 크로스 2026(TREND CROSS 2026)'에 따르면 지난달 앤트로픽의 국내 신용·체크카드 추정 결제액은 1086억원으로 오픈AI(709억원)의 약 1.5배에 달했다. 앤트로픽은 지난 3월 결제액 495억원을 기록하며 처음으로 오픈AI를 추월했다. 이후 결제액이 증가하는 추세를 보이며 지난달에는 두 기업 간 결제액 격차가 377억원까지 벌어졌다. 카드 결제자 수에서는 오픈AI가…",
+      "link": "https://zdnet.co.kr/view/?no=20261125165637",
+      "publishedAt": "2026-11-25T16:58:10+09:00",
+      "feed": "지디넷코리아"
+    },
+    {
+      "id": "e18331ad66913870fc6b0088dd955baeed3f11a8",
+      "title": "호반프라퍼티, 네이버페이와 손잡고 간편결제 도입",
+      "source": "CNB뉴스",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GZENBdi1tRzZ2dkxjQjVjcmRESjFZXzY3X1NZSEs1RU9DanpwTXd5Tm1iWXBFdTNpZHZkWjFCclVyMTJLNlFPYWJ6UnNJZWN1QU5hdlpiUWV1NFJMZHEzNkhFemMzd0U2bWJWUS1scWfSAXRBVV95cUxNSWdjR3NBMjBtZUt1WnRFOFFkMFJvYXdHSHNmVHFjTG51Y3htSGRMWkpJWjVBQXltSmVvSk1SdXdzcDIyUTFxUlY0dXNBOEU5TGR4ZU4zUXhLMnRvRkFoZXFnRDZld0lWZ1huZTYwRjA1LVRzSw?oc=5",
-      "publishedAt": "2026-11-25T08:04:34+09:00",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zaTBqWkFtN1lLbUtzYjdSQU90THVmbWdteFFiU01zOE16Y21sOHRJLWE5dnVnSlA3WF94YV9xbUJNVjM4MVFpMl9NRFlfZmxHSzB6NmJLODJpaGROQlJXOWtjaWNtcEdVMFQ4?oc=5",
+      "publishedAt": "2026-11-25T16:32:56+09:00",
       "feed": "키워드: 간편결제"
     },
     {
-      "id": "e8417bda8d025f7a69bd165c851dcdf6f189f957",
-      "title": "현대카드만 되던 '애플페이', 카뱅도 뚫었다…삼성페이와 경쟁 본격화",
-      "source": "뉴시스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1cjRqRXhBVGlkTEZqQ2tienJNOHNIU1BPTnJJNjNjMTFaalpmbHJYbVQ4QUxKQnBmVy1ER3FsUGQxOUlMTEN6ZHJrcnRtekctZnYtQndOdHV3X0E2d0hmOdIBeEFVX3lxTE9Ud2FVNjVVdjRVdEFMelZRdzNZcWc1QUhyaDliTUtDd1NldG0xUHhIUWl2Q1hTbHFOTVhXVWk3V3ZBY25HUzBKUU9HUVo0RjhqaktDMmJHSlFjVHdEbnczSXRjUE16NFRGYldsU21aTWxaM2t2YTBzVw?oc=5",
-      "publishedAt": "2026-11-25T08:00:00+09:00",
-      "feed": "키워드: 간편결제"
-    },
-    {
-      "id": "2fe5a61498a640e576788c70e98a2ef5392319e8",
-      "title": "금융위, 디지털자산기본법 제정 추진…거래소 지분 제한·은행 중심 스테이블코인 발행",
+      "id": "6858422ec0c24ca9803ceea4b6e451a4491eeb09",
+      "title": "[단독] 네이버·신한·우리·NH농협·삼성카드, 원화 스테이블코인 맞손",
       "source": "바이라인네트워크",
-      "description": "금융위원회가 디지털자산산업 육성과 이용자 보호를 위한 법률 제정을 추진한다. 디지털자산업을 기능별로 세분화하고 스테이블코인 발행과 국내 디지털자산 발행·판매(ICO)를 제도권에 편입하는 한편, 디지털자산거래소의 지배구조 규제와 이용자 보호 책임을 강화하는 내용이 담겼다.",
-      "link": "https://byline.network/2026/11/1124-2/",
-      "publishedAt": "2026-11-25T07:34:18+09:00",
+      "description": "네이버페이 운영사 네이버파이낸셜이 신한은행·우리은행·NH농협은행·삼성카드 등 주요 금융사와 원화 스테이블코인 발행을 위한 협력체를 구성했다. 이들 금융사는 서울 강남구에 별도 사무실을 마련하고 원화 스테이블코인 발행 및 사업 모델 등을 연구하고 있는 것으로 파악됐다.",
+      "link": "https://byline.network/2026/11/1125-5/",
+      "publishedAt": "2026-11-25T16:31:09+09:00",
       "feed": "바이라인네트워크"
     },
     {
-      "id": "9b0791d2aa0caf16e3884f22cd059e16fc654b83",
-      "title": "[단독]PG사에 이어 VAN사도…한국정보통신도 털렸다",
-      "source": "전자신문",
-      "description": "전자지급결제대행(PG) 업체에 이어 신용카드 부가통신사업자(VAN)에게도 정보 유출이 발생했다. 25일 업계에 따르면 한국정보통신(KICC)은 지난 20일 오후 5시 31분경 비정상적인 사용자로부터 접근 시도를 받았다. 이로 인해 일부 가맹점의 정보가 유출됐고 KICC는 공격자 IP를 차단조치했다. 유출된 정보는 가맹점 및 판매자정보와 제휴간편결제 거래내역이다. 상호명, 사업자번호, 대표자명, 주소, MID, 거래번호 등이 유출돼 파장이 클 전",
-      "link": "https://www.etnews.com/20261125000064",
-      "publishedAt": "2026-11-25T07:05:37+09:00",
+      "id": "d840929a9b3859e40c1246ce21d83dea8cb1ccaa",
+      "title": "[더밸류 브리핑] 오늘의 PG사 소식...네이버페이· 카카오페이",
+      "source": "더밸류뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByclJiUThTVUZNMThCcUZteWdCcTVMYmZpbGxjV3JMNzduTEhSTklCV0xfVlBiNjZ0SzNKZkItSFZ1cEZtcURHaWx2NGRZSFZYZDV4VQ?oc=5",
+      "publishedAt": "2026-11-25T16:21:26+09:00",
       "feed": "키워드: PG사"
     },
     {
-      "id": "2f4b2b7906a63123f2edc3686a0827b22472dcc5",
-      "title": "AI 에이전트가 직접 금융 거래...블록체인 수수료·권한·결제 자동화",
-      "source": "지티티코리아",
+      "id": "1a8434c529c46e6f3882fd1cd4a4fc172eb506ba",
+      "title": "iM뱅크, 블록체인 진흥주간 참가…예금토큰 QR 결제 선보여",
+      "source": "뉴스웍스",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9DNVdXWFJOMGN6YnVSY2VPU1hDdThaNDNYUk54ZHJhZDNUWEJ1emRJODdUM3F4cG51dTdSYjRDVnZvLUdTWEt1RV9Xamp3aVRjTEZaaWtKdGtZS0EtWlhiaXRvd2lNcXdUQ3c?oc=5",
-      "publishedAt": "2026-11-25T07:00:00+09:00",
-      "feed": "키워드: AI 에이전트 결제"
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zOG1Ec2pyNmM2NHlJMWM0c09taUVfWU90WmZCcm9NRUN6T3NKZjM3Tk94NG9HUkFEZlhzN0NhNm1VTWs1cFlidDEtM2JvdllCdUFZOFJaN1JpQS1mWXgzTDg0V0hOUXVQLTU3SWh3Y9IBc0FVX3lxTE9aRDA3aVpHYnJDZG1aTkRxWHJLMF8zWkUxOXBrejZuYWtaaFZLMnQ3VHEySlRzMnJBSXpsSlhCMWlkQ0xRRU1FNjcycGE3UkpGWmJJQVlzWXUxa3lLRjcyU28zWkxOU0JWQklBc3Jvb0xnQlU?oc=5",
+      "publishedAt": "2026-11-25T16:20:30+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "e32dc7f3f934dc315c6fdc2f15669dc6de9b279a",
+      "title": "금융권, 장애인종합복지관과 ‘사랑의 김장나눔’ 행사 진행·연탄은행에 기부금 5000만원 전달·SFF 2026서 글로벌 결제-정산 협력 확대",
+      "source": "여성소비자신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iOXdUZGRELVlYd2dRSzB2N3VfaUZIYVF2Wm1vbEg5V0FRWlJEcjZQRjZydTFGNEppYXlOeURUcG93LTF4djM2V2ZvblZkb2JwaUJQMkhTamdoRWFyeGFCaHQxVkFSZw?oc=5",
+      "publishedAt": "2026-11-25T15:53:09+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "e26b861c4b1b532ec1921f4d0120149d50c349a6",
+      "title": "[스테이블코인 승부수②] 신한금융, 글로벌 결제망 구축 나서",
+      "source": "PRESS9",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CU1BYc3V5OXoteDl0eTRoNFl0SzVhRnNUb28zb3dsMlMyWl96c2VxVEhlVGtOelFsNVJGVi0xME9fcV9nX2FNT3pQc1QyU3FaQ2drVjVwMFVyWjRRbFVESFpNYTA?oc=5",
+      "publishedAt": "2026-11-25T15:41:03+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "cbe41dbaa1a90b87aed07bc1797ae791c97a4a7a",
+      "title": "[르포]손바닥으로 병원비 내고, AI에 적금 가입 맡겼다",
+      "source": "전자신문",
+      "description": "병원 수납창구에서 인식기에 손바닥을 대자 진료비가 결제됐다. 곧이어 스마트폰에 실손보험금 청구 알림이 떴다. 알림을 누르니 청구할 보험사와 보험금을 받을 계좌가 화면에 자동으로 채워졌다. 25일 서울 양재 aT센터에서 개막한 '코리아 핀테크 위크 2026' 네이버페이 부스에서 시연한 장면이다. 네이버페이는 병원 수납창구를 재현하고 손바닥 정맥 인증 기술 '핸드사인'으로 진료비를 결제한 뒤 '실손24'와 연동해 보험금을 청구하는 과정을 보여줬다.",
+      "link": "https://www.etnews.com/20261125000348",
+      "publishedAt": "2026-11-25T15:00:00+09:00",
+      "feed": "전자신문"
+    },
+    {
+      "id": "aeb2411e6dc092c889bc085eeaea1a27faf6652f",
+      "title": "쿠콘, 싱가포르 핀테크 행사서 MOU 4건…스테이블코인·해외 결제 공략",
+      "source": "문화일보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RakM5SFdXM21oSnhsOTRjVlNYOW9mWUg2cGdyNHFKUkdsWmZWZEVJVHBsUkFOVDdzZnFTdVVfSnlKVWZ5UHFES244U0MtNk4y?oc=5",
+      "publishedAt": "2026-11-25T14:58:31+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "5f3e4bff27a876286412954af801c0d98cc3080c",
+      "title": "“한 달 주가 흐름과 주요 변동 원인 한눈에”…토스증권, ‘AI 시그널’ 고도화",
+      "source": "매일경제",
+      "description": "주요 원인 타임라인으로 제공 AI 기반 흐름 요약보유한 주식이 왜 오르고 내렸는지 인공지능(AI)을 통해 한눈에 파악할 수 있게 됐다. 토스증권이 최근 한 달간의 주가 흐름과 주요..",
+      "link": "https://www.mk.co.kr/news/stock/12218105",
+      "publishedAt": "2026-11-25T14:51:59+09:00",
+      "feed": "매일경제"
+    },
+    {
+      "id": "84591b59432dcab6ba673746cdbecc84bc724ff4",
+      "title": "[기획]지도·결제·OTT까지…美 빅테크 공세에 토종 기업 '비상'",
+      "source": "매일일보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kdnoxQ0JSTkxoMF9fSU5uZVpKRE9qcWcyU2d3U2xBcWdCZVVpVjVQUlZ2UHotckFhR2ktNTRjS01hSFQ0OTVkOUZHZGh5U2dCWmNGTW4zc2ZQeGtBdkNtMjBLb0s?oc=5",
+      "publishedAt": "2026-11-25T14:50:18+09:00",
+      "feed": "키워드: 간편결제"
     }
   ]
 }
