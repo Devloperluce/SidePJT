@@ -2,11 +2,326 @@
   "date": "2026-11-27",
   "window": {
     "from": "2026-11-26T07:00:00+09:00",
-    "to": "2026-11-26T09:19:16+09:00"
+    "to": "2026-11-26T19:51:25+09:00"
   },
   "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[why] 그날 가장 중요한 3건에만 (importance 3, 3건이 안 되면 importance 2 중 가장 중요한 기사로 채움). \"왜 중요한가\" 2문장 (각 60자 이내)\n- 1문장: 이 일이 왜 생겼는지 배경. 기사에 없는 배경은 널리 알려진 사실만 쓴다.\n- 2문장: 결제·핀테크 업계에 어떤 의미인지. 전망은 \"~수 있다\"로.\n- 나머지 기사는 why를 쓰지 않는다.\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
   "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
   "items": [
+    {
+      "id": "bcd3ebec22e59384b878a786a9e06ed66cd4ec74",
+      "title": "젝토, XRPL 코리아와 스테이블코인 결제 협력",
+      "source": "이데일리",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNemd5Sk5ITHNkbzBkRk9ob2JIeHBDZjBjcnJXX1pUaXNkVXFYWUZSWXplcXdDdG91SjdIMUV2SlU4WjRfTml3UnM5cTdRRnpnYlBibUdwQVVnY0s4SFliZGxkV2YxRjd5M2x6aVhQSXhVLUF2cWxyZV9OaVNvMjdNZQ?oc=5",
+      "publishedAt": "2026-11-26T18:51:35+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "cbffcf3b790df800e5c51975fe6d4c04c5757a2b",
+      "title": "[카드 NOW] 롯데카드·BC카드·KB국민카드",
+      "source": "위키리크스한국",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByaERwVGNRbno2SkNhZ3NETk1lbVQ3TVlGbzdJNWtNSHZOWDFXZ3gtOHN4blNHTFZXa2dQRXo4Y21qaHcwbTI2b1VydmlSY0phMWdkYm9qTzhlcHdwNmVObEp5WldEWWpQaWJJR3N3bjg?oc=5",
+      "publishedAt": "2026-11-26T18:47:50+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "9dd6c8f395f921635e86da36f940029b264e7aba",
+      "title": "우리은, 라이더 배달료 미지급 막는다...쿠팡이츠와 ‘안전결제망’ 맞손",
+      "source": "재외동포신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BU085UWphanpuQUxwdlFDZFIteVhkOXZZWjVwVVYxTVRLNHMxUjYwMzJFNmlQUEhjVkVGeEZsVHUyRDdTbWUxZE1TdmVmcU1qNXFzMGtiS0prOENaaFBMVGRfejBDMFJBM0hfWQ?oc=5",
+      "publishedAt": "2026-11-26T18:03:29+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "211c341a605f5c93547ee9a9ba7de6473993b20c",
+      "title": "전국 교육감들 \"교육교부금, 2026년 정산분 보장해야\"",
+      "source": "머니투데이",
+      "description": "전국 시·도교육감들이 지방교육재정교부금(교육교부금) 산정 방식 조정과 2026년 정산분 보장 등을 정부와 국회에 재차 요구했다. 대한민국시도교육감협의회(협의회)는 26일 인천 송도센트럴파크호텔에서 제110회 총회를 열고 지방교육재정 대응 방안과 교육 현안 등을 논의했다. 협의회는 총회에 앞서 이날 오전 국회에서 기자회견을 열고 교부금 개편안과 관련해 △교육교부금 산정 방식 조정 △2026년 교육교부금 정산분 보장 △인건비 증가분 보전 장치 마련 △미래대응기금 내 초·중등교육 지원 근거 명시 등을 요구했다. 총회에서는 사립학교법 개정 건의안을 포함한 13개 안건을 의결했다. 또 서울시교육청이 시범 운영한 학교밖청소년 전국연합학력평가 응시 기회를 전국으로 확대하기로 의견을 모았으며 학생 자살 증가에 공동…",
+      "link": "https://www.mt.co.kr/policy/2026/11/26/2026112617403784958",
+      "publishedAt": "2026-11-26T17:53:19+09:00",
+      "feed": "머니투데이"
+    },
+    {
+      "id": "44625b0c4687da02efa869f6023f0a40f90077c7",
+      "title": "케이에스넷, 코엑스 세미나서 스테이블코인 결제 과제 제시",
+      "source": "스페셜타임스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xZTN5eFhkb296OXIxbnlRN1VwNjBPeTVMNWNvQWFTcTN5LUlUb21Ibk55d0Z6MnAzb2xUeFp4MnM0V0pXZWxsbEZ6QURFd3lYeGFiOUFrdGM3d3BXMm8tV3FYR3RPNUdLTjV2M0xJSXpUbHM?oc=5",
+      "publishedAt": "2026-11-26T17:19:24+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "3be208eae36c7568aaf3ca8123985dadbc52c075",
+      "title": "BC카드, 페이북서 스테이블코인 결제 구현…환전 없는 국내 QR 결제 시험",
+      "source": "데일리한국",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlRWtjdnpZTnBQSm4tQVBLc1BPT0FoSnlTUFNPdlpmbFpIc0tMN3B5TTN3bnBkVnYyZmhUN3QzTlEwbnhQcjE3VXZNRVctSXlaMUlEUGlEUVpYSUY5LVcxSWtldVl0QlliMHFNY3dpRdIBc0FVX3lxTE56MXYzYXV4b1gwa0lIaExpdjhPZTBnOERNV1pLcUI3VUg2YzJ5ZldxVFEwSXhSTTJ0bm5PVnRib0dzM2xQNFM4aU44Mlh3QWlOQmdYZDl6enM1T19rQ243aEJkQWs5ZjBRcjZ0cHBtMlhEWG8?oc=5",
+      "publishedAt": "2026-11-26T16:59:04+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "f03edab9bf5634a63cc9c099403ec35b9d8c4f3e",
+      "title": "쿠팡이츠서비스, 우리은행과 라이더 안전정산 추진…대금 미지급 방지",
+      "source": "지디넷코리아",
+      "description": "쿠팡이츠서비스(CES)가 배달협력사 소속 라이더의 정산 지연과 대금 미지급 피해를 예방하기 위해 금융기관과 협력한다. 쿠팡이츠서비스는 지난 25일 우리은행과 ‘라이더 안전정산 서비스’ 추진을 위한 업무협약을 체결했다고 26일 밝혔다. 협약식에는 김명규 쿠팡이츠서비스 대표와 정진완 우리은행장이 참석했다. 양사는 우리은행의 대금예치(에스크로) 시스템을 배달 정산 과정에 연계하는 방안을 논의할 예정이다. 금융기관의 대금 관리 기능을 활용해 배달협력사 소속 라이더에게 정산금이 안전하게 지급될 수 있도록 지원한다는 취지다. 라이더 본인 명의 계좌 인증 절차도 의무화할 계획이다. 쿠팡이츠서비스는 이를 통해 타인 명의 계좌 이용과 명의도용을 통한 불법 배달을 예방하는 효과도 거둘 것으로 기대하고 있다. 쿠팡이츠서비스는…",
+      "link": "https://zdnet.co.kr/view/?no=20261126163206",
+      "publishedAt": "2026-11-26T16:44:50+09:00",
+      "feed": "지디넷코리아"
+    },
+    {
+      "id": "07492edf605c5cdfcdb3c74d366ff512d18ba7b5",
+      "title": "네이버페이포인트·카카오머니 '200만원→500만원' 충전한도 상향 추진",
+      "source": "파이낸셜뉴스",
+      "description": "네이버페이포인트와 카카오페이머니 같은 선불전자지급수단의 충전한도가 200만원에서 최대 500만원까지 올라간다. 외국인 관광객의 이용 확대를 위해 본인 확인 절차를 간소화한다. 금융위원회는 내년 상반기 중으로 관련 법령 개정안을 마련할 계획이며, 법령 개정 전이라도 혁신금융서비스(샌드박스)지정을 통해 선불전자지급수단 한도 상향을 우선 추진할 예정이다. 이억원 금융위원장은 26일 오후 서울 중구 은행회관에서 '선불전자지급수단 제도 개선 간담회'를 열어 이런 내용을 골자로 하는 개선방안을 발표했다. 선불전자지급 서비스는 미리 결제, 충전을 하고 해당 액수 만큼 사용할 수 있게 한 것으로, △간편결제 페이·포인트 머니인 카카오페이 머니·네이버페이 포인트·토스머니 △교통카드인",
+      "link": "https://www.fnnews.com/news/202611261638588240",
+      "publishedAt": "2026-11-26T16:44:32+09:00",
+      "feed": "파이낸셜뉴스"
+    },
+    {
+      "id": "bc278884c492ed925347fbf93fd840c04101fd18",
+      "title": "[은행브리핑] KB국민은행, 핀산협과 핀테크 성장 지원 '맞손' 외",
+      "source": "서울파이낸스",
+      "description": "KB국민은행이 26일 한국핀테크산업협회(핀산협)와 '핀테크 기업 성장 및 외환-결제 혁신을 위한 업무협약'을 체결했다고 밝혔다. 이번 협약은 핀테크 기업의 해외 진출과 글로벌 금융거래 확대에 따른 지속적인 성장 기반을 마련하고 외환 및 결제서비스 수요에 대응하기 위해 마련됐다.양 기관은 협약에 따라 △핀테크 기업 대상 외환·결제 금융서비스 지원 △금융서비스 이용 편의 제고 및 수수료 우대 방안 검토 △핀테크 산업 활성화를 위한 정보 공유 및 교류 △핀테크 생태계 발전을 위한 공동사업 발굴 등 다양한 분야",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=644072",
+      "publishedAt": "2026-11-26T16:44:12+09:00",
+      "feed": "서울파이낸스"
+    },
+    {
+      "id": "146815dfdffe6540af6693857851a5b89c21c388",
+      "title": "'은행 과반'에 핀테크 최대주주…원화 스테이블코인, 절충안으로 문 연다 [뉴스줌인]",
+      "source": "데일리팝",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtNGtUaDdfOUFqSHBoRVplZVBwTHBQdHgyN1hkcXoydlA4b1I2Y3ZqV241Y3lpOXAxXzh1d0h5ME9QeVNGZ25mYTNIY1d4VDd4WF9FY3dydW5Ia0JSeVI0ajJOVGZRRHRu?oc=5",
+      "publishedAt": "2026-11-26T16:39:00+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "ea6e310ad07c3d3c5125f19fe13a56dfbc2e058d",
+      "title": "카카오·네이버페이 선불 충전한도, 500만원으로 상향…1일 이용한도 1000만원",
+      "source": "파이낸셜뉴스",
+      "description": "금융위원회가 선불전자지급수단 충전 한도를 본인확인 방식에 따라 최대 500만원으로 올리는 제도 개선을 추진한다. 외국인 관광객에게는 본인확인 수단을 늘리고 충전잔액 한도를 300만원까지 확대할 방침이다. 이에 따라 카카오페이와 네이버페이 사용자의 편의가 증대될 전망이다. 금융위는 26일 이억원 금융위원장이 주재한 '선불전자지급수단 제도 개선 간담회'에서 한도 조정과 이용자 보호, 범죄악용 방지 과제를 발표했다. 문화체육관광부, 법무부, 금융감독원, 금융결제원, 한국핀테크산업협회와 선불·관광 업계 등이 참석했다. 현재 200만원인 충전 한도는 예금계좌로 본인확인을 하면 300만원, 실명확인을 받으면 500만원으로 높인다. 결제·간편송금 등을 합친 금액에 적용할 1일 이용 한도도 도입한다. 예금계좌를 통한",
+      "link": "https://www.fnnews.com/news/202611261621064241",
+      "publishedAt": "2026-11-26T16:29:38+09:00",
+      "feed": "파이낸셜뉴스"
+    },
+    {
+      "id": "033c3e9e2db658f0b5081cdd9c629625effb79b9",
+      "title": "[프로필] '페이먼트 전문가' 이영희 삼성카드 부사장",
+      "source": "서울파이낸스",
+      "description": "삼성카드가 신임 부사장으로 이영희(53) 페이먼트담당 상무를 승진시켰다.1973년생인 이영희 부사장은 2001년 삼성카드에 입사해 25년간 삼성카드에 몸담아온 '삼카맨'이다. 그는 경영지원팀과 경영혁신담당 수석을 지냈으며, 2021년 상무로 승진해 회원마케팅, AI/빅데이터, 페이먼트 등 결제시장 전반을 아우르는 경험을 쌓았다. 신기술·신사업 다각화를 추진할 미래 리더십이라는 이번 인사 기조에 부합한다는 평가다. [다음은 이영희 삼성카드 부사장 프로필]△인적사항-1973년 9월 28일생(53세)△학력-2",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=644046",
+      "publishedAt": "2026-11-26T16:27:36+09:00",
+      "feed": "서울파이낸스"
+    },
+    {
+      "id": "d7d11856f813239ea3a9ab7028ccb4331548bb05",
+      "title": "화웨이와 CMA, 글로벌 결제 혁신을 앞당길 국가 결제 솔루션 공동 출시",
+      "source": "지디넷코리아",
+      "description": "싱가포르, 2026년 11월 26일 /PRNewswire/ -- 화웨이(Huawei)와 화웨이 글로벌 금융 파트너 룽하이 프로그램(Huawei Global Financial Partner RONGHAI Program)의 회원사인 CMA 스몰 시스템스 AB(CMA Small Systems AB, 이하 CMA)가 싱가포르 핀테크 페스티벌 2026(Singapore FinTech Festival 2026, SFF 2026)에서 국가 결제 솔루션(National Payment Solution)을 공동으로 출시했다. 출시 행사에는 화웨이 중앙은행 통합 사업부 솔루션 영업부의 프랭크 루(Frank LU) 디렉터와 CMA 스몰 시스템스 AB의 막심 네셰체레트(Maxim Neshcheret) 아시아 지역 디렉터가…",
+      "link": "https://zdnet.co.kr/view/?no=20261126161023",
+      "publishedAt": "2026-11-26T16:10:23+09:00",
+      "feed": "지디넷코리아"
+    },
+    {
+      "id": "b98d1e422c6de78502183383a54101e2060278ae",
+      "title": "원화 스테이블코인 제도화 윤곽…금융권 쏠림 우려",
+      "source": "뉴스토마토",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sSkZnZ2VNcFVjdFhKaUltdG5PeWlkVkZjdVppU2YzSnFSM1dSUnVGWWpJOXl5ZlBJQUVtRHQzWkNLd1hvdWNpWWJNcjJrNTlnZF9ROGZkMUs4TGNQY2U2cQ?oc=5",
+      "publishedAt": "2026-11-26T15:59:20+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "244594d7fd68817b63b113c807fa942b0d34b619",
+      "title": "AI가 전화하고 결제하는 시대…법적 책임 기준은 여전히 공백",
+      "source": "더퍼블릭",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EaXVudGM2M1FuTVRkWWxCVVhTWnkxTEtYYzhHYlliNVphdERPdFF0NllhZEV1dC1sVHlkci05dWtmYzk5SEhyOFRrTzM0dDdQcFFoSTJGTHl5ZXVwd1paQTg4SVlpOWRkMGln0gFvQVVfeXFMTWlYM2xXUWNQVWU3WE1adTZYa0RSb2llRFA4bDRKWFNMbkdTaHZSa2hhVzNnLWdfdzdMOFZVSGhYRDFPTmgyM2ZQSXhqVWMwd2YxS3Jtbi1lYnZWSjV1VzV6OHYweDVLclExamUtRGJB?oc=5",
+      "publishedAt": "2026-11-26T15:55:58+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "d077bd1da597d594bbe5b93df613ac0893bc60b8",
+      "title": "쿠콘, 페이어맥스와 크로스보더 정산·송금 확대 MOU",
+      "source": "국제뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81UndiUWFJQ195WGdORDMtOXBraFFzb0RuWU5tUjJ4MjMzeVg0V0pJWjZZaVozN2NJanI5cEVGRHhxUHZLWE9NNDVNRTRidXR3WnhfeThMVHFjR0hjQzNsZGZNOTFLbV83OTZwNy1R?oc=5",
+      "publishedAt": "2026-11-26T15:20:55+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "d675c49b552cf7c9845e65efba890de3d61bb991",
+      "title": "네카토, 간편결제 넘어 생활금융 경쟁…AI·생체인증 선봬",
+      "source": "비즈월드",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXYTdBVlJGQ0tWZ21WNnpGaW0xUGttMEYyVHhGN05VMG1IS244TzZ4cUFDYXNIVWRZdmxfcXpobENPTWo2N0FUNU9aS2JQbHlOM2RSR0xGVjh2Z2NsRTNTNEp5WDJ4Q24welE?oc=5",
+      "publishedAt": "2026-11-26T15:09:00+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "e5cae91a3194e1c7575663a2aac366d356b68250",
+      "title": "은행 예금으로 매장서 QR 결제…iM뱅크, 예금토큰 체험 운영",
+      "source": "경북매일",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VMG5yTXQzZWtQaFZiV1ZGbnZMUmowbzEzajFOOTR6RTJ2dVhyLUw5ek05Nk5lRGstY3NNRUlqVW5DMnZaX081LTR1bldUUFUzTTJabW5TdFhadw?oc=5",
+      "publishedAt": "2026-11-26T15:05:00+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "1ccd49b3a51d9c6159935a375f2a2bfaa958b325",
+      "title": "[금융新세계] 스테이블코인 시대 앞둔 은행권…해킹 겪은 금융보안원도 쇄신 과제",
+      "source": "주간한국",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YMFRPSG9ucjJzbXl2dFZzZ3FDWG4wc3pLRkFBR2k5azBEem02VkIwZWltazJDcDIwWGdjRlBEM0w4NG41TlpmcGNUU0MwMHNTNWc4UXItSjRGSUF4VzFSS053WHB4TmJESHlWNUtWSDXSAXRBVV95cUxPZjZKd0tqSDJ4aWloS2NsckVyYnRCN0dCNVV4OWcwZjVMUXYxQVV1QlVvNW0ydGlGcTBhOVlSXy1EazJQQkx2Z0l4cUdwYVVmZUx5TDBoZldlYlVCSENpNUFmU3JPd2JLTUdjOTFOeXljUTlUUA?oc=5",
+      "publishedAt": "2026-11-26T14:56:16+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "78de59154a9b1e47831a14dea1e11dd1c1d5d73b",
+      "title": "네이버페이·카카오페이·토스 충전한도 최대 500만원, 하루 결제·송금 한도 확인하세요 > 뉴스",
+      "source": "진해신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FVEo3dDh1U1pkLU9TTi01YlprMFgtX2ZzSTJ4eV9WX19DY2FKMnJCbzA5WWk2aWtIOWFCSGo3NDdpaVpaLVZtdWNUbDV6cVB0UVpoU1RYMlRXVVRkSHYxdDJiNV9udVQyY1c1ZzZsNnRGZ3Rsb04wNGVBWmY?oc=5",
+      "publishedAt": "2026-11-26T14:47:00+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "171824c1c63107060c58bb729d367783867d87e5",
+      "title": "‘결제 다음’까지 노린다…네카오, AI 금융비서 경쟁 본격화",
+      "source": "매일일보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WbDB6UVcxSUc2WWFJNHdUMXB2WU9jYTJQZmltdlJBRVZOR0p3WHowdU5Ed2RVWE5BYW5ZZTMzSHpYeHhIRHhESlJ5aU5oTmh3Unc2NTVmUHBnTmxMY1lvNWw1bWU?oc=5",
+      "publishedAt": "2026-11-26T14:32:20+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "f96ceed25b3be1538c8b1ce3f3f4464a37bcffbf",
+      "title": "[현장] “1만원 이하 치약 사줘”…네이버페이, AI 쇼핑 시대 연다",
+      "source": "소셜밸류",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wQXlYUTRIUjBLTDBHckgtQm9ocHk1Qm03LWtmMDFaZjBXdURjb0V2VHV3c2pDOTYxRXYtRTBuTzlXS0FqM09Udm5VaFdoUFlkQzdRMTZDWnJwOThiRzg4QXctd9IBbEFVX3lxTE51eXNYU3QwVVFnelMzRlNEc0NaMTlYSXktYWsyQ3F3ZENGT0FGSXhWX2xSU3gtaWdFV2pBNGRzNW96RzFzSG9naDZpNTNURjVldjRETV9vTkVUdEhONWVNVDlvbWtONUdFN0IzdQ?oc=5",
+      "publishedAt": "2026-11-26T14:18:40+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "6d27e1df1793040e262d9421f37c79c24ed7214d",
+      "title": "비씨카드, 페이북에 스테이블코인 지갑 구축…QR 결제 검증",
+      "source": "더팩트",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQZ3cxVkh1LXZhcHpmQlBBNzdvbXZUdHNFQ184RUpZSjhRZV9KeGlPSkM4YnpiWFJJNjlheU5VeGFyZ2FtZnNsbDlmcWNUMGlYYk9JYTJSbU0yUdIBVEFVX3lxTE11TmtLZzMxMk5QZ0hBY0dTV0loN3BwMHUzMGZRYTI4SldocGJLQkZNNlNVdlMtcXNtVURIWGRRVllISk01YnJGOC1GZ1VuWFVrbEtXWg?oc=5",
+      "publishedAt": "2026-11-26T14:17:13+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "69f13d7a972f46eb61c98275b8ecf3d36c49c6b8",
+      "title": "네이버페이 등 간편결제 충전한도 최대 200만→500만원으로 늘린다",
+      "source": "SBS Biz",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54Q0p5WTBsSmtEdDZvakxHT3YzMWxnVlVlQXpCS0lNd21YbXo4WnRKM01JTmtTQ2FDTmliNjh0SHNndldTOXlFUk9ER2ZaSV91eHlF0gFYQVVfeXFMUEwzV2ZwWHplTk8yeFN3UTZoTl8xMXJsY24xZEFuWWEwb2ZGaE5Bdi1pcV9ueC1vb05GME0wa3ZDWFBzSExGTFg5UXhiaHpBeEY2eGlndkJ2Xw?oc=5",
+      "publishedAt": "2026-11-26T14:05:45+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "bfaef964cf5b9ade9a0b24c9eec4622c3ea896a1",
+      "title": "간편결제 충전 한도 200만→500만원…18년 만에 규제 손질",
+      "source": "아주경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uMVplcXR2SkxpU2Nuc2NRbnNiTHFxaXozNGxIel9OUGlYeFRTNHZiRERobUFybUNFTEJkOUJIajVwdzV6X0tTdHdIMjE2Y0wwVEVmSkoyQ1Z2QdIBWEFVX3lxTFBtR1plZ0owYXF5UUQxV3RUY0N4QWdvR250VXVScE03bkpXTXhJVDdBM1RPQVJpS0x4UEY2TGw4OF9FSHhQZGNyS0NJT2cwRXhXRnRldndFRHI?oc=5",
+      "publishedAt": "2026-11-26T14:00:00+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "e82c345408629789d0471eebd3bf8278f0de1064",
+      "title": "선불충전금 한도 200만→최대 500만원…18년만에 손본다",
+      "source": "전자신문",
+      "description": "선불전자지급수단 충전금이 200만원에서 최대 500만원으로 늘어난다. 결제와 간편송금을 합산한 하루 이용한도는 600만에서 1000만원이다. 방한 외국인 관광객은 본인확인을 거치면 선불충전금을 최대 300만원까지 이용할 수 있다. 금융위원회가 26일 서울 은행회관에서 이억원 금융위원장 주재로 '선불전자지급수단 제도 개선 간담회'를 열고 이 같은 방안을 공개했다. 선불전자지급수단의 하루 평균 이용액은 2020년 4676억원에서 지난해 1조3051",
+      "link": "https://www.etnews.com/20261126000175",
+      "publishedAt": "2026-11-26T14:00:00+09:00",
+      "feed": "전자신문"
+    },
+    {
+      "id": "fd981dd6e1ecb164212556b27d01f397905565d2",
+      "title": "추천부터 결제까지…네이버 AI 쇼핑 어디까지 왔나",
+      "source": "스트레이트뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DVnBmc2JBbzFNQzY4OVFKR2lUbktGTVpkMGdERXg1VjBPLXF1WHBLVVlDenNDUHo1bEI2bXlZaFJPd1k1cWpGMG5nS3lQTG8td21KcElXRTYzeFZwRFFmVm14VmJMd1JSM3c4OGZEaHVRamfSAXdBVV95cUxPUGYzVDh2SlhndGh2ZUh0N01xVHVnSm5wdVhnQkZsaWtDYUlsZGd4aFQtanAyd21mQ29pVVAxT0RmNjc3TWg2TkRxcnFtTTJjbU0zUHBQcEVxMlI1QjNfdENtZ3FQSS1JcEpqRHA3LXBhclRJOVM3QQ?oc=5",
+      "publishedAt": "2026-11-26T13:55:40+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "ba08c67014d4043417a6ea53730ff5e1fa165cc6",
+      "title": "우리銀, 쿠팡이츠와 맞손...\"배달 라이더 정산금 지킨다\"",
+      "source": "파이낸셜뉴스",
+      "description": "우리은행이 쿠팡이츠서비스와 손잡고 배달대행사 소속 라이더의 배달료 미지급 위험을 줄인다. 배달대행사 정산 서비스에 '우리SAFE정산'을 연계해 대행사 수수료와 라이더 배달료를 구분하고, 배달료 미지급 위험을 줄여 정산의 투명성을 높인다는 구상이다. 26일 금융권에 따르면 우리은행은 전날 서울 중구 우리은행 본점에서 쿠팡이츠서비스와 배달대행사 소속 라이더의 배달료 정산금 보호를 위한 업무협약을 체결했다. 양사는 배달앱에서 배달대행사를 거쳐 라이더에게 대금이 전달되는 과정에 '우리SAFE정산' 서비스를 연계할 계획이다. '우리SAFE정산'은 지난 2024년 티몬·위메프 대금 정산 지연 사태와 같은 피해를 예방하기 위해 우리은행이 지난해 2월 출시한 정산 서비스다. 은행이 결제대금을 직접 관리하고 플",
+      "link": "https://www.fnnews.com/news/202611260911252528",
+      "publishedAt": "2026-11-26T13:48:01+09:00",
+      "feed": "파이낸셜뉴스"
+    },
+    {
+      "id": "a5371110cfa7e19115656492131d37e04bcf19aa",
+      "title": "결제 다음은 금융…네이버·카카오·토스, 미래 먹거리 선점 경쟁",
+      "source": "한스경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5aYlk2czNneWxTUzl6NFpHbVI4VURNNXp4N3ExdVM4UnkzeFlaRzZpRWtISWJUQmtWOXJOTnRDWmQwVko1bzhvX0wxLXZIRFNpeWtUNEh6NGpBS1MydjVWMGpvMksyNzNSNm1j0gFvQVVfeXFMT3V2OEM5UDRVVzNxeUFTcGdZWDZvRGpoWHlBZE5LUHhkN085SjBzV25SaUxOX1J3ZEp6TUtOSWtMbHVmd3F2blJnN3pMMmNxOVVRaExBS2l5cVZHRmRydHVUVWJoRnUyb1ZiVkU0bWcw?oc=5",
+      "publishedAt": "2026-11-26T12:57:05+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "13d3d1187935c4a0ac2085ecdb51c3b0abe1aa9c",
+      "title": "은행이 과반, 핀테크는 최대 주주…원화 코인 복잡해진 주도권 셈법",
+      "source": "에너지경제신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40UU52alFGZ09DaWpGd3dnQlZ3WEVuYnN0QXpOclpSQlJIZzZuNl81cmJQNnJoSzF6V1JKUExFX202N19kS1ZzZC04Q1FUd1FXaUxUdHNCYUFJYU9nZjlVUDdLRQ?oc=5",
+      "publishedAt": "2026-11-26T11:54:57+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "f9f94eb6178cee85bea6c1a82fa6f329ff6b57cf",
+      "title": "BC카드, 자체 디지털자산 지갑 구축···\"상용화 토대 마련\"",
+      "source": "파이낸셜뉴스",
+      "description": "BC카드가 자사 플랫폼 '페이북'에 디지털자산 지갑을 구축하고 스테이블코인으로 결제하는 기술 검증을 마쳤다. 26일 카드업계에 따르면 BC카드는 최근 미국 달러 기반 스테이블코인 'USDC'를 활용해 결제 검증을 완료했다. 외국인이 사용하던 외화 스테이블코인을 페이북 지갑으로 옮긴 뒤 환전 절차 없이 전국 BC카드 QR 가맹점에서 결제하는 상황을 가정해 진행했다. 이번 검증에선 블록체인 인프라 기업 DSRV와 협력했다. 디지털자산 지갑과 카드 결제망을 연동하고, 스테이블코인 결제부터 취소·환불까지 전 과정을 구현했다. BC카드는 고객 대상 지갑과 결제 서비스를, DSRV는 블록체인 기술과 인프라 운영을 각각 맡았다. 결과적으로 페이북에 디지털자산 지갑 기능을 설치하고, 국내 카드 결제망과 연계해…",
+      "link": "https://www.fnnews.com/news/202611260819304854",
+      "publishedAt": "2026-11-26T11:26:05+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "f0ad6617eeba24e26af065d31b975470e53b6323",
+      "title": "코리아 핀테크 위크 참여 DSRV, AI 금융 비전 제시",
+      "source": "이데일리",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdGZGXzZZX2FuOHlMVGkyM2ppeUlMSEs0ZVJsMzZpZzU5MHJmZTFILWRNT1RkNV9sQU9tWDUzckx5c0dZVGpEMlZnVkVUQ1RsSFVyaUNWc0RwTFZld2dRZ09IRmV2UTZKVUNfYk81MjlydkJyb3E2azFzNnBvSkFsOQ?oc=5",
+      "publishedAt": "2026-11-26T11:19:47+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "57fd5651537e7f343cf690aad8d91beac0b87deb",
+      "title": "[소셜톡] 유동수 위원장 “핀테크 산업, 금융 AX 시대 혁신 주역”",
+      "source": "파이낸스뉴스 I 파이낸스뉴스TV",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QREJ6aG1STnBpZTJMN3FIUmFscTA1OE9za2l5RTRIXzRiRlZQdG5seHJBVExXMkxaekV6dzB2Uk4wR2lPamxVT0J6ZXpGRlJhMVVKZ3oyTUQxY3MzZDNCYVA3SXJWd0dLdmfSAW5BVV95cUxQMEk2bFctV2FLMjFoRUw5Q0UxV3FQY0ItMUpVX0xyZmgzU1Qxano3c1I2ZUgtU21wZlZlUExyVTc4Qm9iRkw5V0l6MDNSUVRKYmRxN2hoOHJNY3lqR0d5Q3pzSlI5Wmg0QjQ2Z09zUQ?oc=5",
+      "publishedAt": "2026-11-26T10:01:31+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "95a5dba9df1715810e9d505671a391004a4290c2",
+      "title": "에일릿 ‘전당포사나이’, 2026 한경 핀테크 대상 테크 분야 최우수상 수상",
+      "source": "한국경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzdC1NR2xQWGg5cW5aV1JOR1hXVHYtZ1BGT1oyTTBLY3pRUXM4TGtGeE9mdE5kdjk1czhobmoxWWhrOHJnTExEZkVJMFFLalFQUFhEVERBQUpmdw?oc=5",
+      "publishedAt": "2026-11-26T10:00:12+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "8f77910a672b662dfb1ac66b97221f98dfcfdfb6",
+      "title": "쿠콘, SFF 2026서 MOU 4건 체결…글로벌 결제·정산 협력",
+      "source": "숙박매거진",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mYmR4UFVsQXRiVUw2MFNHS25pZEZIX0J6X0VpYlhfVGtlaVJVeWVvVFNzR0ZfX3V1SWhPNWpabVB5aGZIY3JYWG1Cc25heXNJUW02bVFSQm5YSDVWbnRZZnIwZVE2bmFWaUJoeG15aTQ?oc=5",
+      "publishedAt": "2026-11-26T09:46:27+09:00",
+      "feed": "키워드: 정산 결제"
+    },
     {
       "id": "a6e83bb9851da33e04bf4bb715bb015b73d25f49",
       "title": "디지털융합산업협회 “기업 스테이블코인 해외송금 허용해야”…금융 인프라 개편 촉구",
@@ -14,15 +329,6 @@
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOMUw2LWRWdTFUOFNmcmo1aDE1NWFMTEFYNk5HNHpQOElsX3VuRGJaZjJEcjZpNjV2TXpKVE1qenl5RkJsUWlicEtaS29HSTBaeGlVWUYxaGhlRWE2LVNnbHVzb2pfRndlSjl4OGFBc1hyREpsWFhuS1Q5VmQ?oc=5",
       "publishedAt": "2026-11-26T09:16:05+09:00",
-      "feed": "키워드: 스테이블코인 결제"
-    },
-    {
-      "id": "2f33eefbd95b3cf67adf73ab9da8114dc1ef2df4",
-      "title": "BC카드, 스테이블코인 결제 기술 검증 완료…페이북 1500만 회원 결제 기반 확보",
-      "source": "서울타임즈뉴스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwdUFnWTFwR0JjMWc4Y0ZVazJlZ0FjanhTRk9LVEVBTEpmMnlVZkhWdFFJTllDUGY0bXdQbXladUlRMVBpUURTUDFsMmtoQ1pKRjhNSDJlWXRFODUtaFhpb3F5MVhDLWJnYzJN?oc=5",
-      "publishedAt": "2026-11-26T09:14:09+09:00",
       "feed": "키워드: 스테이블코인 결제"
     },
     {
@@ -60,51 +366,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QeUZvaThORkxzS1h1cjZ3bS15UGFiZHpRaU9wSGZMblhuWlZweXNVWVRwaXQ1NnVqdVg4M3Y4M2hqemQzTnR6OWVMd0tsOS05S2JmNzd3ZHNIcW5kUEgzVzJMU3k?oc=5",
       "publishedAt": "2026-11-26T08:24:24+09:00",
       "feed": "키워드: AI 에이전트 결제"
-    },
-    {
-      "id": "a778683432c8bddfe24c870330ccc3243b2b36ab",
-      "title": "전업카드 8사, 해외 결제망 수수료로부터 독립 시동",
-      "source": "데이터뉴스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KQmd2eGtZUFVLZ2RzcFhHbWRGal94dEpka1lpenRXNk14N3BIZl9ZZVpybnlvQjB0bGl2OUU0cER2b1ZOVkxEcU9DUERDVGY0eUtPOVN2d1Mxd2ZybWdF?oc=5",
-      "publishedAt": "2026-11-26T08:19:13+09:00",
-      "feed": "키워드: 간편결제"
-    },
-    {
-      "id": "fab6c5a5545cd11f57a2defe71d5648e15e01134",
-      "title": "DSRV, AI 결제시장 진출···쿠콘과 맞손",
-      "source": "한스경제",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53dFpnWW01WlJtbF9hR2NTZ2xNeWhzSmFEbDB5enRIV3ROZHNMWXBodW9FMlRJMVF5MFV2NTZOeVZXU0l2QWdNaF84d3J2NlJWNDZLWDV0VkxMaVkyMDBtWGJKaGxmUUhRMWVv0gFvQVVfeXFMUHhuc0w4OUFoYzBDOHBlV2tMRHJ1eUV6LVRxNFd1bGZPUkhQRVZXdGNhMjdQOVVNdkdHM2pHRTUxMlB6MUFxUnVhaUZKT29BanRSaHJ4WjhCVFdfTXRuTUtmdGlTREI2MWtjRmlWclR3?oc=5",
-      "publishedAt": "2026-11-26T08:18:10+09:00",
-      "feed": "키워드: 스테이블코인 결제"
-    },
-    {
-      "id": "aaa07cc11c90481f27e8e6dd93ab35a37bffa8be",
-      "title": "은행 과반 쥔 원화코인…결제 주도권 경쟁 본격화",
-      "source": "컨슈머타임스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14Y0d2MGY1Z2E0Q0tUUUQ0X2RYM0xMWS1ZcGlyZGdDZTc4S1JWUVI5ZDR4NURiSDh3RVVONkxsamdrbUhVRGVaQTNpaF94M1ZJY1BrejJSMEh0a05Ra0VheFRlZEtKNmtSNXc?oc=5",
-      "publishedAt": "2026-11-26T08:07:13+09:00",
-      "feed": "키워드: 스테이블코인 결제"
-    },
-    {
-      "id": "66bb1c7ba1e8be41578798843f6028efa660980b",
-      "title": "[크립토핫이슈] 스테이블코인 담은 디지털자산기본법 공개…법인·ETF는 빠져",
-      "source": "디지털투데이",
-      "description": "정부가 디지털자산 거래소 대주주의 지분 보유 한도를 원칙적으로 20%로 제한한다. 금융위원회 승인을 받을 경우 최대 34%까지 허용하고 원화 스테이블코인은 제도 도입 초기 은행이 과반 지분을 가진 컨소시엄을 중심으로 발행하도록 할 계획이다. 금융위는 24일 이억원 금융위원장 주재로 가상자산위원회를 열고 이 같은 내용을 담은 '디지털자산업의 혁신과 이용자 보호에 관한 법률' 제정안을 공개했다.⦁ 거래소 대주주 지분 20% 제한...원화 스테이블코인 은행 주도⦁ 지분 규제 넣고 법인은 빠졌다...디지털자산",
-      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718228",
-      "publishedAt": "2026-11-26T07:30:00+09:00",
-      "feed": "디지털투데이"
-    },
-    {
-      "id": "584b9587bee9b748dc5b1c6f44351c78a86b8d3f",
-      "title": "은행 과반 지분 스테이블코인 발행 추진…시장 선점 경쟁 본격화",
-      "source": "라이센스뉴스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QSEVCenBPY3BCaHI2X2Nkb2xycURBaHRTNnlpekg3Ukl4cUowdXd5cGNUUDhmQWJJekJiUFViX2g3R1lldmFVMnZKSDI1cXFPS25rWUpXS1kxVUFhVjNtSjJDeEdTMzBFaTZj?oc=5",
-      "publishedAt": "2026-11-26T07:00:00+09:00",
-      "feed": "키워드: 스테이블코인 결제"
     }
   ]
 }
