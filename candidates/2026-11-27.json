@@ -2,11 +2,110 @@
   "date": "2026-11-27",
   "window": {
     "from": "2026-11-26T07:00:00+09:00",
-    "to": "2026-11-26T19:51:25+09:00"
+    "to": "2026-11-27T06:28:50+09:00"
   },
   "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[why] 그날 가장 중요한 3건에만 (importance 3, 3건이 안 되면 importance 2 중 가장 중요한 기사로 채움). \"왜 중요한가\" 2문장 (각 60자 이내)\n- 1문장: 이 일이 왜 생겼는지 배경. 기사에 없는 배경은 널리 알려진 사실만 쓴다.\n- 2문장: 결제·핀테크 업계에 어떤 의미인지. 전망은 \"~수 있다\"로.\n- 나머지 기사는 why를 쓰지 않는다.\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
   "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
   "items": [
+    {
+      "id": "922011e37e9168be0a4f76f3c293407501eea2a6",
+      "title": "월 결제·에이전트가 가르는 소비자 AI 시장 2700억 달러 쟁탈전",
+      "source": "뉴스N연합",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE84ekE0NjgwdThDYWNQSGhNQTNiYm14czNVUUFGOU53dFFNRDFTZzB1eVhTQVZRVGpSNkRUNG5LSlpqMGpYTTByZHZB?oc=5",
+      "publishedAt": "2026-11-27T05:31:58+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "8ac1f6ee105020349008b93b5e8551b2510f34c8",
+      "title": "어젯밤 뭘 샀는지, AI는 안다… 구글·네카오, 소비분석 척척",
+      "source": "머니투데이",
+      "description": "구글 월렛 연동 알뜰소비·카드혜택 등 맞춤제공 네카오, 상품·장소 추천 동시에 구매·예약 서비스 구글이 AI(인공지능) 검색에 이용자의 결제정보까지 연결한다. 네이버와 카카오도 구매·예약 이력을 활용한 맞춤형 AI서비스를 강화한다. 검색창에 입력한 질문에 답하는 수준을 넘어 이용자가 무엇을 샀고, 어디를 방문하며, 어떤 상품에 관심을 보이는지 파악해 맞춤형 서비스를 제공하는 경쟁이 본격화한다. 26일 IT(정보기술)업계에 따르면 구글은 지난 23일(현지시간) AI 검색서비스 AI 모드 의 개인화 기능인 퍼스널 인텔리전스 (Personal Intelligence)에 구글 월렛을 연동한다고 발표했다. 이용자가 동의하면 소비내역을 분석해 지출을 줄일 방법을 제안하거나 보유한 신용카드의 캐시백·포인트·여행혜택…",
+      "link": "https://www.mt.co.kr/tech/2026/11/27/2026112619545468467",
+      "publishedAt": "2026-11-27T03:40:00+09:00",
+      "feed": "머니투데이"
+    },
+    {
+      "id": "a8c46e868e5b2df4358456a98a096d166d37842f",
+      "title": "STO·스테이블코인 시장 키우려면…“발행 넘어 유통·결제까지”",
+      "source": "Naver Blog",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQjhidDREWml2RFNOczNmNFU0eDRwdERNTnFPOWx4NHE1cnJHZ2ZqekJ5czdiWDVzdnczZnl5MUhKLTk2YWUza1E1dEZCOEFoZkk3QVkwS2lLY3laYjYyeVpNdHRfMjlBRHdrejVkYVZhaGpxczNJTktPRlc5QzJYdU94bVBQZHFpY2tNaHFjSQ?oc=5",
+      "publishedAt": "2026-11-27T02:51:47+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "308850ba71c8eb5f97f005496ae21f72f17f831c",
+      "title": "모니모페이에 카드 등록 후 간편 결제하면 10% 할인",
+      "source": "조선일보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVlIydjZGckVjOUVGUVdSbUtlUnFIWjBzZ2RqTGtXNy1qNUNXYVl0X01UdUFpVWhVSW5OUlNpczc5N1FodFpPSmZiUmMxbU5XbFdpemNVMElBcTBlOHlDcGtfcG84WkJ6X1FZcDFuejJNejRyWWt4UFUyQktwclQ5R1NsdXZ6OUZ2M0tIMS1B?oc=5",
+      "publishedAt": "2026-11-27T00:36:03+09:00",
+      "feed": "키워드: 간편결제"
+    },
+    {
+      "id": "8d871003746f5da91db3dd322ffd3388cb77598a",
+      "title": "BNB체인, 고빈도 거래·결제·AI 에이전트 특화 레이어1 개발 추진",
+      "source": "블루밍비트",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9UMkJMUW5ibW9oY0xYb1gxT0ZBdnprTjl0MGw2ekpNTy16WHdaNUNlNlRRNDg5bXhhbTVqekpTcEk0ZDFtWlVSdFNaRktYcWQ1?oc=5",
+      "publishedAt": "2026-11-27T00:32:51+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "a9bda832bbf1c061f9f2f2e344f3e26e6074f107",
+      "title": "[금융新세계] 생체인증 활용 스테이블코인까지…핀테크, 미래 금융 주도권 경쟁",
+      "source": "주간한국",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsczVraEZDakZmS2xRR0pZYjU4SjFSWG0xRFJRWXk2VXkzYTcta0hWWGNsUy15Q3lfWHpNaGh2SVVHTXVwdnlFQlhvbUxPaHV2QmdRNG5oTElZakpVaUctT0l5VDV5bEVNU0ppN2p2eXXSAXRBVV95cUxNMGRMd3RLclpYLWZwZDBOblRpdnpEZy0tTHhtdlBGcWp3bmIxRWpQdEktdWxHVmZndVBFYkN1NmFxNkVpMGZBNHpJbVhDa1htSmY2QmlzZ2F1cl90b0I0N05RR21NWDNyTWwwRjVXbXZfZXU4Ng?oc=5",
+      "publishedAt": "2026-11-26T22:26:28+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "5ee2a5f957e54a6718c06828dd0e26d828fe1931",
+      "title": "쿠콘, 원화·달러 정산망 확대⋯페이어맥스와 맞손",
+      "source": "현대경제신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zSTBqSThNdERQTG51eUdrTjU4V0tLb3VNbnZHWWpicXRhZDV0N01XQ3MzbGxMS2pXVk4wOXJyU0JoVGtXam9LN3ZacE5YWHBkV3hNaVEwU3h5a3NVMHZVaEE3RWlzb29QbnFJ0gFrQVVfeXFMTTNJMGpJOE10RFBMbnV5R2tONThXS0tvdU1udkdZamJxdGFkNXQ3TVdDczNsbExLaldWTjA5cnJTQmhUa1dqb0s3dlpwTlhYcGRXeE1pUTBTeHlrc1UwdlVoQTdFaXNvb1BucUk?oc=5",
+      "publishedAt": "2026-11-26T22:01:22+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "968b893f102f08b2d2ae51516898eb2728d787a0",
+      "title": "삼성카드·카카오페이, 레이어제로 블록체인 '제로' 검증인 합류",
+      "source": "디지털투데이",
+      "description": "레이어제로가 오는 30일(현지시간) 출시하는 블록체인 네트워크 '제로(Zero)' 밸리데이터(검증인)로 삼성카드, 카카오페이, 잔(ZAN)을 추가했다.더블록 보도에 따르면 삼성카드, 카카오페이, 잔은 제로 메인넷에 제네시스 검증인으로 참여해 출시 시점부터 네트워크 합의와 증명 검증 시스템 보안을 담당한다. 삼성카드 검증인 노드는 블록체인 리서치 기업 포필러스가 대신 운영한다.삼성카드는 9월 말 기준 카드 회원 약 1392만명을 보유하고 있다. 카카오페이 월간 이용자가 2600만명 수준에 달한다. 잔은 앤트",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718584",
+      "publishedAt": "2026-11-26T21:32:55+09:00",
+      "feed": "디지털투데이"
+    },
+    {
+      "id": "6f2fa7bab063c27721843b95e3bb74b20345712e",
+      "title": "메타마스크, 일본서 가상 결제카드 출시…스테이블코인으로 결제",
+      "source": "디지털투데이",
+      "description": "암호화폐 지갑 서비스인 메타마스크가 일본에서 스테이블코인 기반 결제 카드 서비스 제공을 시작했다. 26일(현지시간) 블록체인 매체 코인포스트에 따르면 메타마스크는 25일 공식 X를 통해 일본과 태국, 베트남에서 '메타마스크 카드'를 출시했다고 밝혔다.일본에서 신청할 수 있는 카드는 연회비가 없는 가상카드다. 실물카드는 제공하지 않는다. 이용자는 앱 내 계좌인 'MetaMask Money'에 보관한 미국 달러 표시 스테이블코인 mUSD로 결제할 수 있다.이 카드는 마스터카드 가맹점에서 사용할 수 있다. 결",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718579",
+      "publishedAt": "2026-11-26T20:37:53+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "4555c22d4073f1c2a3ec1fdf31e7a18886a57501",
+      "title": "골프존홀딩스, 골프존카운티 주식 904만4380주 토스카나팜에 2683억9478만원 양도",
+      "source": "디지털투데이",
+      "description": "골프존홀딩스(121440)가 계열회사 골프존카운티 주식 904만4380주를 토스카나팜에 2683억9478만원에 양도하기로 결정했다고 26일 공시했다. 양도금액은 골프존홀딩스 총자산 1조596억원 대비 25.33%, 자기자본 7448억728만원 대비 36.04%에 해당한다. 총자산은 2025년말 연결재무제표상 자산총액, 자기자본은 같은 기준의 지배기업 소유주지분으로 기재됐다. 양도 후 소유주식수와 지분비율은 별도로 기재되지 않았다. 양도예정일자는 2027년 2월 26일이며, 이사회결의일은 2026년 11",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718573",
+      "publishedAt": "2026-11-26T20:02:04+09:00",
+      "feed": "디지털투데이"
+    },
+    {
+      "id": "fb3f656495dda14194d3d88ec3b2b61a575eceb7",
+      "title": "오픈USD, 두 달 만에 1조원⋯‘중요 스테이블코인’ 지정과 국내 활용은",
+      "source": "이투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rVi0zTWo4MV9mMnY1RVh3WkdmZDRfZ1VZZlQzdll5QzlaamQ3ZUR3YXhFMU5PV0FKYk5BaU96Y3VSTS1ENTZvc3pOQXcxa1hLcjBUOQ?oc=5",
+      "publishedAt": "2026-11-26T19:47:00+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
     {
       "id": "bcd3ebec22e59384b878a786a9e06ed66cd4ec74",
       "title": "젝토, XRPL 코리아와 스테이블코인 결제 협력",
@@ -116,6 +215,15 @@
       "feed": "서울파이낸스"
     },
     {
+      "id": "16869c640d02f39915c1f65357869eb4accad101",
+      "title": "AI가 전화하고 결제하는 시대…법적 책임 기준은 여전히 공백",
+      "source": "더퍼블릭",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pWDNsV1FjUFVlN1hNWnU2WGtEUm9pZURQOGw0SlhTTG5HU2h2UmtoYVczZy1nX3c3TDhWVUhoWEQxT05oMjNmUEl4alVjMHdmMUtybW4tZWJ2Vko1dVc1ejh2MHg1S3JRMWplLURiQdIBb0FVX3lxTE1pWDNsV1FjUFVlN1hNWnU2WGtEUm9pZURQOGw0SlhTTG5HU2h2UmtoYVczZy1nX3c3TDhWVUhoWEQxT05oMjNmUEl4alVjMHdmMUtybW4tZWJ2Vko1dVc1ejh2MHg1S3JRMWplLURiQQ?oc=5",
+      "publishedAt": "2026-11-26T16:13:21+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
       "id": "d7d11856f813239ea3a9ab7028ccb4331548bb05",
       "title": "화웨이와 CMA, 글로벌 결제 혁신을 앞당길 국가 결제 솔루션 공동 출시",
       "source": "지디넷코리아",
@@ -134,21 +242,12 @@
       "feed": "키워드: 스테이블코인 결제"
     },
     {
-      "id": "244594d7fd68817b63b113c807fa942b0d34b619",
-      "title": "AI가 전화하고 결제하는 시대…법적 책임 기준은 여전히 공백",
-      "source": "더퍼블릭",
+      "id": "cb224287f8fa14f34d58bac03371f92de9664c76",
+      "title": "쿠콘·페이어맥스, 국내외 결제망 연계 추진",
+      "source": "전자신문",
       "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EaXVudGM2M1FuTVRkWWxCVVhTWnkxTEtYYzhHYlliNVphdERPdFF0NllhZEV1dC1sVHlkci05dWtmYzk5SEhyOFRrTzM0dDdQcFFoSTJGTHl5ZXVwd1paQTg4SVlpOWRkMGln0gFvQVVfeXFMTWlYM2xXUWNQVWU3WE1adTZYa0RSb2llRFA4bDRKWFNMbkdTaHZSa2hhVzNnLWdfdzdMOFZVSGhYRDFPTmgyM2ZQSXhqVWMwd2YxS3Jtbi1lYnZWSjV1VzV6OHYweDVLclExamUtRGJB?oc=5",
-      "publishedAt": "2026-11-26T15:55:58+09:00",
-      "feed": "키워드: AI 에이전트 결제"
-    },
-    {
-      "id": "d077bd1da597d594bbe5b93df613ac0893bc60b8",
-      "title": "쿠콘, 페이어맥스와 크로스보더 정산·송금 확대 MOU",
-      "source": "국제뉴스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81UndiUWFJQ195WGdORDMtOXBraFFzb0RuWU5tUjJ4MjMzeVg0V0pJWjZZaVozN2NJanI5cEVGRHhxUHZLWE9NNDVNRTRidXR3WnhfeThMVHFjR0hjQzNsZGZNOTFLbV83OTZwNy1R?oc=5",
-      "publishedAt": "2026-11-26T15:20:55+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3QXpzOUFNTXpNMHZGNUkzVnlmcTlkU3lJNUkxTVd6dldzeUJGWUwxMUpCRms1U1RqLWFJemRrMkRFZmZqYWl4aEl6N2g5UQ?oc=5",
+      "publishedAt": "2026-11-26T15:31:15+09:00",
       "feed": "키워드: 정산 결제"
     },
     {
@@ -177,6 +276,15 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YMFRPSG9ucjJzbXl2dFZzZ3FDWG4wc3pLRkFBR2k5azBEem02VkIwZWltazJDcDIwWGdjRlBEM0w4NG41TlpmcGNUU0MwMHNTNWc4UXItSjRGSUF4VzFSS053WHB4TmJESHlWNUtWSDXSAXRBVV95cUxPZjZKd0tqSDJ4aWloS2NsckVyYnRCN0dCNVV4OWcwZjVMUXYxQVV1QlVvNW0ydGlGcTBhOVlSXy1EazJQQkx2Z0l4cUdwYVVmZUx5TDBoZldlYlVCSENpNUFmU3JPd2JLTUdjOTFOeXljUTlUUA?oc=5",
       "publishedAt": "2026-11-26T14:56:16+09:00",
       "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "ff4e6e765a1341cb3f966cea5671086a5f2f6d6d",
+      "title": "우리은행-쿠팡이츠, 업무협약…은행이 결제대금 직접 관리",
+      "source": "더팩트",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aVnM1eFJXaHlIOW9CQjJ4UHJCbmFRUVZ5RzY4TE1yOEZMX0o5azMwN05aQVoxeWZNTkNiZTJCUXZTTC1XdTFRRU1WZUIyTmtNeHNGQ9IBVEFVX3lxTE5aVnM1eFJXaHlIOW9CQjJ4UHJCbmFRUVZ5RzY4TE1yOEZMX0o5azMwN05aQVoxeWZNTkNiZTJCUXZTTC1XdTFRRU1WZUIyTmtNeHNGQw?oc=5",
+      "publishedAt": "2026-11-26T14:56:00+09:00",
+      "feed": "키워드: 정산 결제"
     },
     {
       "id": "78de59154a9b1e47831a14dea1e11dd1c1d5d73b",
@@ -224,6 +332,15 @@
       "feed": "키워드: 간편결제"
     },
     {
+      "id": "7bb52e745ed64cac329e266ae78c4b53e3b33812",
+      "title": "추천부터 결제까지…네이버 AI 쇼핑 어디까지 왔나",
+      "source": "스트레이트뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QZjNUOHZKWGd0aHZlSHQ3TXFUdWdKbnB1WGdCRmxpa0NhSWxkZ3hoVC1qcDJ3bWZDb2lVUDFPRGY2NzdNaDZORHFycW1NMmNtTTNQcFBwRXEyUjVCM190Q21ncVBJLUlwSmpEcDctcGFyVEk5UzdB0gF3QVVfeXFMT1BmM1Q4dkpYZ3RodmVIdDdNcVR1Z0pucHVYZ0JGbGlrQ2FJbGRneGhULWpwMndtZkNvaVVQMU9EZjY3N01oNk5EcXJxbU0yY21NM1BwUHBFcTJSNUIzX3RDbWdxUEktSXBKakRwNy1wYXJUSTlTN0E?oc=5",
+      "publishedAt": "2026-11-26T14:02:02+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
       "id": "bfaef964cf5b9ade9a0b24c9eec4622c3ea896a1",
       "title": "간편결제 충전 한도 200만→500만원…18년 만에 규제 손질",
       "source": "아주경제",
@@ -242,15 +359,6 @@
       "feed": "전자신문"
     },
     {
-      "id": "fd981dd6e1ecb164212556b27d01f397905565d2",
-      "title": "추천부터 결제까지…네이버 AI 쇼핑 어디까지 왔나",
-      "source": "스트레이트뉴스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DVnBmc2JBbzFNQzY4OVFKR2lUbktGTVpkMGdERXg1VjBPLXF1WHBLVVlDenNDUHo1bEI2bXlZaFJPd1k1cWpGMG5nS3lQTG8td21KcElXRTYzeFZwRFFmVm14VmJMd1JSM3c4OGZEaHVRamfSAXdBVV95cUxPUGYzVDh2SlhndGh2ZUh0N01xVHVnSm5wdVhnQkZsaWtDYUlsZGd4aFQtanAyd21mQ29pVVAxT0RmNjc3TWg2TkRxcnFtTTJjbU0zUHBQcEVxMlI1QjNfdENtZ3FQSS1JcEpqRHA3LXBhclRJOVM3QQ?oc=5",
-      "publishedAt": "2026-11-26T13:55:40+09:00",
-      "feed": "키워드: AI 에이전트 결제"
-    },
-    {
       "id": "ba08c67014d4043417a6ea53730ff5e1fa165cc6",
       "title": "우리銀, 쿠팡이츠와 맞손...\"배달 라이더 정산금 지킨다\"",
       "source": "파이낸셜뉴스",
@@ -258,114 +366,6 @@
       "link": "https://www.fnnews.com/news/202611260911252528",
       "publishedAt": "2026-11-26T13:48:01+09:00",
       "feed": "파이낸셜뉴스"
-    },
-    {
-      "id": "a5371110cfa7e19115656492131d37e04bcf19aa",
-      "title": "결제 다음은 금융…네이버·카카오·토스, 미래 먹거리 선점 경쟁",
-      "source": "한스경제",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5aYlk2czNneWxTUzl6NFpHbVI4VURNNXp4N3ExdVM4UnkzeFlaRzZpRWtISWJUQmtWOXJOTnRDWmQwVko1bzhvX0wxLXZIRFNpeWtUNEh6NGpBS1MydjVWMGpvMksyNzNSNm1j0gFvQVVfeXFMT3V2OEM5UDRVVzNxeUFTcGdZWDZvRGpoWHlBZE5LUHhkN085SjBzV25SaUxOX1J3ZEp6TUtOSWtMbHVmd3F2blJnN3pMMmNxOVVRaExBS2l5cVZHRmRydHVUVWJoRnUyb1ZiVkU0bWcw?oc=5",
-      "publishedAt": "2026-11-26T12:57:05+09:00",
-      "feed": "키워드: 간편결제"
-    },
-    {
-      "id": "13d3d1187935c4a0ac2085ecdb51c3b0abe1aa9c",
-      "title": "은행이 과반, 핀테크는 최대 주주…원화 코인 복잡해진 주도권 셈법",
-      "source": "에너지경제신문",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40UU52alFGZ09DaWpGd3dnQlZ3WEVuYnN0QXpOclpSQlJIZzZuNl81cmJQNnJoSzF6V1JKUExFX202N19kS1ZzZC04Q1FUd1FXaUxUdHNCYUFJYU9nZjlVUDdLRQ?oc=5",
-      "publishedAt": "2026-11-26T11:54:57+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "f9f94eb6178cee85bea6c1a82fa6f329ff6b57cf",
-      "title": "BC카드, 자체 디지털자산 지갑 구축···\"상용화 토대 마련\"",
-      "source": "파이낸셜뉴스",
-      "description": "BC카드가 자사 플랫폼 '페이북'에 디지털자산 지갑을 구축하고 스테이블코인으로 결제하는 기술 검증을 마쳤다. 26일 카드업계에 따르면 BC카드는 최근 미국 달러 기반 스테이블코인 'USDC'를 활용해 결제 검증을 완료했다. 외국인이 사용하던 외화 스테이블코인을 페이북 지갑으로 옮긴 뒤 환전 절차 없이 전국 BC카드 QR 가맹점에서 결제하는 상황을 가정해 진행했다. 이번 검증에선 블록체인 인프라 기업 DSRV와 협력했다. 디지털자산 지갑과 카드 결제망을 연동하고, 스테이블코인 결제부터 취소·환불까지 전 과정을 구현했다. BC카드는 고객 대상 지갑과 결제 서비스를, DSRV는 블록체인 기술과 인프라 운영을 각각 맡았다. 결과적으로 페이북에 디지털자산 지갑 기능을 설치하고, 국내 카드 결제망과 연계해…",
-      "link": "https://www.fnnews.com/news/202611260819304854",
-      "publishedAt": "2026-11-26T11:26:05+09:00",
-      "feed": "키워드: 스테이블코인 결제"
-    },
-    {
-      "id": "f0ad6617eeba24e26af065d31b975470e53b6323",
-      "title": "코리아 핀테크 위크 참여 DSRV, AI 금융 비전 제시",
-      "source": "이데일리",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdGZGXzZZX2FuOHlMVGkyM2ppeUlMSEs0ZVJsMzZpZzU5MHJmZTFILWRNT1RkNV9sQU9tWDUzckx5c0dZVGpEMlZnVkVUQ1RsSFVyaUNWc0RwTFZld2dRZ09IRmV2UTZKVUNfYk81MjlydkJyb3E2azFzNnBvSkFsOQ?oc=5",
-      "publishedAt": "2026-11-26T11:19:47+09:00",
-      "feed": "키워드: AI 에이전트 결제"
-    },
-    {
-      "id": "57fd5651537e7f343cf690aad8d91beac0b87deb",
-      "title": "[소셜톡] 유동수 위원장 “핀테크 산업, 금융 AX 시대 혁신 주역”",
-      "source": "파이낸스뉴스 I 파이낸스뉴스TV",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QREJ6aG1STnBpZTJMN3FIUmFscTA1OE9za2l5RTRIXzRiRlZQdG5seHJBVExXMkxaekV6dzB2Uk4wR2lPamxVT0J6ZXpGRlJhMVVKZ3oyTUQxY3MzZDNCYVA3SXJWd0dLdmfSAW5BVV95cUxQMEk2bFctV2FLMjFoRUw5Q0UxV3FQY0ItMUpVX0xyZmgzU1Qxano3c1I2ZUgtU21wZlZlUExyVTc4Qm9iRkw5V0l6MDNSUVRKYmRxN2hoOHJNY3lqR0d5Q3pzSlI5Wmg0QjQ2Z09zUQ?oc=5",
-      "publishedAt": "2026-11-26T10:01:31+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "95a5dba9df1715810e9d505671a391004a4290c2",
-      "title": "에일릿 ‘전당포사나이’, 2026 한경 핀테크 대상 테크 분야 최우수상 수상",
-      "source": "한국경제",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzdC1NR2xQWGg5cW5aV1JOR1hXVHYtZ1BGT1oyTTBLY3pRUXM4TGtGeE9mdE5kdjk1czhobmoxWWhrOHJnTExEZkVJMFFLalFQUFhEVERBQUpmdw?oc=5",
-      "publishedAt": "2026-11-26T10:00:12+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "8f77910a672b662dfb1ac66b97221f98dfcfdfb6",
-      "title": "쿠콘, SFF 2026서 MOU 4건 체결…글로벌 결제·정산 협력",
-      "source": "숙박매거진",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mYmR4UFVsQXRiVUw2MFNHS25pZEZIX0J6X0VpYlhfVGtlaVJVeWVvVFNzR0ZfX3V1SWhPNWpabVB5aGZIY3JYWG1Cc25heXNJUW02bVFSQm5YSDVWbnRZZnIwZVE2bmFWaUJoeG15aTQ?oc=5",
-      "publishedAt": "2026-11-26T09:46:27+09:00",
-      "feed": "키워드: 정산 결제"
-    },
-    {
-      "id": "a6e83bb9851da33e04bf4bb715bb015b73d25f49",
-      "title": "디지털융합산업협회 “기업 스테이블코인 해외송금 허용해야”…금융 인프라 개편 촉구",
-      "source": "한국금융신문",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOMUw2LWRWdTFUOFNmcmo1aDE1NWFMTEFYNk5HNHpQOElsX3VuRGJaZjJEcjZpNjV2TXpKVE1qenl5RkJsUWlicEtaS29HSTBaeGlVWUYxaGhlRWE2LVNnbHVzb2pfRndlSjl4OGFBc1hyREpsWFhuS1Q5VmQ?oc=5",
-      "publishedAt": "2026-11-26T09:16:05+09:00",
-      "feed": "키워드: 스테이블코인 결제"
-    },
-    {
-      "id": "b3c358b4b1ca5b4f9dd7290f5e9b4d703df733e6",
-      "title": "[이나인페이vs한패스]② 은행 직결이냐 MTO냐…수수료 비용 60억 차",
-      "source": "블로터",
-      "description": "이나인페이와 한패스는 해외송금망을 구축하는 방식에서도 차이를 보인다. 이나인페이는 현지 은행과 직접 연결한 송금망을 확보한 반면, 한패스는 글로벌 송금 대행업체(MTO)를 활용하고 있다. 올해 3분기까지 이나인페이는 한패스보다 많은 매출을 올리고도 수수료 비용은 60억원 이상 적게 썼다.26일 금융감독원 전자공시시스템에 따르면 올해 3분기까지 별도 기준 이나인페이는 563억원, 한패스는 494억원의 매출을 올렸다. 같은 기간 이나인페이의 수수료 비용은 116억원으로 매출 대비 20.6% 수준이다. 한패스의 수수료 비용은 179억원으",
-      "link": "https://www.bloter.net/news/articleView.html?idxno=679706",
-      "publishedAt": "2026-11-26T09:00:00+09:00",
-      "feed": "블로터"
-    },
-    {
-      "id": "38d2cc758e25a8e70a742f3ba0bff2e4a10c0e4e",
-      "title": "세가 페이브, 아케이드 일부 서비스 점검 지속…27일 복구 상황 발표",
-      "source": "지디넷코리아",
-      "description": "세가 페이브가 서버 무단 접근으로 중단한 아케이드 네트워크 ‘ALL.Net’과 카드 인증 서비스 ‘아이메(Aime)’의 복구 작업을 이어가고 있다. 운영팀은 지난 24일(현지시간) 공식 X를 통해 실물 무장 카드로 부대를 움직이는 게임 ‘영걸대전’의 대인전 등 점검 중인 서비스의 시험 가동 재개를 준비하고 있다고 밝혔다. 세가 페이브는 아케이드 게임과 완구를 개발·판매하는 세가그룹 계열사다. 앞서 세가 페이브는 관련 서버 일부에 대한 무단 접근이 확인되자 조사와 안전 점검을 위해 이달 1일 오후 3시부터 관련 서비스를 중단했다. 15일부터 레버로 캐릭터를 조작하는 리듬 게임 ‘온게키’ 등 일부 게임의 시험 가동을 순차 재개하고 있다. 일본판 리듬 게임 ‘츄니즘’과 ‘마이마이 디럭스’는 지난 21일부터…",
-      "link": "https://zdnet.co.kr/view/?no=20261126083758",
-      "publishedAt": "2026-11-26T08:38:56+09:00",
-      "feed": "지디넷코리아"
-    },
-    {
-      "id": "f46a6995b81cf78da83193c788b865674ebb2cce",
-      "title": "[현장] AI 에이전트가 결제까지 맡는다…비자·신한카드·삼성카드, 미래 결제 인프라 논의",
-      "source": "더밸류뉴스",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aeHlLMTQxRUtCOWhpLVJOSVBWOG50dnN5dmQtQmFZVmFqMi01aXdObjBxV2ZDZ2EtWk9vYWV1Q1VqX2FjbnUyVUliT3RQLXpjVWhhYw?oc=5",
-      "publishedAt": "2026-11-26T08:37:49+09:00",
-      "feed": "키워드: AI 에이전트 결제"
-    },
-    {
-      "id": "ad6fc62974a1a2f9dbb19494c8ae40b7e55576c0",
-      "title": "\"AI가 쇼핑하는 시대, 결국 '신뢰'가 핵심\"…비자, 핀테크 위크서 미래 조망",
-      "source": "매일일보",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QeUZvaThORkxzS1h1cjZ3bS15UGFiZHpRaU9wSGZMblhuWlZweXNVWVRwaXQ1NnVqdVg4M3Y4M2hqemQzTnR6OWVMd0tsOS05S2JmNzd3ZHNIcW5kUEgzVzJMU3k?oc=5",
-      "publishedAt": "2026-11-26T08:24:24+09:00",
-      "feed": "키워드: AI 에이전트 결제"
     }
   ]
 }
