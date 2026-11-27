@@ -1,0 +1,331 @@
+{
+  "date": "2026-11-28",
+  "window": {
+    "from": "2026-11-27T07:00:00+09:00",
+    "to": "2026-11-27T22:53:01+09:00"
+  },
+  "generatedAt": "2026-11-28T07:39:23+09:00",
+  "overview": {
+    "headline": "송금업체 25억 해킹, 원화 코인은 결제처 찾기",
+    "points": [
+      "이나인페이 25억원 해킹으로 소액송금업 고객자금 보호가 쟁점이 됐다.",
+      "원화 코인은 카드 캐시백·FX·송금 실증이 나오지만 상용화 모델은 불투명하다.",
+      "네이버·현대카드·트루레이어가 AI 에이전트 결제를 실제 거래로 시험한다."
+    ]
+  },
+  "top3": [
+    "576fc53b5754243f55042678c046f0a8254b4786",
+    "5c242cdfb9516a466af436115d74bddf5666b74b",
+    "89b74d3ff7e42df8a1a7dce859c80919c5bce8df"
+  ],
+  "items": [
+    {
+      "id": "c04352aacfd12d4715297fe08c14d5934f6b3cf5",
+      "title": "중남미 디지털자산 거래량 76% 급증⋯스테이블코인 확산",
+      "source": "블록미디어",
+      "publishedAt": "2026-11-27T22:20:05+09:00",
+      "link": "https://www.blockmedia.co.kr/archives/1171549?utm_source=general&utm_medium=rss",
+      "category": "settlement",
+      "summary": [
+        "체인지나우 보고서에 따르면 지난해 중남미 온체인 거래액은 7300억달러로 76% 늘었다.",
+        "인플레이션과 높은 은행 수수료로 스테이블코인이 급여 수령·해외송금에 쓰이고 있다."
+      ],
+      "insight": "중남미향 송금 고객이 있다면 스테이블코인 경로와 은행 송금의 수수료·도착시간을 비교.",
+      "importance": 2
+    },
+    {
+      "id": "06f53531d6411ec3d56b500f459a0660fa5ec2ae",
+      "title": "TrueLayer, 영국 Papa John’s에서 AI 에이전트 결제 테스트",
+      "source": "Unite.AI",
+      "publishedAt": "2026-11-27T21:57:04+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc1JIV005VUtkOGxYc1lMQlpVTkZWZFBXRlNNZy1ZeVV6ajh1cFB1eDNJNU1MdEE3Tnp4VktIUV9YdlhXSVhHcDBxWXdTaXhkQThIMXFrTXlFZVRoUVVodnBLLTVEOEliUlRNUjZGU0ZCU3lId3Bid1ZleGx0eXE0SElEVXF2N0JvOVE?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "트루레이어가 영국 파파존스에서 AI 에이전트 결제를 테스트한다."
+      ],
+      "insight": "계좌 기반(오픈뱅킹) 에이전트 결제가 카드 기반 대비 가맹점 수수료에서 얼마나 유리한지 비교.",
+      "importance": 2
+    },
+    {
+      "id": "fe3a748247a516b122d1c306642dec224079ba5a",
+      "title": "레이시오 \"원화 스테이블코인 지원하는 첫 FX 인프라 될 터\" [인터뷰]",
+      "source": "이데일리",
+      "publishedAt": "2026-11-27T18:41:38+09:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ2liVjZzTi1ybG1TMjN6SG5LcDl4bVBFT0FET2Q1bHVhLXdDRVkzT3ZkVG81NTY1ZUR0bmplZXE5eWw1UVdLMmwzTndYZnNHNzEyNzJTOG9veG9zOFJ2b3ZhN0RKdVhKU1lMbXZVWGtaeE1pb0czamotN2JvUkw5Mw?oc=5",
+      "category": "settlement",
+      "summary": [
+        "레이시오가 원화 스테이블코인을 지원하는 첫 FX 인프라가 되겠다고 밝혔다."
+      ],
+      "insight": "원화 코인-외화 환전을 외부 FX 인프라에 맡길 때 정산 주기·환율 마진 조건을 문의할 목록 작성.",
+      "importance": 2
+    },
+    {
+      "id": "20013793b1421866d873c667763b67fe1fdf5d35",
+      "title": "정맥으로 결제하고, 단말기가 사주보고…코리아핀테크위크 가보니",
+      "source": "MTN 머니투데이방송",
+      "publishedAt": "2026-11-27T17:37:26+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GY3lGUjNTUGtlTFQzdEQwNzdSdU5iMER4c2JScFlCSk0ycXphci1JMV9yWmVGcGpScEJEdUo4bE1nOWdVZEJuMkd3ZnMtaVJtN0NMem5hT25zdXBKS2dB?oc=5",
+      "category": "payment",
+      "summary": [
+        "코리아핀테크위크에서 정맥 결제와 사주를 봐주는 단말기 등이 소개됐다."
+      ],
+      "insight": "정맥 등 생체 결제를 오프라인 가맹점에 붙일 때 단말 교체 비용과 인증 실패율 자료 확보.",
+      "importance": 1
+    },
+    {
+      "id": "9b6881e80d0843d064dca244af2955bd38d8ca92",
+      "title": "일본은행 “스테이블코인·자산 토큰화, 금융시장 새로운 리스크될 수도”",
+      "source": "블록미디어",
+      "publishedAt": "2026-11-27T17:30:59+09:00",
+      "link": "https://www.blockmedia.co.kr/archives/1171458?utm_source=general&utm_medium=rss",
+      "category": "regulation",
+      "summary": [
+        "일본은행 가미야마 이사가 27일 IMF 세미나에서 스테이블코인·자산 토큰화가 새 위험이 될 수 있다고 경고했다.",
+        "스마트계약 자동 청산이 급락을 키우고 AI로 사이버 공격 위험도 커질 수 있다고 지적했다."
+      ],
+      "insight": "스테이블코인 정산 도입안에 시장 급변 시 정산 중단·환매 대응 절차를 넣을지 검토.",
+      "importance": 2
+    },
+    {
+      "id": "576fc53b5754243f55042678c046f0a8254b4786",
+      "title": "피클이 결정하면 네이버에서 결제…12월 AI 에이전트 주도권 다툼 본격화",
+      "source": "MTN 머니투데이방송",
+      "publishedAt": "2026-11-27T17:08:16+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2OGpURjRvb1dJQlZPc1pqVE5OaU1XWFpDcTBjSHhzclN5S0txcjgwYWNRaUdOS1E5VG9TZVp1dnFTLTJqMFU3NndqY3RTV1lwS2xybDBqVVZ6Mng0V2JF?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "AI 에이전트 '피클'이 고른 상품을 네이버에서 결제하는 구조가 나오며 12월 AI 에이전트 주도권 경쟁이 본격화한다."
+      ],
+      "insight": "에이전트가 결제를 대신할 때 우리 결제창의 인증 단계와 주문 API가 대응 가능한지 확인.",
+      "importance": 3,
+      "why": [
+        "빅테크들이 AI가 상품을 고르고 결제까지 하는 쇼핑 경쟁에 나서고 있다.",
+        "결제 접점이 결제창에서 에이전트로 옮겨가 PG 연동 방식이 바뀔 수 있다."
+      ]
+    },
+    {
+      "id": "2f29e517a4a3076fdc5ded614c1cf97803ef37b1",
+      "title": "수협은행, 캐릭터 '복슬이' 협업 체크카드 출시",
+      "source": "서울파이낸스",
+      "publishedAt": "2026-11-27T16:39:43+09:00",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=644217",
+      "category": "payment",
+      "summary": [
+        "수협은행이 다음달 1일 캐릭터 '복슬이' 협업 '오지다 체크카드'를 출시한다.",
+        "실적 조건 없이 0.1% 할인하고, 실적 10만원 이상이면 간편결제 등 5개 업종에서 500원을 더 깎아준다."
+      ],
+      "insight": "간편결제를 할인 업종에 넣은 체크카드가 늘면 우리 결제수단 노출 순서에 영향이 있는지 점검.",
+      "importance": 1
+    },
+    {
+      "id": "fa038fe1c5da03497746d6d69cb1cc70e8b2877f",
+      "title": "원화 스테이블코인 발행 청사진 나왔지만…유통·수익모델은 '안갯속'",
+      "source": "굿모닝경제",
+      "publishedAt": "2026-11-27T16:21:37+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uV245M1J0MWJ6YjJOU09DbEluY0RvYm5ldEZiU3pQb2prQ1FiaTNYVGRRSXpUcUV4VzAxaVNkZU5WMVpmY2ZvNndicnlGRUMzQXlqOHJOdXdma3lJX09xdGsxOS1lc0Ntd3lMdQ?oc=5",
+      "category": "regulation",
+      "summary": [
+        "원화 스테이블코인 발행 청사진은 나왔지만 유통 방식과 수익모델은 아직 불분명하다."
+      ],
+      "insight": "발행사가 아닌 유통·결제 사업자로서 받을 수 있는 수수료 모델 후보를 3가지로 정리.",
+      "importance": 2
+    },
+    {
+      "id": "5c242cdfb9516a466af436115d74bddf5666b74b",
+      "title": "[단독] 원화 코인으로 결제하면 캐시백…‘K-크립토카드’ 길 열린다 [크립토360]",
+      "source": "헤럴드경제",
+      "publishedAt": "2026-11-27T15:51:56+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aT1ZhaTFhVGN5a2I0d2NURlR3WGVDR1kzS3N4S1NBU0lQWld6dk1EWDQ2SXZoZUxERE9hMnE3ZDVidC1hdWxZMEM4TFJLb3NPUzdNU2R3?oc=5",
+      "category": "payment",
+      "summary": [
+        "원화 코인으로 결제하면 캐시백을 주는 'K-크립토카드'의 길이 열린다는 단독 보도다."
+      ],
+      "insight": "원화 코인 결제에 캐시백을 붙일 때 카드사·PG·가맹점 중 누가 비용을 낼지 시나리오 정리.",
+      "importance": 3,
+      "why": [
+        "원화 스테이블코인 발행 제도화가 진행되며 결제 활용처 논의가 커지고 있다.",
+        "카드형 코인 결제가 허용되면 기존 카드 혜택 구조와 경쟁할 수 있다."
+      ]
+    },
+    {
+      "id": "c1c824b637901e451e63bc3123ede02b56a59815",
+      "title": "스테이블코인 시험대 오른 카드망…실증은 끝, 상용화는 '안갯속'",
+      "source": "녹색경제신문",
+      "publishedAt": "2026-11-27T14:45:21+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10VXBaa0VjbjN5WEVMRVZIdFlSNlpHTW9jUWZfTksxa2F3TUpQdGhPblhNQ0g3SUlPNVBzbmZOZGlKc0E0UUNreGlxR00tVGcyc3VqSC1pVGJ6MUxLY3JnRnZVSG1XZGQ1?oc=5",
+      "category": "payment",
+      "summary": [
+        "카드망을 이용한 스테이블코인 결제는 실증을 마쳤지만 상용화 시점은 불투명하다."
+      ],
+      "insight": "카드망 코인 결제 상용화의 걸림돌이 규제인지 정산 구조인지 구분해 대응 우선순위 정리.",
+      "importance": 2
+    },
+    {
+      "id": "c9eb9c99de22033a7fdf1ef8bc617d41e1a7417b",
+      "title": "정태영 부회장의 거침없는 AI 실험…현대카드, JP모간과 ‘AI 에이전트 금융거래’ 검증 성공",
+      "source": "와이드경제",
+      "publishedAt": "2026-11-27T14:04:33+09:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBZ0VOdUtKUDAtbEdNUUdUdlZiak9kMnJiWHpxZ3NzQjB0QWJ6WEZ2dnQ4akxGQzhMenp3TVNLaGdWQ01seXI2TVFDaXo5LXJCNWRERUd1NkJYZGN6ODU5WUlEb1EwRVlvaGtWOQ?oc=5",
+      "category": "ai_agent",
+      "summary": [
+        "현대카드가 JP모간과 AI 에이전트 금융거래 검증에 성공했다."
+      ],
+      "insight": "카드사 주도 에이전트 결제가 PG 단계를 건너뛰는 구조인지 확인하고 우리 역할 정리.",
+      "importance": 2
+    },
+    {
+      "id": "cb2a2d950be364f5681fabbb7e17444b2dda94d5",
+      "title": "어니스트AI, 간편결제 정보로 씬파일러 신용평가 정교화",
+      "source": "전자신문",
+      "publishedAt": "2026-11-27T13:20:02+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CWHBCSHVwaV8xTFdwaTQ5cDhhWnA3dWNaVlZCb1VZM3VMd2JiampXeFRQOWladHFXbm15THRiUWF5Z1ROLUluTWpTZHNiUQ?oc=5",
+      "category": "market",
+      "summary": [
+        "어니스트AI가 간편결제 정보로 씬파일러 신용평가를 정교화했다."
+      ],
+      "insight": "간편결제 데이터를 신용평가사에 제공할 때 필요한 고객 동의 문구와 가명처리 기준 확인.",
+      "importance": 1
+    },
+    {
+      "id": "fa8e5264396301719cfc81687c3a8a154a6a8993",
+      "title": "핀다는 은행으로, 한패스는 해외로…핀테크 6곳이 밝힌 다음 사업",
+      "source": "플래텀(Platum)",
+      "publishedAt": "2026-11-27T12:53:21+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE44UzViRWtmcjB0em9YVUQ4SXpFZG1EcW5NWkpseEd1RnNpcnpPcWotWTJCb1ZYbHc5VlhVdEZabEdQZE56MG9lUA?oc=5",
+      "category": "market",
+      "summary": [
+        "핀다는 은행, 한패스는 해외 진출 등 핀테크 6곳이 다음 사업 방향을 밝혔다."
+      ],
+      "insight": "한패스의 해외 확장 대상 국가가 우리 송금·정산 진출 후보와 겹치는지 확인.",
+      "importance": 1
+    },
+    {
+      "id": "358b02a7619fa5a5963efa92643bebf4d425078f",
+      "title": "타이거리서치ㆍ비자, 스테이블코인 결제 시장 전망 공유",
+      "source": "이투데이",
+      "publishedAt": "2026-11-27T12:50:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDTUk1bHNBMzV2VGZMM2JsQ0J6QzdXdmxhN1BTeUZXLURYTEVjRE5kZEU1UG9odEpPbDB4QXdFVHdiTG1heVRramhaRFU3UWR5U3RSZA?oc=5",
+      "category": "payment",
+      "summary": [
+        "타이거리서치와 비자가 스테이블코인 결제 시장 전망을 공유했다."
+      ],
+      "insight": "비자의 스테이블코인 정산 지원 범위를 확인해 카드망 기반 코인 결제 연동 가능성 점검.",
+      "importance": 1
+    },
+    {
+      "id": "54e51803505a0ab02e54e8723bf7a906b67a70df",
+      "title": "대구로페이 2조 원 발행 놓고 여야 공방 ···재정 부담·민생 효과 쟁점",
+      "source": "서울파이낸스",
+      "publishedAt": "2026-11-27T12:47:35+09:00",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=644149",
+      "category": "payment",
+      "summary": [
+        "대구 민주당은 대구로페이를 2조원 규모로 키우라고 요구했다.",
+        "대구시는 내년 할인 발행 예산을 올해와 같은 150억원으로 편성했다."
+      ],
+      "insight": "지역화폐 결제 연동 가맹점 비중을 확인해 발행 규모 변화가 거래액에 주는 영향 추정.",
+      "importance": 1
+    },
+    {
+      "id": "6e3b629719a9cf32d37a8b5e4d37a5b3cbea1d38",
+      "title": "스테이블코인 유통 규제, 빈자리는 전금법이 채워야",
+      "source": "디지털애셋",
+      "publishedAt": "2026-11-27T12:15:00+09:00",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1USnZ4OGN6OXdxV2FUd3g5UjVNakFpZ1BLXzFNdUd2QU9kWndfM2FxVG5sMnFIS3hXdW4wYXBXd1dPb1ZNOHhYMjZ5aXBKMGRmSXlhNXpTSlVuWjB3d3ZLZHF4Q082eUY5by1UYkV0NVlEUQ?oc=5",
+      "category": "regulation",
+      "summary": [
+        "스테이블코인 유통 규제의 빈자리를 전자금융거래법으로 채워야 한다는 주장이 나왔다."
+      ],
+      "insight": "전금법상 선불·지급결제 라이선스로 코인 유통이 가능한지 법무팀에 질의할 항목 정리.",
+      "importance": 1
+    },
+    {
+      "id": "3e4bb2a447cf8207b6076d2841c4e8181dc06dff",
+      "title": "3분기 해외 카드결제액 66.3억달러···휴가철 맞아 '역대 최대'",
+      "source": "서울파이낸스",
+      "publishedAt": "2026-11-27T12:00:00+09:00",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=644133",
+      "category": "settlement",
+      "summary": [
+        "한국은행에 따르면 3분기 거주자 카드 해외 사용액은 66억3000만달러로 역대 최대다.",
+        "전분기보다 13.3%, 1년 전보다 11.8% 늘었다."
+      ],
+      "insight": "해외 결제 증가분 중 트래블카드 비중을 확인해 해외 결제·환전 수수료 상품 기회 검토.",
+      "importance": 2
+    },
+    {
+      "id": "89b74d3ff7e42df8a1a7dce859c80919c5bce8df",
+      "title": "[단독]이나인페이 해킹, 25억원 탈취 “최대 규모”",
+      "source": "전자신문",
+      "publishedAt": "2026-11-27T11:49:24+09:00",
+      "link": "https://www.etnews.com/20261127000169",
+      "category": "regulation",
+      "summary": [
+        "국내 1호 소액해외송금업체 이나인페이가 해킹으로 고객 자금 약 25억원을 빼앗겼다.",
+        "90여 차례 공격을 받았고, 금감원이 사고 경위 조사에 착수했다.",
+        "국내 해킹 사고 중 최대 자금 탈취 규모이며, 회사는 연내 코스닥 상장을 앞두고 있었다."
+      ],
+      "insight": "우리 송금·정산 계좌의 출금 이상거래 탐지 기준과 고객자금 분리보관 현황을 오늘 점검.",
+      "importance": 3,
+      "why": [
+        "소액해외송금업은 진입 문턱이 낮아 보안 투자 격차가 큰 편이다.",
+        "당국이 송금·선불업자 보안 점검과 자금 보호 규제를 강화할 수 있다."
+      ]
+    },
+    {
+      "id": "5c0f716de43848b69072964b3a6221ea01cb6df3",
+      "title": "비피엠지 자회사 아라코어, 美 유틸라와 스테이블코인 결제·정산 협력",
+      "source": "지디넷코리아",
+      "publishedAt": "2026-11-27T11:47:01+09:00",
+      "link": "https://zdnet.co.kr/view/?no=20261127112130",
+      "category": "settlement",
+      "summary": [
+        "비피엠지 미국 자회사 아라코어가 유틸라와 스테이블코인 결제·정산 협력 MOU를 맺었다.",
+        "유틸라의 기관용 지갑·보안 기술과 아라코어 정산 네트워크로 금융기관 송금·정산 모델을 찾는다."
+      ],
+      "insight": "기관 간 코인 정산망이 해외 가맹점 정산의 은행 경유 단계를 몇 개 줄이는지 비교.",
+      "importance": 2
+    },
+    {
+      "id": "aacff52cea5b1dc68fdff92235ed2d347bbf846a",
+      "title": "하나은행 GLN, 말레이시아 QR결제 시장 진출…글로벌 결제 네트워크 17개국으로 확대",
+      "source": "Korea IT Times",
+      "publishedAt": "2026-11-27T11:39:33+09:00",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIMzlWLTM1bWRTQlhJcUJzOVE1M3VxM1hzb0tEc3pHb0NuX1l4NTFYTERTUFEwcElVVnlRU1hjbkU4V2U1ODcxX2ZWT1k0czV5RWNJSzIyUVpIelZ1VmRfWW9kQ25PUVp4dllRdnkxdWY?oc=5",
+      "category": "payment",
+      "summary": [
+        "하나은행 GLN이 말레이시아 QR결제 시장에 진출해 결제 네트워크를 17개국으로 넓혔다."
+      ],
+      "insight": "해외 QR결제 제공 국가 수를 GLN·토스·카카오페이와 비교해 동남아 공백 국가 확인.",
+      "importance": 2
+    },
+    {
+      "id": "afd198e64c8963d853f4958bb21d27710bd68b98",
+      "title": "“원화 스테이블코인, 은행 송금보다 비용 87% 줄였다”",
+      "source": "이데일리",
+      "publishedAt": "2026-11-27T11:17:42+09:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVGx3QXNYRjdFdDR6ZFJpWS15SS04ZndabG5qT25vUDdmRHV4QWhEZHFRS1M1dEM5cjQ0NDFaVXh2U0tDSmdiRzlORjNPOVI0TEJCSkk0bzhMWlgxSGlMajFYM0ZKY0hibHgwbXJPYmFtYmdhZ1N0Tk53MHpUX1ZpWQ?oc=5",
+      "category": "settlement",
+      "summary": [
+        "원화 스테이블코인 송금이 은행 송금보다 비용을 87% 줄였다는 결과가 나왔다."
+      ],
+      "insight": "87% 절감 수치의 비교 조건(금액·국가·환전 포함 여부)을 확인해 우리 송금 원가와 대조.",
+      "importance": 2
+    },
+    {
+      "id": "65ce49d6c8cdf159b6114d65aec09dc54fc5a64c",
+      "title": "쇼핑 이력도 심사반영…케이뱅크·네이버페이, 사장님 신용대출 출시",
+      "source": "머니투데이",
+      "publishedAt": "2026-11-27T11:00:46+09:00",
+      "link": "https://www.mt.co.kr/finance/2026/11/27/2026112709185196775",
+      "category": "market",
+      "summary": [
+        "케이뱅크가 27일 네이버페이 결제·쇼핑·판매 이력을 반영한 사장님 신용대출을 출시했다.",
+        "사업자등록 1년이 지난 개인사업자가 대상이며 네이버페이 대출비교에서 신청한다.",
+        "같은 날 웰컴저축은행도 'Npay 스코어'를 쓴 최대 1억원 대출을 내놨다."
+      ],
+      "insight": "가맹점 결제·정산 데이터를 대안신용평가에 제공해 셀러 대출 제휴를 열 수 있는지 검토.",
+      "importance": 2
+    }
+  ]
+}
