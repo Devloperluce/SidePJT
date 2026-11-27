@@ -2,11 +2,227 @@
   "date": "2026-11-28",
   "window": {
     "from": "2026-11-27T07:00:00+09:00",
-    "to": "2026-11-27T13:14:23+09:00"
+    "to": "2026-11-27T22:53:01+09:00"
   },
   "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[why] 그날 가장 중요한 3건에만 (importance 3, 3건이 안 되면 importance 2 중 가장 중요한 기사로 채움). \"왜 중요한가\" 2문장 (각 60자 이내)\n- 1문장: 이 일이 왜 생겼는지 배경. 기사에 없는 배경은 널리 알려진 사실만 쓴다.\n- 2문장: 결제·핀테크 업계에 어떤 의미인지. 전망은 \"~수 있다\"로.\n- 나머지 기사는 why를 쓰지 않는다.\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
   "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
   "items": [
+    {
+      "id": "c04352aacfd12d4715297fe08c14d5934f6b3cf5",
+      "title": "중남미 디지털자산 거래량 76% 급증⋯스테이블코인 확산",
+      "source": "블록미디어",
+      "description": "중남미에서 인플레이션과 높은 은행 수수료를 배경으로 디지털자산(가상자산) 거래가 급증하고 있다. 스테이블코인이 자산 가치 보존부터 급여 수령, 해외송금까지 일상 금융에 활용되면서 블록체인 기반 달러화 현상도 나타나고 있다. 27일(현지시각) 디지털자산 전문매체 크립토폴리탄이 인용한 체인지나우(ChangeNOW)의 시장 조사 보고서에 따르면 지난해 중남미 온체인 거래액은 7300억달러로 전년 대비 76% 증가했다. 역내 누적 자금 흐름은 5조6000억달러를 넘어섰으며 디지털자산을 통한 [...]",
+      "link": "https://www.blockmedia.co.kr/archives/1171549?utm_source=general&utm_medium=rss",
+      "publishedAt": "2026-11-27T22:20:05+09:00",
+      "feed": "블록미디어"
+    },
+    {
+      "id": "2934ff84d9c22f3a4819d45507032c8c62e5b955",
+      "title": "[김주상의 디지털자산] 왜 비자는 스테이블코인을 바라볼까",
+      "source": "아이뉴스24",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1kT09GVTNXTHNkUXBoeGdMWHpJLVYzeDZoZ0NkbkJ5VExjOVNRdGdCUjBSSzFUdFo4cEVOT2NNaFBaM1FhNzY0T0lDQQ?oc=5",
+      "publishedAt": "2026-11-27T22:18:36+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "06f53531d6411ec3d56b500f459a0660fa5ec2ae",
+      "title": "TrueLayer, 영국 Papa John’s에서 AI 에이전트 결제 테스트",
+      "source": "Unite.AI",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc1JIV005VUtkOGxYc1lMQlpVTkZWZFBXRlNNZy1ZeVV6ajh1cFB1eDNJNU1MdEE3Tnp4VktIUV9YdlhXSVhHcDBxWXdTaXhkQThIMXFrTXlFZVRoUVVodnBLLTVEOEliUlRNUjZGU0ZCU3lId3Bid1ZleGx0eXE0SElEVXF2N0JvOVE?oc=5",
+      "publishedAt": "2026-11-27T21:57:04+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "57cbb9b0e44fa2e5e4523f406ab9055ae072077a",
+      "title": "다가오는 토큰증권(STO) 시대…\"네 개의 관문 열려야 첫 거래 시작\" [코리아 핀테크 위크 2026]",
+      "source": "한국금융신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpazJzRl95X3REU1hlMndwWEQwRjhVX0hhZWE5eFpaZm1wWjI2V2NsTEVrdk1RSHJ1UHZhMzA1NjNDQjlUSmxCYnFlM0R6enN5TEVuNWs1akFHcnhMVUlNckQ4YzFZNEliYXU5R1hyLU9JUDNwTTctclJkZFk?oc=5",
+      "publishedAt": "2026-11-27T21:03:37+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "1df4530f9f98167a36959326ccbaaa4c670e0acc",
+      "title": "트럼프 뼈때린 화웨이 런정페이 \"中 기술 자립 촉진…감사\"",
+      "source": "머니투데이",
+      "description": "화웨이 창업자이자 최고경영자(CEO) 런정페이가 도널드 트럼프 미국 대통령이 화웨이와 중국을 자립의 시대로 내몰았다고 주장했다. 그러면서 트럼프 대통령에게 감사인사를 전해달라며 뼈있는 발언을 했다. 런 CEO는 26일(현지시간) 뉴욕타임스(NYT) 인터뷰에서 중국이 미국을 추월하는 게 시간 문제라며 이같이 말했다. 미국이 2019년부터 단행한 수출통제로 첨단 반도체와 소프트웨어, 제조 기술 확보에 제약을 받았지만 동시에 기술 자립을 추진하는 계기가 됐다는 얘기다. 그는 \"미국의 제재 이후 우리의 최우선 과제는 생존이었다\"고 밝혔다. 이어 \"화웨이는 미국의 제재 이후 우리나라의 기업 이라는 정체성을 확고히 했다\"고 말했다. 그러면서 \"트럼프 대통령에게 우리의 감사 인사를 전하고 트럼프 복도 에 관한 얘기도…",
+      "link": "https://www.mt.co.kr/world/2026/11/27/2026112720015243728",
+      "publishedAt": "2026-11-27T21:01:00+09:00",
+      "feed": "머니투데이"
+    },
+    {
+      "id": "fe3a748247a516b122d1c306642dec224079ba5a",
+      "title": "레이시오 \"원화 스테이블코인 지원하는 첫 FX 인프라 될 터\" [인터뷰]",
+      "source": "이데일리",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ2liVjZzTi1ybG1TMjN6SG5LcDl4bVBFT0FET2Q1bHVhLXdDRVkzT3ZkVG81NTY1ZUR0bmplZXE5eWw1UVdLMmwzTndYZnNHNzEyNzJTOG9veG9zOFJ2b3ZhN0RKdVhKU1lMbXZVWGtaeE1pb0czamotN2JvUkw5Mw?oc=5",
+      "publishedAt": "2026-11-27T18:41:38+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "5fb20a98a661ab1506ee3b48e3b2d4ad7cd04250",
+      "title": "[주간핫이슈] ‘핀테크위크 2026’서 엿본 ‘금융新세계’…“AI가 금융거래와 결제까지 실행”",
+      "source": "주간한국",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xd1l6aXhvdVpfRVl1RWl3WHVwczIydEpQdGpvYXhQc21FakRudXNacE9JWjBlelR3NTMzNGVvZ3BnX1MtaWxrNmJhZFVMY1N6Q3RkTGNuSV9ERENzYlZvU3hFdDlJSjczcVFSMFlZdDjSAXRBVV95cUxPT0VrX1hqa3UyZFpCYnVHQkVTdWpLbjBBWElVazJaaE41V1JUZFlGRzhEQzl3am8zNGNSbEE5T1ZGclVCeFBZUEtYQS1QdktBUERyTU1FS05teUQtYnphU3ljT3JEX2lOTE1ZSE8weFdiN0RudQ?oc=5",
+      "publishedAt": "2026-11-27T18:05:59+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "434e6d195b0d36ad9281a85842e18b9a1797bb9c",
+      "title": "코리아 핀테크 위크 폐막··· AI 전환 시작됐다",
+      "source": "이뉴스투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15QnJRbDBXemU4NzZMOFByWW1KalpxdWRwRTJuUkVzYlEzanlHNGxZR2NYN0Y5UTh2RmNWbTVNUkZXNDVmanNPTGRrOUMtc1BVbVhMaVNlTlMzaTQtTUh4VnJ1UmJ5aVdCb0lCQTRYM3LSAXRBVV95cUxNcXp0Z1Zkd0tDVy1oRVFhQXdEcDkwSlhVMTZZUXRYNjBNaWkyblp1U3VyUW1mbFVmdTY1U3IxTGpJQUpIR3hlUTREdU5OZWlCem53OVVGUm9GdUJzNnRHQ19pbERzUW4wa1dHRVV2MGxOd3p1ZA?oc=5",
+      "publishedAt": "2026-11-27T18:00:00+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "e1cf51d9c5252566eb128d193901d24fc19b2edb",
+      "title": "이나인페이, 해킹으로 25억원 유출...금감원 조사 착수",
+      "source": "뉴스핌",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CZHh1VWtHelVkR2F0SGVUNGZYc2trMno3cFFjZGV2TzNLVnllVHhOVDB0cVpha1R2LVhCd24xQzV5MTdUZ25VNnB6WmJhUV9WWllkVnd6aDgxS0F4?oc=5",
+      "publishedAt": "2026-11-27T17:56:00+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "20013793b1421866d873c667763b67fe1fdf5d35",
+      "title": "정맥으로 결제하고, 단말기가 사주보고…코리아핀테크위크 가보니",
+      "source": "MTN 머니투데이방송",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GY3lGUjNTUGtlTFQzdEQwNzdSdU5iMER4c2JScFlCSk0ycXphci1JMV9yWmVGcGpScEJEdUo4bE1nOWdVZEJuMkd3ZnMtaVJtN0NMem5hT25zdXBKS2dB?oc=5",
+      "publishedAt": "2026-11-27T17:37:26+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "c9bd44f5a5b631e06949c3aa922e05d0070e3325",
+      "title": "[기고] AI 에이전트 시대, AI에게 지갑을 맡겨도 될까",
+      "source": "디지털비즈온",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNRnZ2SlhRVTVRNHRTTWJ0SU1wYXVqamNaTUZQWFF1dzVRSGsybzMzVlVQeHpkSXAyVFpfZjRiemEwQ2EzMk0xM2wyUFRfb29ENzd0S2pyZElqOHVnTWdNdVBxajNacWVkMlFrZmpHbGtWU0xF0gF0QVVfeXFMUE1GdnZKWFFVNVE0dFNNYnRJTXBhdWpqY1pNRlBYUXV3NVFIazJvMzNWVVB4emRJcDJUWl9mNGJ6YTBDYTMyTTEzbDJQVF9vb0Q3N3RLanJkSWo4dWdNZ011UHFqM1pxZWQyUWtmakdsa1ZTTEU?oc=5",
+      "publishedAt": "2026-11-27T17:37:25+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "9b6881e80d0843d064dca244af2955bd38d8ca92",
+      "title": "일본은행 “스테이블코인·자산 토큰화, 금융시장 새로운 리스크될 수도”",
+      "source": "블록미디어",
+      "description": "일본은행(BOJ)이 스테이블코인과 자산 토큰화의 확산이 금융시장의 새로운 위험 요인이 될 수 있다고 경고했다. 스마트계약을 통한 자동 청산이 시장 급락을 부추기고, 인공지능(AI)의 발전으로 사이버 공격 위험도 커질 수 있다는 지적이다. 가미야마 가즈시게 일본은행 이사는 27일 도쿄에서 열린 국제통화기금(IMF) 세미나에서 디지털 화폐와 금융 인프라의 발전에 대응해 각국 규제 당국이 금융 안정성과 사이버 보안 확보를 [...]",
+      "link": "https://www.blockmedia.co.kr/archives/1171458?utm_source=general&utm_medium=rss",
+      "publishedAt": "2026-11-27T17:30:59+09:00",
+      "feed": "블록미디어"
+    },
+    {
+      "id": "fc644a92c7996b0370b15154f346c8ab41f8a537",
+      "title": "산업은행, 'KDB 넥스트라운드 핀테크 스페셜라운드' 개최…스타트업 투자유치 지원",
+      "source": "팝콘뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vdXFrRlJ5SWl4NXhjSExUajVLQk1VLWtyYkx4amN5RUhHUlhRY3lVTGYxLXpKOVNuNEh4dWpLRld1N04zNzN3dFZaSEhyOHliYU9UVUNuSVdXemdpQWJoMERER0ZTRGJiQWl1MGdrMNIBckFVX3lxTE0teXZIeVhuRjZHTG9POTNSNERqek85ZDBvVUZBd3F2VjNWZlh0azhEZ1BBZXNNdFc5LVZYUUJmVkdXcERaMV93N21mU1JJVGZuZndHVTZLOTBaVm03d011LUZIVGZuaUtkcHpMamU4ZFNIUQ?oc=5",
+      "publishedAt": "2026-11-27T17:30:52+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "1670a03c504d713be9394b09ed95fbc61957f380",
+      "title": "금융감독원, 이나인페이 25억원 유출 확인… “국내 최대 규모”",
+      "source": "Chosunbiz",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZXVQZ3RXVTUzUWUzTzdxNW9XVTkxNjdBZ1lRRXc0UXdZUGFOLUUwRmRvRnZPR3RneDl2ejMtM0xpMUxzSnN5eGdTd0NZZDVSNlR1bFpIZ19HX2JlWHhkckxrVE0xU2h5VnAtOEZmZWpaMlMyQk01YVRsMExGNVBjStIBlAFBVV95cUxQMTF5NEVZNDh1VzVBeFlFOGhLclpWSjlRYlF5dUU1Yko2RnFuUjhCbVY2NkFxamt3NlhmR2FiT3ZMa0lkeC0xOHh3cnltZHJIMDBtOVRFUFF0TjdRQm4zMXVncUZJNHBfeFNOdnF5dkFSa1UzUjBodTRKMWQ1UndpZ3ZWWjNsdEY0Nnc0cnNTOUNIbHA1?oc=5",
+      "publishedAt": "2026-11-27T17:24:00+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "576fc53b5754243f55042678c046f0a8254b4786",
+      "title": "피클이 결정하면 네이버에서 결제…12월 AI 에이전트 주도권 다툼 본격화",
+      "source": "MTN 머니투데이방송",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2OGpURjRvb1dJQlZPc1pqVE5OaU1XWFpDcTBjSHhzclN5S0txcjgwYWNRaUdOS1E5VG9TZVp1dnFTLTJqMFU3NndqY3RTV1lwS2xybDBqVVZ6Mng0V2JF?oc=5",
+      "publishedAt": "2026-11-27T17:08:16+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "2f29e517a4a3076fdc5ded614c1cf97803ef37b1",
+      "title": "수협은행, 캐릭터 '복슬이' 협업 체크카드 출시",
+      "source": "서울파이낸스",
+      "description": "Sh수협은행은 다음달 1일 캐릭터 '복슬이'와 협업한 체크카드 상품 '오지다 체크카드'를 출시한다고 27일 밝혔다.상품명은 '허술한 데 없이 알차다'는 뜻의 '오지다'에서 착안했다. 카드 디자인은 3종이다.전월 실적 조건과 할인 한도 없이 국내 가맹점 이용금액의 0.1%를 할인해 준다. 전월 실적이 10만원 이상이면 간편결제·배달·쇼핑·편의점·식음료 등 5개 업종 주요 가맹점에서 건당 5000원 이상 결제할 때마다 500원을 추가 할인한다.카드는 파트너뱅크 앱과 수협은행·회원조합 영업점에서 신청할 수 있",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=644217",
+      "publishedAt": "2026-11-27T16:39:43+09:00",
+      "feed": "서울파이낸스"
+    },
+    {
+      "id": "6ae712368aac140412231331aca02ac9737b3a4f",
+      "title": "웰컴저축은행, 네이버페이 대안신용평가 활용 대출 출시",
+      "source": "서울파이낸스",
+      "description": "웰컴저축은행은 네이버페이의 대안신용평가모형 'Npay 스코어'를 활용한 개인신용대출 상품 '웰컴Npay신용대출'을 출시했다고 27일 밝혔다.네이버페이는 웰컴저축은행의 지정대리인으로서 Npay 스코어를 활용해 대출 승인 여부와 한도, 금리 등을 심사한다. 최종 대출 실행 조건은 웰컴저축은행이 결정한다. 심사에는 결제·쇼핑 정보와 마이데이터 등이 활용된다.대출 한도는 최대 1억원이며, 금리는 연 9.90~15.27%다. 대출 기간은 최장 5년이다. Npay 심사 기준을 충족한 고객이 이용할 수 있다.",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=644212",
+      "publishedAt": "2026-11-27T16:39:16+09:00",
+      "feed": "서울파이낸스"
+    },
+    {
+      "id": "fa038fe1c5da03497746d6d69cb1cc70e8b2877f",
+      "title": "원화 스테이블코인 발행 청사진 나왔지만…유통·수익모델은 '안갯속'",
+      "source": "굿모닝경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uV245M1J0MWJ6YjJOU09DbEluY0RvYm5ldEZiU3pQb2prQ1FiaTNYVGRRSXpUcUV4VzAxaVNkZU5WMVpmY2ZvNndicnlGRUMzQXlqOHJOdXdma3lJX09xdGsxOS1lc0Ntd3lMdQ?oc=5",
+      "publishedAt": "2026-11-27T16:21:37+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "3a3a93af9cbc4ee4fa20273e0a8d5f58b7a07a06",
+      "title": "[핀테크위크2026] \"금융 첫 관문은 AI\"…'고객 접점·보안·규제' 판 바뀐다",
+      "source": "주간한국",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UR1A4UU9rcl9YeGFOckVOYnpUcHluTFladXdlS3JBTlVQc2hMYkw5MmxtM1QyVjM5Y243ZU1BbEJYQnFYbkpKYW1PUzRaSi0xNmlrc19GMWxmb2FFWUVaY2NwNjVBMUNBMEx3d0hPWjbSAXRBVV95cUxQalN1N3RVWXBLaGZyQzdDLTR2dk15VEVReUJ6RzJnbnFzVllJZ3Q0d0NXMHBXemRSV3pBdnBwV0lZcC1OV0pQVE9qbjhncWRGc0F1bjVob1JvWFZlbUdndjNmSUgxR0ZpTnJZTGdvSDJOaEZwUQ?oc=5",
+      "publishedAt": "2026-11-27T16:12:19+09:00",
+      "feed": "키워드: 금융위원회 핀테크"
+    },
+    {
+      "id": "5c242cdfb9516a466af436115d74bddf5666b74b",
+      "title": "[단독] 원화 코인으로 결제하면 캐시백…‘K-크립토카드’ 길 열린다 [크립토360]",
+      "source": "헤럴드경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aT1ZhaTFhVGN5a2I0d2NURlR3WGVDR1kzS3N4S1NBU0lQWld6dk1EWDQ2SXZoZUxERE9hMnE3ZDVidC1hdWxZMEM4TFJLb3NPUzdNU2R3?oc=5",
+      "publishedAt": "2026-11-27T15:51:56+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "c1c824b637901e451e63bc3123ede02b56a59815",
+      "title": "스테이블코인 시험대 오른 카드망…실증은 끝, 상용화는 '안갯속'",
+      "source": "녹색경제신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10VXBaa0VjbjN5WEVMRVZIdFlSNlpHTW9jUWZfTksxa2F3TUpQdGhPblhNQ0g3SUlPNVBzbmZOZGlKc0E0UUNreGlxR00tVGcyc3VqSC1pVGJ6MUxLY3JnRnZVSG1XZGQ1?oc=5",
+      "publishedAt": "2026-11-27T14:45:21+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "1ac32df8ae71e60ceb4acbba25cc57c6b28237c2",
+      "title": "AI가 상품 고르고 결제까지…빅테크 쇼핑 전쟁",
+      "source": "엠에스투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2dmJJVGJjWDFNM0E1MjNaZXBHdFFHU2JoYlgyVTE5MGxXVjlYVW1BYWhPN1daMFAtZWF1OFgyNnN6LXhHdGNsZ2ItZk9ma0RQa25lMW9qeEQzS0V3eU5aS3dldmttcGpXcmxqMUMwUWjSAXBBVV95cUxQdnZiSVRiY1gxTTNBNTIzWmVwR3RRR1NiaGJYMlUxOTBsV1Y5WFVtQWFoTzdXWjBQLWVhdThYMjZzei14R3RjbGdiLWZPZmtEUGtuZTFvanhEM0tFd3lOWkt3ZXZrbXBqV3JsajFDMFFo?oc=5",
+      "publishedAt": "2026-11-27T14:05:36+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "c9eb9c99de22033a7fdf1ef8bc617d41e1a7417b",
+      "title": "정태영 부회장의 거침없는 AI 실험…현대카드, JP모간과 ‘AI 에이전트 금융거래’ 검증 성공",
+      "source": "와이드경제",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBZ0VOdUtKUDAtbEdNUUdUdlZiak9kMnJiWHpxZ3NzQjB0QWJ6WEZ2dnQ4akxGQzhMenp3TVNLaGdWQ01seXI2TVFDaXo5LXJCNWRERUd1NkJYZGN6ODU5WUlEb1EwRVlvaGtWOQ?oc=5",
+      "publishedAt": "2026-11-27T14:04:33+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "cb2a2d950be364f5681fabbb7e17444b2dda94d5",
+      "title": "어니스트AI, 간편결제 정보로 씬파일러 신용평가 정교화",
+      "source": "전자신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CWHBCSHVwaV8xTFdwaTQ5cDhhWnA3dWNaVlZCb1VZM3VMd2JiampXeFRQOWladHFXbm15THRiUWF5Z1ROLUluTWpTZHNiUQ?oc=5",
+      "publishedAt": "2026-11-27T13:20:02+09:00",
+      "feed": "키워드: 간편결제"
+    },
     {
       "id": "fa8e5264396301719cfc81687c3a8a154a6a8993",
       "title": "핀다는 은행으로, 한패스는 해외로…핀테크 6곳이 밝힌 다음 사업",
@@ -150,87 +366,6 @@
       "link": "https://www.mt.co.kr/finance/2026/11/27/2026112709185196775",
       "publishedAt": "2026-11-27T11:00:46+09:00",
       "feed": "머니투데이"
-    },
-    {
-      "id": "2afe33d54d1d31b42bd9e4e21d380847ffb070ae",
-      "title": "500조원대 스테이블코인 결제시장 개화…카드업계, 인프라 앞세워 선점 총력",
-      "source": "와이드경제",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VUFNad3JWQ2ZqZ0xaSkkwRmtHTWhxQmFwMHpUYUpndUpFM1FvNzMwV2N4ZkQxcVdCbEs1UFRuOHg1Sm5RazlpUndXT2FFTmtMeUhnU1dsa0VWY3ZfamZ2UDRFZFJBLXhNZ1pVcQ?oc=5",
-      "publishedAt": "2026-11-27T10:51:08+09:00",
-      "feed": "키워드: 스테이블코인 결제"
-    },
-    {
-      "id": "9064d04a72d23391e23e444d979ed9d52f5b0011",
-      "title": "파주시, 파주페이 부정유통 집중 단속",
-      "source": "머니투데이",
-      "description": "11월30일부터 12월11일까지 2주간 현장점검 허위·과다결제 등 적발 시 등록취소·과태료 부과 경기 파주시가 지역화폐 파주페이 의 건전한 유통 질서 확립을 위해 오는 30일부터 12월11일까지 2주간 부정유통 집중 단속을 실시한다고 27일 밝혔다. 이번 단속은 이상 거래 탐지체계와 시민 제보를 통해 부정유통이 의심되는 가맹점을 선별한 뒤 현장점검을 병행하는 방식으로 진행된다. 주요 단속 대상은 물품이나 용역 제공 없이 파주페이로 결제·환전하거나 실제 매출보다 금액을 부풀려 결제하는 행위다. 유흥업소·사행산업 등 가맹점 등록 제한 업종을 운영하거나 파주페이 결제를 거부하고 이용자를 불리하게 대우하는 행위도 단속한다....",
-      "link": "https://www.mt.co.kr/policy/2026/11/27/2026112710164778243",
-      "publishedAt": "2026-11-27T10:47:31+09:00",
-      "feed": "머니투데이"
-    },
-    {
-      "id": "c142f00b82dfdc0c566569562a711f566e92adb9",
-      "title": "비피엠지, 스테이블코인 글로벌 결제망 구축 나선다...美 유틸라와 '맞손'",
-      "source": "테크M",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIdXkwTmFYeS16cUs2M0l0NEo0U0N5RVp3a2U0TW1LOUlHYjJGRmsxUDFBZnNuZmlEZkVjaTQxODBucGJuRDZwUW5ma253dUg3UEhzSTR4U0RyNHk3QTU4VlZqU2dxQdIBakFVX3lxTE14bzA2TTA3Vkx3TzRORzZiY0hyelJMUUpqSHRCNENOVDVGT3ZIdHNhMUlkYU45WkIzaFJ6QkkwdmxVTFNubWpicVNhUjV4T29RUy0waHVveThkVWM4NUdObVFrYUpjb002b1E?oc=5",
-      "publishedAt": "2026-11-27T10:20:34+09:00",
-      "feed": "키워드: 정산 결제"
-    },
-    {
-      "id": "8962aeb1035ec51ceb212d8167de5ec00324e76c",
-      "title": "‘해외여행 결제’ 편리해진다… GLN, 말레이시아 QR 서비스 개시",
-      "source": "뉴스웰",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yMTN4ZVpQNUtMb0pEc1dyNnVSXzJmNU5vU3JCaWpxRkc3cjRrb3JOVEVvb3pfaDNMVS0zdmJXakd0S0dBbGQ5Yl9STl9KdktXN1NscG15MUNaWHdVZm4xdGlpa1U1SE1EV0JvYw?oc=5",
-      "publishedAt": "2026-11-27T09:52:54+09:00",
-      "feed": "키워드: 간편결제"
-    },
-    {
-      "id": "42d43770a7b1a8cf5e587f3c6ae9ae3d704d098f",
-      "title": "GLN, 말레이시아 QR결제 서비스 개시…400만개 가맹점서 활용",
-      "source": "아이티비즈",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QeGhMUnZkT3BacGN0cE82eUl5V1N3ek9TOUNQQ0hRV1dIUU44TkczaUNPdWpaMDhOUGVuOGJSTEdVanBWS3UwV21SYlNIcnJVajJ6VEZuOWltSFl3eVE5ZTBXblFQQnM?oc=5",
-      "publishedAt": "2026-11-27T09:50:45+09:00",
-      "feed": "키워드: 간편결제"
-    },
-    {
-      "id": "a9607a71334990a8cc52ed7c867f0327adaad6ab",
-      "title": "네이버페이, 직접 대출심사 나선다···씬파일러 등 포용",
-      "source": "파이낸셜뉴스",
-      "description": "네이버페이(Npay)가 은행권과 협업해 자체 대안신용평가모형을 활용한 신용대출 상품을 내놓는다. 27일 업계에 따르면 네이버페이는 케이뱅크·웰컴저축은행과 함께 대안신용평가모형 'Npay 스코어'를 기반으로 직접 대출심사를 실시하는 신용대출 상품을 출시한다. 네이버페이가 케이뱅크와 웰컴저축은행 지정대리인으로서 대출 승인 여부와 한도·금리 심사를 맡는다. 이 결과를 토대로 각 금융사가 대출 실행 조건을 최종 결정한다. 상품은 케이뱅크의 사업자 대상 'Npay 사장님 신용대출(한도 3억원)'과 개인 대상의 '중금리 생활안정대출(1000만원)', 또 웰컴저축은행의 '웰컴 Npay 신용대출'(1억원) 등 3개로 구성됐다. 특히 케이뱅크 '중금리 생활안정대출'은 금융위원회의 '중금리대출 활성화 방안'에 발맞춰…",
-      "link": "https://www.fnnews.com/news/202611270841177171",
-      "publishedAt": "2026-11-27T09:38:22+09:00",
-      "feed": "파이낸셜뉴스"
-    },
-    {
-      "id": "414ad8ec7ed434c7d359467c26c7979502c263ac",
-      "title": "“K-핀테크, 사자성(獅子城)서 세계 무대 두드렸다”… KB금융그룹, 싱가포르 현지 진출 지원",
-      "source": "스마트경제",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jZVF3X2thaTRuZ1ROX3VycE92eW5EUDdDeGIzVjU5Mm5sLW1BcVBjek05S0VzZjl0bnEyYVRtRVBsNVJEYkRpSHM0TjhtYjRpS3MzVW51cXFXbkxsaXpiVDBrV2YyZWpCcjJoVWpndw?oc=5",
-      "publishedAt": "2026-11-27T09:30:00+09:00",
-      "feed": "키워드: 금융위원회 핀테크"
-    },
-    {
-      "id": "e4bc08f5961e7cbb358c26369e208f21cb90b365",
-      "title": "동남아 주요 여행지 간편결제 영토 확장…GLN, 말레이시아 국가 표준 QR결제 망 연동",
-      "source": "더페어",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lczdvVFJIc3BSWGx1V3dEa3RhVlNnOU1QLUx1Zm05V2pyMmg3UjlMR3Q4LVFsU2ZmbFpEbFNNWXpfM2I2LWgzZWEyc1NGb3FObFlGV1FoaDE5c0JyVzl3WDFNbjEwVjZqUU9ZU2NndDbSAXRBVV95cUxOUDVtU0VZeXFzN2Y2dnRELUFtTUNXWU1jRVpjV1pON0hZck5DdU1qejVnYlJPZGxzV21wS1lsOVoxM3dGazBZanMxaEZtc0RoeGVrZnRJaE9oM2xEYW1wQ1NkVS1xRFNQMnhMcURUTVF2VjlpYw?oc=5",
-      "publishedAt": "2026-11-27T08:38:50+09:00",
-      "feed": "키워드: 간편결제"
-    },
-    {
-      "id": "feda3709b60a7ab92fdf7d6f8bd030455c486457",
-      "title": "AI에이전트가 결제하는 시대…카드·페이사 리더들이 진단한 앞날은",
-      "source": "비즈워치",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HcnRYWldneUhYenlvVGhQU0dHcDhld3BWNHFJbjRZcW9zYVB6NjU5ak8zcmliSWFYaEZ4M1g4OFFyRUprWXBXS1dXYTNyRm5DZDctVjJ6bGItRXFnV0pkQ3FKOFVTdHpLaVRB?oc=5",
-      "publishedAt": "2026-11-27T07:30:03+09:00",
-      "feed": "키워드: AI 에이전트 결제"
     }
   ]
 }
