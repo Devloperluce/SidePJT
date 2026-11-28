@@ -2,11 +2,29 @@
   "date": "2026-11-29",
   "window": {
     "from": "2026-11-28T07:00:00+09:00",
-    "to": "2026-11-28T16:45:18+09:00"
+    "to": "2026-11-29T01:52:42+09:00"
   },
   "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[why] 그날 가장 중요한 3건에만 (importance 3, 3건이 안 되면 importance 2 중 가장 중요한 기사로 채움). \"왜 중요한가\" 2문장 (각 60자 이내)\n- 1문장: 이 일이 왜 생겼는지 배경. 기사에 없는 배경은 널리 알려진 사실만 쓴다.\n- 2문장: 결제·핀테크 업계에 어떤 의미인지. 전망은 \"~수 있다\"로.\n- 나머지 기사는 why를 쓰지 않는다.\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
   "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
   "items": [
+    {
+      "id": "71f61850cd5dd800ef5f151b27c640e589a08cbf",
+      "title": "BC카드, QR 결제망서 스테이블코인 결제 검증",
+      "source": "코리아리포트",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XY1o3TG5RaEZyeFVWb25SMVJmOFpISXpNMnVMNDJ4U2J3T3BmQnl3d2R5bF96dVdKMHdTd2dDUkMzcjRWMThwQ2xiUzJfN0hmT2RoRl9IZnVBTEFCSWVuNDE5MTVnS0tJZTFudEpoUGM?oc=5",
+      "publishedAt": "2026-11-28T22:31:35+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "1fdd71148962c53b945f2f87843087333f00ac0d",
+      "title": "BNB체인, 우리은행·BPN과 손잡고 스테이블코인 해외 결제 시범사업 추진",
+      "source": "블루밍비트",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VQkVHT3RpcnJldGZqU2FXRHVBY3Zob2VLSHE2THVERzdsQ01FdXp0TmlnUURULU4wTVYzdjVGLXR6UDh5eHVGVmdCMmhCUUtP?oc=5",
+      "publishedAt": "2026-11-28T21:21:55+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
     {
       "id": "973966dd81ec3dfd6f56946b6c4c88b4ce219517",
       "title": "\"왕즈이·천위페이, 안세영 저지할 중책 맡았다\" 왕중왕전 앞둔 中의 기대... \"안방서 자존심 지키는 게 과제\"",
