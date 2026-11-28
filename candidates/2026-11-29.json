@@ -2,11 +2,110 @@
   "date": "2026-11-29",
   "window": {
     "from": "2026-11-28T07:00:00+09:00",
-    "to": "2026-11-28T07:41:27+09:00"
+    "to": "2026-11-28T16:45:18+09:00"
   },
   "rules": "독자: 결제·PG·정산 서비스를 만드는 회사의 상품기획자. 출근 전에 5분 안에 읽는다.\n\n[category] payment(결제·PG·간편결제) | settlement(정산·송금·외환) | ai_agent(AI·에이전트 결제) | regulation(규제·정책·당국) | market(경쟁사·투자·시장) 중 하나\n\n[summary] 문장 배열\n- 리드(설명)가 있으면 2~3문장, 없으면 제목으로 알 수 있는 사실만 1문장.\n- 누가 / 무엇을 / 언제·얼마나를 구체적으로. 회사명·서비스명·숫자를 살린다.\n- 기사 문장을 그대로 옮기지 말고 자기 말로 다시 쓴다. 각 문장 60자 이내, \"~다.\"로 끝낸다.\n- 리드·제목에 없는 사실은 쓰지 않는다. 추측은 summary가 아니라 insight에서만, \"~일 수 있다\"로.\n\n[insight] 상품기획자가 오늘 할 일 또는 던질 질문 1문장 (70자 이내)\n- 이 기사 때문에 무엇을 확인·비교·준비해야 하는지 구체적으로 쓴다.\n- 나쁜 예: \"관련 수요를 확인할 필요.\" / \"동향을 지켜볼 필요.\"\n- 좋은 예: \"토스·카카오페이와 본인확인 단계 수를 비교해 가입 이탈 구간을 점검.\" / \"원화 스테이블코인 정산 시 가맹점 수수료 구조가 어떻게 바뀔지 시나리오 정리.\"\n\n[importance] 1~3 정수\n- 3: 규제·제도 변화, 대형 사업자의 신규 결제 서비스 출시, 시장 구조를 바꾸는 사건 (하루 0~3건)\n- 2: 경쟁사 기능 업데이트, 제휴, 투자 유치, 실적\n- 1: 행사·시상·인사·단신·홍보성 기사\n\n[why] 그날 가장 중요한 3건에만 (importance 3, 3건이 안 되면 importance 2 중 가장 중요한 기사로 채움). \"왜 중요한가\" 2문장 (각 60자 이내)\n- 1문장: 이 일이 왜 생겼는지 배경. 기사에 없는 배경은 널리 알려진 사실만 쓴다.\n- 2문장: 결제·핀테크 업계에 어떤 의미인지. 전망은 \"~수 있다\"로.\n- 나머지 기사는 why를 쓰지 않는다.\n\n[relevant] true/false\n- 결제·송금·정산·핀테크 서비스나 그 규제와 직접 관련이 없으면 false\n  (일반 증시·투자·코인 시세·보안·부동산 기사, 쇼핑 할인 홍보 글 등)",
   "overviewRules": "[_overview] 오늘 브리프 전체를 보고 쓴다.\n- headline: 오늘 흐름을 한 문장으로 (35자 이내, 마침표 없이). 예: \"원화 스테이블코인, 결제 실사용 논의로 넘어간다\"\n- points: 3개. 각 60자 이내 문장. 가능하면 기사 여러 건을 묶은 흐름으로 쓰고, 단일 기사 요약을 반복하지 않는다.",
   "items": [
+    {
+      "id": "973966dd81ec3dfd6f56946b6c4c88b4ce219517",
+      "title": "\"왕즈이·천위페이, 안세영 저지할 중책 맡았다\" 왕중왕전 앞둔 中의 기대... \"안방서 자존심 지키는 게 과제\"",
+      "source": "머니투데이",
+      "description": "안방에서 열리는 배드민턴 왕중왕전에 여자단식 선수 두 명을 내보내는 중국이 가장 먼저 경계한 상대는 세계랭킹 1위 안세영(24·삼성생명)이었다. 중국 포매체 시나닷컴은 27일(한국시간) 2026 세계배드민턴연맹(BWF) 월드투어 파이널 출전 명단을 소개하며 \"올 시즌 여자단식을 지배한 안세영이 예상대로 출전 명단에 이름을 올렸다\"고 전했다. 이어 \"중국은 여자단식 출전권 두 장을 모두 확보했다. 왕즈이와 천위페이가 안세영을 저지해야 할 중책을 짊어지게 됐다\"고 평가했다. 이번 대회는 오는 12월 9일부터 13일까지 중국 항저우에서 열린다. 개최국 중국은 남자단식에서 한 명도 출전권을 따내지 못했다. 여자단식과 남자복식, 혼합복식에서 두 장씩, 여자복식에서 한 장을 확보했다....",
+      "link": "https://www.mt.co.kr/sports/2026/11/28/2026112816091079932",
+      "publishedAt": "2026-11-28T16:22:41+09:00",
+      "feed": "머니투데이"
+    },
+    {
+      "id": "b0288bf9be84942129752fa799a27aac2baadf73",
+      "title": "다나와, 개인정보 유출 확인···회원·결제내역·협력사 정산계좌 노출",
+      "source": "글로벌E",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mdWVncWlrOVJ5bU5UbGRCX0ZBQUIxN3hwUlBoQV9tVHFTTEtjN19YYTFHTkpmemJ6R3JyNVA3Q3A4aVowejJJclNEM0lJalo3cF83MXgwRVVzT0tRbFhBTlZNX3RLaDN0VHZ30gFvQVVfeXFMT2dhRDBJcTNKX280X2oweXAxMGlBcFhNMXFlelJCaWZ6Y1c5TzR5LXZQQWdLMEx2WmlJVTN6blZtRUZZaHJyRVVwbGt2R3RzZER5em5nckNwT0liVkNUdlVvdEVyODVqcnlWTV8xTHQw?oc=5",
+      "publishedAt": "2026-11-28T15:58:22+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "a97e2177f37c7bf38667f01b229c81af944a8703",
+      "title": "아라코어, 미국 유틸라와 스테이블코인 결제 및 정산 기술 및 사업 협력",
+      "source": "베타뉴스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZWGg1SURtZ0lnRlpqTURVRk40TlpGaVJhcXZ2MDUtV0tmdjJqcDlSeVFhYllIa2pkWEVhYzVOajRqUElPamg4U21JeHlFNExIX1E5dHdTUk5hNWZVckJUNlhpT2Q?oc=5",
+      "publishedAt": "2026-11-28T14:45:59+09:00",
+      "feed": "키워드: 정산 결제"
+    },
+    {
+      "id": "e1a64a2771d18b04460f28a55b8bf9c6682fd3a7",
+      "title": "파파존스 피자, AI 에이전트가 은행 계좌로 바로 결제…英 첫 사례",
+      "source": "AI 매터스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SX0dFTW56Ymh5T1k4YXRxb2lrNXZqODZxVkFxTXNMZktRNmk5aGFscFB3by1Tb0FPQUhWVGg2RzhrLTVZYTFlX053OGIyajItcmdtQg?oc=5",
+      "publishedAt": "2026-11-28T13:31:22+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "a8d12b429564944c2bec451c8ed7903de5442e89",
+      "title": "한·중·일·아세안, 국경 간 디지털결제 실무그룹 꾸린다(종합)",
+      "source": "블록미디어",
+      "description": "동남아시아국가연합(ASEAN·아세안) 회원국과 한국·중국·일본이 참여하는 아세안+3(ASEAN+3)이 국경 간 디지털 결제 협력을 위한 실무그룹을 꾸리기로 했다. 각국이 자국 안에서 쓰도록 만든 결제수단을 국경 너머에서도 쓸 수 있도록 연결하는 공동 정책을 마련하겠다는 것이다. 로이터에 따르면 아세안+3 재무차관과 중앙은행 부총재들은 일본 교토에서 열린 회의에서 역내 기존 결제수단 간 상호운용성, 즉 서로 다른 결제 시스템이 호환돼 함께 [...]",
+      "link": "https://www.blockmedia.co.kr/archives/1171727?utm_source=general&utm_medium=rss",
+      "publishedAt": "2026-11-28T13:03:30+09:00",
+      "feed": "블록미디어"
+    },
+    {
+      "id": "3812ea18244d46aa494a25b113117f6fd240cff0",
+      "title": "일본은행 \"스테이블코인·토큰화 예금 확산...시장 파편화 막을 안전장치 필요\"",
+      "source": "디지털투데이",
+      "description": "가미야마 가즈시게 일본은행(BOJ) 이사가 스테이블코인 시장이 파편화되지 않으려면 준비자산과 운영 구조를 엄격히 관리하고 중앙은행 화폐와 연결 고리를 정교하게 설계해야 한다고 말했다고 더블록이 27일(현지시간) 보도했다.보도에 따르면 가미야마 이사는 도쿄에서 열린 국제통화기금(IMF) 세미나 연설에서 이같이 밝혔다. 그는 스테이블코인과 토큰화 예금이 다른 디지털 화폐들과 함께 쓰일 가능성이 크다고 봤지만 이런 체계에는 안전장치가 필요하다고 강조했다. 그는 \"이런 다양성이 불필요한 파편화나 금융 안정을 훼손",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=718993",
+      "publishedAt": "2026-11-28T10:54:08+09:00",
+      "feed": "키워드: 스테이블코인 결제"
+    },
+    {
+      "id": "d8d2b1a994d50f3dd5f043c7fbb7345706ee4543",
+      "title": "“스미마셍, 엔화가 없는데요”…일본 라멘집서 원화코인 쓸 날 올까",
+      "source": "매일경제",
+      "description": "외국인 관광객은 달러 스테이블코인으로 결제하고 국내 가맹점은 원화로 대금을 받는다. BC카드가 지난 8월 미국 코인베이스, 국내 디지털자산 기업 웨이브릿지와 검증한 결제 방식이다...",
+      "link": "https://www.mk.co.kr/news/economy/12220665",
+      "publishedAt": "2026-11-28T10:31:16+09:00",
+      "feed": "매일경제"
+    },
+    {
+      "id": "5e7d1dc528b1371c5475f7ade36d3ef52aa16dea",
+      "title": "[르포] “샴푸 주문해줘”…AI 에이전트 '피클', 카드결제 성공 뒤 주문번호 오류",
+      "source": "전자신문",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Zb29rbkhVU2xFbWFxM3A3VU5Tdm5MVGg0dTJ4QVc0djg3V3BtNGFzRjkwMk10ZllVbmhnR3RCVE85TmY2aTN4U3psSk44UQ?oc=5",
+      "publishedAt": "2026-11-28T09:00:00+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "acb36f6f7775e7c7f8cf3e79d1aeb77cef136692",
+      "title": "[청년발언대] AI가 대신 결제하는 시대…책임과 권한 설계가 먼저다",
+      "source": "청년일보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rdmROZVVaNWhoZW82VzMxOGlyNWs1OGNXN2N2TkVyWkZ0TVhTVVJORVhGdmJhQWRoazJIOG5xOUdtMzdLcWpXOTJIblZXSVZUbldJWEQwbHdKLWdpMk1iUnJoZ0RfRWM?oc=5",
+      "publishedAt": "2026-11-28T09:00:00+09:00",
+      "feed": "키워드: AI 에이전트 결제"
+    },
+    {
+      "id": "b1e0dd75222da10ef849ece5d8ed25f48d7d671a",
+      "title": "[의정브리프] 원화 스테이블코인 발행 허용 추진…수능장 전파차단도 검토",
+      "source": "전자신문",
+      "description": "국회에서는 매주 새로운 법안과 정책 제안이 나옵니다. 의원실마다 다양한 목소리와 아이디어를 내놓지만, 하나하나 살펴보기는 쉽지 않습니다. '의정 브리프'는 한 주간 의원실에서 나온 주요 자료를 모아 정책과 입법 소식을 알기 쉽게 전합니다. ◇원화 스테이블코인·ICO 허용 추진…해킹 피해엔 사업자 무과실 배상 원화 스테이블코인 발행과 신규 디지털자산 발행·판매(ICO)를 허용하고, 해킹이나 전산장애로 이용자가 입은 손해는 사업자가 과실 여부와 관",
+      "link": "https://www.etnews.com/20261127000140",
+      "publishedAt": "2026-11-28T09:00:00+09:00",
+      "feed": "전자신문"
+    },
+    {
+      "id": "41c8d228db7358a563322e1f29b9f180bae749d1",
+      "title": "적격비용 재산정 주기 6년됐지만… 카드사, 내년 안심 못한다",
+      "source": "머니투데이",
+      "description": "적격비용 재산정 주기 6년으로 늘었지만… 3년마다 필요성 검토 별도 위원회 구성해 내년 상반기 검토, 하반기 재산정 가능성 적격비용 재산정 주기가 6년으로 늘어났지만 카드업계 불안감은 가시지 않는다. 금융당국은 대내외 요건 등을 고려해 3년마다 적격비용을 재산정할 수 있다 는 단서 조항을 달았는데 그 3년 주기가 내년에 찾아온다. 대형마트 및 소상공인 단체는 벌써 카드 수수료율 추가 인하를 요구하며 압박에 나섰다. 28일 금융권에 따르면 여신금융협회는 내년도 적격비용 재산정 관련 별도 위원회 구성에 대비하고 있다. 내년에 적격비용 재산정 필요성을 객관적으로 검토하기 위해 관계기관과 전문가 등으로 별도 위원회가 구성된다. 위원회에서 내년 상반기 중으로 적격비용 재산정 필요성을 점검하고, 그 필요성이…",
+      "link": "https://www.mt.co.kr/finance/2026/11/28/2026111914161448100",
+      "publishedAt": "2026-11-28T08:00:00+09:00",
+      "feed": "머니투데이"
+    },
     {
       "id": "96195d5075053be00abf73278bc0bf2a0db181bf",
       "title": "하나은행 GLN, 말레이시아 QR결제 진출…2억4000만 가맹점 연결",
